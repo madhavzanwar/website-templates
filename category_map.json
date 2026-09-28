@@ -1,0 +1,16 @@
+{
+  "gyms": "templates/gym",
+  "salons": "templates/salon",
+  "coaching classes/tuition centers": "templates/coaching",
+  "cafes": "templates/cafe",
+  "restaurants": "templates/restaurant",
+  "wedding photographers": "templates/wedding_photographer",
+  "dentists": "templates/dentist",
+  "beauty studios": "templates/beauty_studio",
+  "real estate agents": "templates/real_estate",
+  "boutiques": "templates/boutique",
+  "event planners": "templates/event_planner",
+  "yoga studios": "templates/yoga",
+  "physiotherapy clinics": "templates/physiotherapy",
+  "interior designers": "templates/interior_designer"
+}

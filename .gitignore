@@ -1,0 +1,74 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build output
+.next/
+out/
+build/
+dist/
+
+# Vercel
+.vercel/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.venv/
+*.egg-info/
+
+# Environment variables (never commit real secrets)
+.env
+.env.*
+!.env.example
+
+# WhatsApp automation session/cache/logs
+.wwebjs_auth/
+.wwebjs_cache/
+outreach/sessions/
+outreach/cache/
+outreach/logs/
+outreach/*.log
+outreach/*.csv
+send_logs.csv
+opt_outs.csv
+
+# Lead / scraper data (private business data — repo must be private)
+pune_smb_leads.csv
+scraper_checkpoint.db
+unmapped_categories.csv
+merge_errors.csv
+invalid_emails.csv
+sent_log.csv
+suppression_list.csv
+visits.csv
+skipped_leads.csv
+needs_attention.csv
+hot_leads.csv
+contacts.csv
+outreach_state.json
+
+# QA screenshots (large binary files)
+qa/screenshots/
+
+# Databases and logs
+*.db
+*.sqlite
+*.sqlite3
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# TypeScript build info (regenerated)
+tsconfig.tsbuildinfo
