@@ -6,8 +6,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "node index.cjs",
-    "next-start": "next start",
+    "start": "next start",
+    "outreach-start": "node index.cjs",
     "dry-run": "node index.cjs --dry-run",
     "status": "node index.cjs --status",
     "test": "node test_tool.cjs",
