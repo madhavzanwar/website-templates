@@ -961,5 +961,5 @@
   "slug": "big-bean-cafe",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/big-bean-cafe"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/big-bean-cafe"
 }

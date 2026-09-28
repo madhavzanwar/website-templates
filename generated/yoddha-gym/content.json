@@ -478,5 +478,5 @@
   "slug": "yoddha-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/yoddha-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/yoddha-gym"
 }

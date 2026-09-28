@@ -478,5 +478,5 @@
   "slug": "imperial-fitness-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/imperial-fitness-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/imperial-fitness-centre"
 }

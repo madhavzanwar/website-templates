@@ -557,5 +557,5 @@
   "slug": "enrice",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/enrice"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/enrice"
 }

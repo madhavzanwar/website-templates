@@ -478,5 +478,5 @@
   "slug": "zumba-fitness-classes",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/zumba-fitness-classes"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/zumba-fitness-classes"
 }

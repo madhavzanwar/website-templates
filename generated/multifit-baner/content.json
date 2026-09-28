@@ -478,5 +478,5 @@
   "slug": "multifit-baner",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/multifit-baner"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/multifit-baner"
 }

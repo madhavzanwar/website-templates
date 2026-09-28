@@ -556,5 +556,5 @@
   "slug": "smart-look-barber-shop",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/smart-look-barber-shop"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/smart-look-barber-shop"
 }

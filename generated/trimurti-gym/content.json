@@ -478,5 +478,5 @@
   "slug": "trimurti-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/trimurti-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/trimurti-gym"
 }

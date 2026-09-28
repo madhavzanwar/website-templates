@@ -478,5 +478,5 @@
   "slug": "tejas-health-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/tejas-health-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/tejas-health-centre"
 }

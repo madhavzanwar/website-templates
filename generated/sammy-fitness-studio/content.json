@@ -478,5 +478,5 @@
   "slug": "sammy-fitness-studio",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/sammy-fitness-studio"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/sammy-fitness-studio"
 }

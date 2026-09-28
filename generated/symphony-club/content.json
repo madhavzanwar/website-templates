@@ -478,5 +478,5 @@
   "slug": "symphony-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/symphony-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/symphony-club"
 }

@@ -961,5 +961,5 @@
   "slug": "mauli-tea-center",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/mauli-tea-center"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/mauli-tea-center"
 }

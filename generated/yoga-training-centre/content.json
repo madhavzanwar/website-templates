@@ -478,5 +478,5 @@
   "slug": "yoga-training-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/yoga-training-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/yoga-training-centre"
 }

@@ -478,5 +478,5 @@
   "slug": "pyc-hindu-gymkhana",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/pyc-hindu-gymkhana"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/pyc-hindu-gymkhana"
 }

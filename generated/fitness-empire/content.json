@@ -478,5 +478,5 @@
   "slug": "fitness-empire",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/fitness-empire"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/fitness-empire"
 }

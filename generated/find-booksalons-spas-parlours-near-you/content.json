@@ -556,5 +556,5 @@
   "slug": "find-booksalons-spas-parlours-near-you",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/find-booksalons-spas-parlours-near-you"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/find-booksalons-spas-parlours-near-you"
 }

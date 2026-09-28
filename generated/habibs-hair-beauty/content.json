@@ -556,5 +556,5 @@
   "slug": "habibs-hair-beauty",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/habibs-hair-beauty"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/habibs-hair-beauty"
 }

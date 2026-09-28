@@ -478,5 +478,5 @@
   "slug": "wellness-expert",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/wellness-expert"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/wellness-expert"
 }

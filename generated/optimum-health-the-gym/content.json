@@ -478,5 +478,5 @@
   "slug": "optimum-health-the-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/optimum-health-the-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/optimum-health-the-gym"
 }

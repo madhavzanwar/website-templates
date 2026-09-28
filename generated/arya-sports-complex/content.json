@@ -478,5 +478,5 @@
   "slug": "arya-sports-complex",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/arya-sports-complex"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/arya-sports-complex"
 }

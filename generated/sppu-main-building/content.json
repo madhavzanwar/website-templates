@@ -200,5 +200,5 @@
   "slug": "sppu-main-building",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/sppu-main-building"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/sppu-main-building"
 }

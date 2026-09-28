@@ -478,5 +478,5 @@
   "slug": "fiber-fitness",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/fiber-fitness"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/fiber-fitness"
 }

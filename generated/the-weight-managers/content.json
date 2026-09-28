@@ -478,5 +478,5 @@
   "slug": "the-weight-managers",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/the-weight-managers"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/the-weight-managers"
 }

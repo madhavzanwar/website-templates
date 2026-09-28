@@ -478,5 +478,5 @@
   "slug": "personal-fitness-trainer",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/personal-fitness-trainer"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/personal-fitness-trainer"
 }

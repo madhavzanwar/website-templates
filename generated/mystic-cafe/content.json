@@ -961,5 +961,5 @@
   "slug": "mystic-cafe",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/mystic-cafe"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/mystic-cafe"
 }

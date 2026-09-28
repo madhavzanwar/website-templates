@@ -478,5 +478,5 @@
   "slug": "hadapsar-gliding-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/hadapsar-gliding-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/hadapsar-gliding-centre"
 }

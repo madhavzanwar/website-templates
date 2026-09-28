@@ -478,5 +478,5 @@
   "slug": "shivas-fitness-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/shivas-fitness-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shivas-fitness-club"
 }

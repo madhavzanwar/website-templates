@@ -200,5 +200,5 @@
   "slug": "harmony-institute-of-music",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/harmony-institute-of-music"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/harmony-institute-of-music"
 }

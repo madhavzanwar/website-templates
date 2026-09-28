@@ -556,5 +556,5 @@
   "slug": "divine-saloon",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/divine-saloon"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/divine-saloon"
 }

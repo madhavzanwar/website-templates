@@ -478,5 +478,5 @@
   "slug": "home-fitness-direct",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/home-fitness-direct"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/home-fitness-direct"
 }

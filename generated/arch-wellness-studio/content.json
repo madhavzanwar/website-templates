@@ -478,5 +478,5 @@
   "slug": "arch-wellness-studio",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/arch-wellness-studio"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/arch-wellness-studio"
 }

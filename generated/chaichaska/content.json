@@ -961,5 +961,5 @@
   "slug": "chaichaska",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/chaichaska"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/chaichaska"
 }

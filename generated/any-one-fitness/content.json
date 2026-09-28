@@ -478,5 +478,5 @@
   "slug": "any-one-fitness",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/any-one-fitness"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/any-one-fitness"
 }

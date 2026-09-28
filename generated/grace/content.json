@@ -556,5 +556,5 @@
   "slug": "grace",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/grace"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/grace"
 }

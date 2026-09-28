@@ -478,5 +478,5 @@
   "slug": "manalis-fitness-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/manalis-fitness-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/manalis-fitness-centre"
 }

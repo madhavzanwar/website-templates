@@ -478,5 +478,5 @@
   "slug": "kurukshetra",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/kurukshetra"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/kurukshetra"
 }

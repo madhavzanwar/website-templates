@@ -478,5 +478,5 @@
   "slug": "streamers-india",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/streamers-india"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/streamers-india"
 }

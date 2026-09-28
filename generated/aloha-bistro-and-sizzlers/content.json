@@ -961,5 +961,5 @@
   "slug": "aloha-bistro-and-sizzlers",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/aloha-bistro-and-sizzlers"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/aloha-bistro-and-sizzlers"
 }

@@ -961,5 +961,5 @@
   "slug": "opera-house",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/opera-house"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/opera-house"
 }

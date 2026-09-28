@@ -478,5 +478,5 @@
   "slug": "p40x-fitness-studio",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/p40x-fitness-studio"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/p40x-fitness-studio"
 }

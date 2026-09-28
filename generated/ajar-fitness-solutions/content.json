@@ -478,5 +478,5 @@
   "slug": "ajar-fitness-solutions",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/ajar-fitness-solutions"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/ajar-fitness-solutions"
 }

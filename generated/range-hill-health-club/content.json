@@ -478,5 +478,5 @@
   "slug": "range-hill-health-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/range-hill-health-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/range-hill-health-club"
 }

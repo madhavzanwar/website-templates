@@ -478,5 +478,5 @@
   "slug": "shubham-health-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/shubham-health-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shubham-health-centre"
 }

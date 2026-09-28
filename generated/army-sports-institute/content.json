@@ -478,5 +478,5 @@
   "slug": "army-sports-institute",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/army-sports-institute"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/army-sports-institute"
 }

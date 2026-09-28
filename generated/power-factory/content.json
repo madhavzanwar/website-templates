@@ -478,5 +478,5 @@
   "slug": "power-factory",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/power-factory"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/power-factory"
 }

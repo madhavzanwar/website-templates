@@ -557,5 +557,5 @@
   "slug": "mr-salonix",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/mr-salonix"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/mr-salonix"
 }

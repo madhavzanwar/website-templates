@@ -478,5 +478,5 @@
   "slug": "the-wellness-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/the-wellness-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/the-wellness-club"
 }

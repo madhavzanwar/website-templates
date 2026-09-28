@@ -478,5 +478,5 @@
   "slug": "xtreme-health-fitness",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/xtreme-health-fitness"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/xtreme-health-fitness"
 }

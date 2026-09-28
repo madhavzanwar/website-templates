@@ -478,5 +478,5 @@
   "slug": "recreation-hall",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/recreation-hall"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/recreation-hall"
 }

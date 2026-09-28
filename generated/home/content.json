@@ -557,5 +557,5 @@
   "slug": "home",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/home"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/home"
 }

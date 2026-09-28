@@ -201,5 +201,5 @@
   "slug": "the-orchid-school",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/the-orchid-school"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/the-orchid-school"
 }

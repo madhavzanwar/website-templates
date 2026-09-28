@@ -961,5 +961,5 @@
   "slug": "freshpress-cafe",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/freshpress-cafe"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/freshpress-cafe"
 }

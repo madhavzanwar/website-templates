@@ -961,5 +961,5 @@
   "slug": "kunal-tea-and-snacks",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/kunal-tea-and-snacks"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/kunal-tea-and-snacks"
 }

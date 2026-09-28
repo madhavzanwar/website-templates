@@ -478,5 +478,5 @@
   "slug": "maximum-fit",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/maximum-fit"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/maximum-fit"
 }

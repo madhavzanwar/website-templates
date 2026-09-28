@@ -556,5 +556,5 @@
   "slug": "shades",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/shades"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shades"
 }

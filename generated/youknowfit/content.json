@@ -479,5 +479,5 @@
   "slug": "youknowfit",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/youknowfit"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/youknowfit"
 }

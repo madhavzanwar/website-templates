@@ -478,5 +478,5 @@
   "slug": "vitenders-musclemania",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/vitenders-musclemania"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/vitenders-musclemania"
 }

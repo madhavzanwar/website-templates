@@ -961,5 +961,5 @@
   "slug": "urja-studio",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/urja-studio"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/urja-studio"
 }

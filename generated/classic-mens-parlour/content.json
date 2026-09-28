@@ -556,5 +556,5 @@
   "slug": "classic-mens-parlour",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/classic-mens-parlour"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/classic-mens-parlour"
 }

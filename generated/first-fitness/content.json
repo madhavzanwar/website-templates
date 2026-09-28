@@ -478,5 +478,5 @@
   "slug": "first-fitness",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/first-fitness"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/first-fitness"
 }

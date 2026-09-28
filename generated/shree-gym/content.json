@@ -478,5 +478,5 @@
   "slug": "shree-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/shree-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shree-gym"
 }

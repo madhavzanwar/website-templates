@@ -961,5 +961,5 @@
   "slug": "cafe-buddys-espresso",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/cafe-buddys-espresso"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/cafe-buddys-espresso"
 }

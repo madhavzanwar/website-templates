@@ -478,5 +478,5 @@
   "slug": "sahayog-health-fitness-center",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/sahayog-health-fitness-center"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/sahayog-health-fitness-center"
 }

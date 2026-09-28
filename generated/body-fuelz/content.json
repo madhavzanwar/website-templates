@@ -478,5 +478,5 @@
   "slug": "body-fuelz",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/body-fuelz"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/body-fuelz"
 }

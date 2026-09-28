@@ -556,5 +556,5 @@
   "slug": "surya-mens-parlour",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/surya-mens-parlour"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/surya-mens-parlour"
 }

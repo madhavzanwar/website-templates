@@ -478,5 +478,5 @@
   "slug": "pacific-sports-arena",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/pacific-sports-arena"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/pacific-sports-arena"
 }

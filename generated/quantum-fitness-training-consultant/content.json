@@ -478,5 +478,5 @@
   "slug": "quantum-fitness-training-consultant",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/quantum-fitness-training-consultant"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/quantum-fitness-training-consultant"
 }

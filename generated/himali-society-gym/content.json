@@ -478,5 +478,5 @@
   "slug": "himali-society-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/himali-society-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/himali-society-gym"
 }

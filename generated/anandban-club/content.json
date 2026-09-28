@@ -478,5 +478,5 @@
   "slug": "anandban-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/anandban-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/anandban-club"
 }

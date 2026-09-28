@@ -478,5 +478,5 @@
   "slug": "dr-anjalis-wellness-center",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/dr-anjalis-wellness-center"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/dr-anjalis-wellness-center"
 }

@@ -478,5 +478,5 @@
   "slug": "snap-fitness-247",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/snap-fitness-247"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/snap-fitness-247"
 }

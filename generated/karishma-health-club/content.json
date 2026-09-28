@@ -478,5 +478,5 @@
   "slug": "karishma-health-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/karishma-health-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/karishma-health-club"
 }

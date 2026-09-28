@@ -478,5 +478,5 @@
   "slug": "callipygian",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/callipygian"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/callipygian"
 }

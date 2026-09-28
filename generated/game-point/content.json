@@ -478,5 +478,5 @@
   "slug": "game-point",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/game-point"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/game-point"
 }

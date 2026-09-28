@@ -961,5 +961,5 @@
   "slug": "kulhad",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/kulhad"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/kulhad"
 }

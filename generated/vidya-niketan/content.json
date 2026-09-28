@@ -200,5 +200,5 @@
   "slug": "vidya-niketan",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/vidya-niketan"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/vidya-niketan"
 }

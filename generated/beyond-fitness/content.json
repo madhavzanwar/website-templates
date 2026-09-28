@@ -478,5 +478,5 @@
   "slug": "beyond-fitness",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/beyond-fitness"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/beyond-fitness"
 }

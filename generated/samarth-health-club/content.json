@@ -478,5 +478,5 @@
   "slug": "samarth-health-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/samarth-health-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/samarth-health-club"
 }

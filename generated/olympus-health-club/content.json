@@ -478,5 +478,5 @@
   "slug": "olympus-health-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/olympus-health-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/olympus-health-club"
 }

@@ -200,5 +200,5 @@
   "slug": "hadoop-school-of-training",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/hadoop-school-of-training"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/hadoop-school-of-training"
 }

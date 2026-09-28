@@ -478,5 +478,5 @@
   "slug": "shakti-sports",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/shakti-sports"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shakti-sports"
 }

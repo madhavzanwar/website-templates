@@ -478,5 +478,5 @@
   "slug": "fisher-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/fisher-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/fisher-gym"
 }

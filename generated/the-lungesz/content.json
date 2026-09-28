@@ -478,5 +478,5 @@
   "slug": "the-lungesz",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/the-lungesz"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/the-lungesz"
 }

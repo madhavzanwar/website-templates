@@ -478,5 +478,5 @@
   "slug": "solaris-fitness-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/solaris-fitness-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/solaris-fitness-club"
 }

@@ -556,5 +556,5 @@
   "slug": "shear-experts",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/shear-experts"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/shear-experts"
 }

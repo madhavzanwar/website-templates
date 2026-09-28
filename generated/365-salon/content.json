@@ -556,5 +556,5 @@
   "slug": "365-salon",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/365-salon"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/365-salon"
 }

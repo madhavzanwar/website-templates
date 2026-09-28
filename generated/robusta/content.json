@@ -961,5 +961,5 @@
   "slug": "robusta",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/robusta"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/robusta"
 }

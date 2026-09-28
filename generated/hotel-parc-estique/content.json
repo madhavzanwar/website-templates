@@ -478,5 +478,5 @@
   "slug": "hotel-parc-estique",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/hotel-parc-estique"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/hotel-parc-estique"
 }

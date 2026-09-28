@@ -478,5 +478,5 @@
   "slug": "fitness-planet",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/fitness-planet"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/fitness-planet"
 }

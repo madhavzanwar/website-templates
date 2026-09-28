@@ -478,5 +478,5 @@
   "slug": "cross-training-fitness-point",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/cross-training-fitness-point"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/cross-training-fitness-point"
 }

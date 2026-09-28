@@ -478,5 +478,5 @@
   "slug": "education-and-training",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/education-and-training"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/education-and-training"
 }

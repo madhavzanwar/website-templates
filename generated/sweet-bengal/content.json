@@ -961,5 +961,5 @@
   "slug": "sweet-bengal",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/sweet-bengal"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/sweet-bengal"
 }

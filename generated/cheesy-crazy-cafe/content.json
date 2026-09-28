@@ -961,5 +961,5 @@
   "slug": "cheesy-crazy-cafe",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/cheesy-crazy-cafe"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/cheesy-crazy-cafe"
 }

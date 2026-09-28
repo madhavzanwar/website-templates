@@ -200,5 +200,5 @@
   "slug": "challenger-public-school",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/challenger-public-school"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/challenger-public-school"
 }

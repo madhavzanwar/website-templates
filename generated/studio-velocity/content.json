@@ -478,5 +478,5 @@
   "slug": "studio-velocity",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/studio-velocity"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/studio-velocity"
 }

@@ -961,5 +961,5 @@
   "slug": "coffea",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/coffea"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/coffea"
 }

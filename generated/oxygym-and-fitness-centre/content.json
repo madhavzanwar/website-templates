@@ -478,5 +478,5 @@
   "slug": "oxygym-and-fitness-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/oxygym-and-fitness-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/oxygym-and-fitness-centre"
 }

@@ -478,5 +478,5 @@
   "slug": "slimwell-clinic",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/slimwell-clinic"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/slimwell-clinic"
 }

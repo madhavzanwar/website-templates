@@ -478,5 +478,5 @@
   "slug": "rock-hard-fitness-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/rock-hard-fitness-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/rock-hard-fitness-club"
 }

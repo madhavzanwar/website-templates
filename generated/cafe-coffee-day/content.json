@@ -961,5 +961,5 @@
   "slug": "cafe-coffee-day",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/cafe-coffee-day"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/cafe-coffee-day"
 }

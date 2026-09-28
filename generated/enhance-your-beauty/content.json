@@ -478,5 +478,5 @@
   "slug": "enhance-your-beauty",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/enhance-your-beauty"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/enhance-your-beauty"
 }

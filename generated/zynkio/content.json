@@ -556,5 +556,5 @@
   "slug": "zynkio",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/zynkio"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/zynkio"
 }

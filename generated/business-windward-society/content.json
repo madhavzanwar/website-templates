@@ -557,5 +557,5 @@
   "slug": "business-windward-society",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/business-windward-society"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/business-windward-society"
 }

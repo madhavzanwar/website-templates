@@ -556,5 +556,5 @@
   "slug": "titan-salon",
   "category": "salons",
   "template": "salon",
-  "demo_link": "http://localhost:3000/demo/titan-salon"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/titan-salon"
 }

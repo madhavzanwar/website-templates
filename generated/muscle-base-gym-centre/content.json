@@ -478,5 +478,5 @@
   "slug": "muscle-base-gym-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/muscle-base-gym-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/muscle-base-gym-centre"
 }

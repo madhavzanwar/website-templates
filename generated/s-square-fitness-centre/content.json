@@ -478,5 +478,5 @@
   "slug": "s-square-fitness-centre",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/s-square-fitness-centre"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/s-square-fitness-centre"
 }

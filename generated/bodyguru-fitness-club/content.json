@@ -478,5 +478,5 @@
   "slug": "bodyguru-fitness-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/bodyguru-fitness-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/bodyguru-fitness-club"
 }

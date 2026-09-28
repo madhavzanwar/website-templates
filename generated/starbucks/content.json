@@ -961,5 +961,5 @@
   "slug": "starbucks",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/starbucks"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/starbucks"
 }

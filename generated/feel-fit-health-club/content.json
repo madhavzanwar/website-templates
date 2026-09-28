@@ -478,5 +478,5 @@
   "slug": "feel-fit-health-club",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/feel-fit-health-club"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/feel-fit-health-club"
 }

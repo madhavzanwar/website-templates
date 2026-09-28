@@ -478,5 +478,5 @@
   "slug": "yfc-live-fit",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/yfc-live-fit"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/yfc-live-fit"
 }

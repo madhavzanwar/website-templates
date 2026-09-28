@@ -478,5 +478,5 @@
   "slug": "natures-bountry",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/natures-bountry"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/natures-bountry"
 }

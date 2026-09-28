@@ -200,5 +200,5 @@
   "slug": "media-magic-institute",
   "category": "coaching classes/tuition centers",
   "template": "coaching",
-  "demo_link": "http://localhost:3000/demo/media-magic-institute"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/media-magic-institute"
 }

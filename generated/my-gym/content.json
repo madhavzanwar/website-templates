@@ -478,5 +478,5 @@
   "slug": "my-gym",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/my-gym"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/my-gym"
 }

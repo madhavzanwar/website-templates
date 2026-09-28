@@ -478,5 +478,5 @@
   "slug": "just-to-be-fit",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/just-to-be-fit"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/just-to-be-fit"
 }

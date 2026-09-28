@@ -961,5 +961,5 @@
   "slug": "cafe-peter",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/cafe-peter"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/cafe-peter"
 }

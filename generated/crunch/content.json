@@ -478,5 +478,5 @@
   "slug": "crunch",
   "category": "gyms",
   "template": "gym",
-  "demo_link": "http://localhost:3000/demo/crunch"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/crunch"
 }

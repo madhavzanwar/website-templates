@@ -961,5 +961,5 @@
   "slug": "southway-coffee",
   "category": "cafes",
   "template": "cafe",
-  "demo_link": "http://localhost:3000/demo/southway-coffee"
+  "demo_link": "https://sell-wesbsite.vercel.app/demo/southway-coffee"
 }
