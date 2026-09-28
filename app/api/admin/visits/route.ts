@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { getVisitsData } from '@/src/services/visitsService';
+import { getVisitsData } from '@/lib/visitsService';
 
 export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);

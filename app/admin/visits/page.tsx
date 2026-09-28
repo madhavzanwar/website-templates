@@ -1,6 +1,6 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getVisitsData } from '@/src/services/visitsService';
+import { getVisitsData } from '@/lib/visitsService';
 
 export const dynamic = 'force-dynamic';
 
