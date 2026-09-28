@@ -1,0 +1,204 @@
+{
+  "category_id": "coaching classes/tuition centers",
+  "category_label": "Coaching Classes & Tuition Centers",
+  "branding": {
+    "business_name": "Vivero international pre school and childcare",
+    "tagline": "Concept Clarity, Rigorous Practice, Proven Ranks",
+    "hero_headline": "Empowering Pune's Brightest Minds For Board & Competitive Excellence",
+    "hero_subheadline": "Top-tier coaching for 8th to 12th Standard, CBSE, ICSE, State Board, JEE Main & NEET. Small batch sizes, experienced faculty, and weekly performance analytics.",
+    "primary_color": "#1E40AF",
+    "secondary_color": "#0F172A",
+    "canvas_color": "#F8FAFC",
+    "accent_color": "#F59E0B",
+    "hero_image": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=1200&auto=format&fit=crop",
+    "badge": "ADMISSIONS OPEN FOR 2026-27 ACADEMIC YEAR"
+  },
+  "stats": [
+    {
+      "value": "98.4%",
+      "label": "Board Pass Rate"
+    },
+    {
+      "value": "15:1",
+      "label": "Student-Faculty Ratio"
+    },
+    {
+      "value": "500+",
+      "label": "JEE & NEET Selections"
+    },
+    {
+      "value": "12+ Yrs",
+      "label": "Excellence in Pune"
+    }
+  ],
+  "about": {
+    "title": "Why Pune's Top Students Choose Apex Academy",
+    "subtitle": "Education that bridges the gap between rote memorization and true conceptual mastery.",
+    "paragraphs": [
+      "Founded by dedicated educators from premier Indian institutes, Apex Academy provides a disciplined yet encouraging environment where every student receives individual attention.",
+      "Our scientifically designed curriculum includes topic-wise concept lectures, daily practice problem sheets (DPPs), bi-weekly simulated mock exams, and dedicated one-on-one doubt resolution hours."
+    ],
+    "features": [
+      "Small Batches Capped at 20 Students",
+      "Weekly Chapter-Wise Unit Tests & Report Cards",
+      "Regular Parent-Teacher Progress Meetings",
+      "AC Smart Classrooms with Digital Concept Boards",
+      "Comprehensive Printed Study Modules Included"
+    ]
+  },
+  "courses": [
+    {
+      "id": "c-01",
+      "title": "Class 11 & 12: JEE Main + Advanced + Board",
+      "category": "Engineering Entrance",
+      "grade": "11th & 12th Science",
+      "duration": "2 Years Intensive",
+      "fee": "₹65,000 / year",
+      "description": "Comprehensive Physics, Chemistry, and Mathematics training covering both 100% Board syllabus and rigorous JEE problem solving.",
+      "highlights": [
+        "300+ Hours Live Lectures",
+        "50+ Full-Length All-India Mock Tests",
+        "Daily Doubt Solving Sessions"
+      ],
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "c-02",
+      "title": "Class 11 & 12: NEET Medical Prep + Board",
+      "category": "Medical Entrance",
+      "grade": "11th & 12th Science",
+      "duration": "2 Years Intensive",
+      "fee": "₹70,000 / year",
+      "description": "Deep NCERT-focused Biology, Physics, and Chemistry mentoring with speed-enhancement test techniques for top government medical seats.",
+      "highlights": [
+        "100% NCERT Line-by-Line Mastery",
+        "OMR Pattern Practice Tests",
+        "Personal Mentor Assigned"
+      ],
+      "image": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "c-03",
+      "title": "Class 8th, 9th & 10th: Foundation & Board Excellence",
+      "category": "School Board Foundation",
+      "grade": "8th to 10th (CBSE / ICSE / SSC)",
+      "duration": "1 Year Academic Program",
+      "fee": "₹35,000 / year",
+      "description": "Strong foundational grounding in Science, Mathematics, and English to secure 95%+ in Board examinations and Olympiads.",
+      "highlights": [
+        "Concept-First Methodology",
+        "Previous 10 Years Board Papers Solving",
+        "Periodic Revision Bootcamps"
+      ],
+      "image": "https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "c-04",
+      "title": "Class 11 & 12: Commerce & CA Foundation",
+      "category": "Commerce Stream",
+      "grade": "11th & 12th Commerce",
+      "duration": "1 or 2 Year Program",
+      "fee": "₹45,000 / year",
+      "description": "Accounts, Economics, Business Studies, and Applied Math taught by practicing Chartered Accountants and subject toppers.",
+      "highlights": [
+        "Practical Financial Case Studies",
+        "CA Foundation Integrated Prep",
+        "Answer Writing Technique Workshops"
+      ],
+      "image": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=800&auto=format&fit=crop",
+      "title": "Interactive Lecture Hall",
+      "tag": "Classroom"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1427504494785-3a9ca7044f45?q=80&w=800&auto=format&fit=crop",
+      "title": "Quiet Reading & Study Library",
+      "tag": "Library"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=800&auto=format&fit=crop",
+      "title": "Digital Smart Board Technology",
+      "tag": "Technology"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=800&auto=format&fit=crop",
+      "title": "Peer Discussion & Doubt Circles",
+      "tag": "Mentorship"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=800&auto=format&fit=crop",
+      "title": "1-on-1 Faculty Mentorship",
+      "tag": "Faculty"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1497633762265-9d179a990aa6?q=80&w=800&auto=format&fit=crop",
+      "title": "Comprehensive Study Materials",
+      "tag": "Curriculum"
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. S. R. Kulkarni",
+      "degree": "M.Tech, IIT Bombay",
+      "subject": "Physics HOD",
+      "experience": "14 Yrs Experience"
+    },
+    {
+      "name": "Dr. Meera Nambiar",
+      "degree": "Ph.D. Organic Chemistry",
+      "subject": "Chemistry Faculty",
+      "experience": "11 Yrs Experience"
+    },
+    {
+      "name": "Prof. Vikas Deshmukh",
+      "degree": "M.Sc. Mathematics (Gold Medalist)",
+      "subject": "Mathematics Lead",
+      "experience": "12 Yrs Experience"
+    }
+  ],
+  "testimonials": [
+    {
+      "student": "Aryan Patil",
+      "achievement": "Scored 99.2 Percentile in JEE Main",
+      "quote": "The doubt sessions at Apex made all the difference. The teachers are approachable and never hesitate to explain difficult concepts multiple times until you understand."
+    },
+    {
+      "student": "Tanvi Joshi",
+      "achievement": "96.4% in CBSE Class 10 Board",
+      "quote": "Joining in 9th grade gave me tremendous confidence in Math and Science. The test series helped eliminate all exam fear before the actual boards."
+    }
+  ],
+  "contact": {
+    "phone": "+91 98900 11223",
+    "whatsapp_number": "919890011223",
+    "whatsapp_message": "Hello! I want to enquire about batch timings and scholarship admission test.",
+    "email": "admissions@apexacademy.in",
+    "address": "Baner, Pune, Maharashtra",
+    "opening_hours": [
+      {
+        "days": "Monday – Saturday",
+        "hours": "08:00 AM – 08:30 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "09:00 AM – 02:00 PM (Test Sessions)"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Book a Free Demo Lecture & Diagnostic Test",
+      "description": "Experience our teaching firsthand. Attend any ongoing subject class for free.",
+      "submit_text": "Register For Free Demo Class →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 APEX ACADEMY PUNE. ALL RIGHTS RESERVED."
+  },
+  "slug": "vivero-international-pre-school-and-childcare",
+  "category": "coaching classes/tuition centers",
+  "template": "coaching",
+  "demo_link": "http://localhost:3000/demo/vivero-international-pre-school-and-childcare"
+}

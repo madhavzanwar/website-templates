@@ -1,0 +1,560 @@
+{
+  "branding": {
+    "business_name": "Golden Scissor",
+    "subtitle": "HAIR & BEAUTY STUDIO",
+    "tagline": "Haircuts, Balayage & Scalp Spa in Koregaon Park, Pune",
+    "established_year": "2019",
+    "location_short": "Koregaon Park, Pune",
+    "primary_color": "#1C1815",
+    "secondary_color": "#EDE8E0",
+    "canvas_color": "#F7F4EE",
+    "text_color": "#2D2621",
+    "bronze_color": "#B86B4F",
+    "hero_headline": {
+      "line1": "Effortless Hair for",
+      "line2_italic": "Your Daily Routine."
+    },
+    "hero_subheadline": "A calm, welcoming hair studio in Koregaon Park, Pune. Specialized in custom haircuts, gentle ammonia-free hair colors, scalp spa, and bridal styling.",
+    "hero_image": "https://images.unsplash.com/photo-1562322140-8baeececf3df?q=80&w=1400&auto=format&fit=crop",
+    "hero_accolade": {
+      "publication": "Google Reviews Pune",
+      "badge_text": "Rated 4.9 ★ by 420+ Happy Clients",
+      "rating_label": "Verified Pune Customer Reviews",
+      "stars": 5
+    },
+    "hero_live_status": {
+      "indicator": "Salon Status",
+      "available_slot": "Open Today (Walk-ins & Appointments Welcome)"
+    },
+    "hero_ctas": {
+      "primary": {
+        "text": "Book Appointment",
+        "href": "#booking",
+        "subtext": "Walk-ins & appointments welcome"
+      },
+      "secondary": {
+        "text": "View Services & Prices",
+        "href": "#services",
+        "subtext": "Haircuts, colors & treatments"
+      }
+    },
+    "hero_metrics": [
+      {
+        "value": "4.9 ★",
+        "label": "Google Rating",
+        "description": "420+ Pune Reviews"
+      },
+      {
+        "value": "1-on-1",
+        "label": "Dedicated Stylist",
+        "description": "No rushed appointments"
+      },
+      {
+        "value": "100%",
+        "label": "Safe Products",
+        "description": "Ammonia-free & gentle"
+      }
+    ]
+  },
+  "navigation": {
+    "nav_links": [
+      {
+        "label": "About",
+        "href": "#philosophy"
+      },
+      {
+        "label": "Services",
+        "href": "#services"
+      },
+      {
+        "label": "Styles",
+        "href": "#lookbook"
+      },
+      {
+        "label": "Stylists",
+        "href": "#masters"
+      },
+      {
+        "label": "Reviews",
+        "href": "#reviews"
+      },
+      {
+        "label": "Contact",
+        "href": "#booking"
+      }
+    ],
+    "cta_button_text": "Book Appointment",
+    "cta_button_target": "#booking",
+    "phone_display": "+91 98220 54321",
+    "phone_tel": "+919822054321"
+  },
+  "manifesto": {
+    "section_code": "ABOUT OUR SALON",
+    "section_eyebrow": "OUR APPROACH",
+    "section_title": "Relaxed, Honest Hair Care in Pune",
+    "lead_quote": "We believe a salon visit should feel relaxing, friendly, and unhurried. We listen to what you want, explain each step, and give you hair that looks great every day.",
+    "lead_quote_author": "Pooja Sharma, Lead Stylist & Founder",
+    "pillars": [
+      {
+        "id": "acoustics",
+        "roman_num": "I",
+        "title": "Peaceful Environment",
+        "subtitle": "No noisy chaos or pressure sales",
+        "description": "Clean, spacious styling stations with comfortable seating and soothing background music. You can unwind, read, or have a quiet conversation.",
+        "tag": "Relaxing Experience"
+      },
+      {
+        "id": "daylight",
+        "roman_num": "II",
+        "title": "Natural Daylight Styling",
+        "subtitle": "Accurate color preview before you leave",
+        "description": "Our mirrors and color wash area are lit with daylight-balanced lighting so your hair color looks exactly the same outdoors on Pune roads as it does in our chair.",
+        "tag": "Accurate Hair Colors"
+      },
+      {
+        "id": "botanicals",
+        "roman_num": "III",
+        "title": "Gentle & Safe Products",
+        "subtitle": "Ammonia-free colors & nourishing hair spa",
+        "description": "We only use certified gentle hair colors and deep conditioning plant masks from Olaplex and L'Oreal Professionnel that keep your scalp healthy.",
+        "tag": "Healthy Scalp & Hair"
+      }
+    ],
+    "spatial_features": [
+      {
+        "value": "100%",
+        "label": "Natural Light Stations"
+      },
+      {
+        "value": "Olaplex",
+        "label": "Certified Partner"
+      },
+      {
+        "value": "45 min",
+        "label": "Standard Haircut Time"
+      }
+    ],
+    "spatial_image_1": {
+      "url": "https://images.unsplash.com/photo-1527799820374-dcf8d9d4a388?q=80&w=800&auto=format&fit=crop",
+      "caption": "Modern hair wash area with reclining basins",
+      "tag": "Hair Wash Lounge"
+    },
+    "spatial_image_2": {
+      "url": "https://images.unsplash.com/photo-1560066984-138dadb4c035?q=80&w=800&auto=format&fit=crop",
+      "caption": "Spacious styling stations with daylight illumination",
+      "tag": "Styling Stations"
+    }
+  },
+  "services_ledger": {
+    "section_code": "MENU & PRICING",
+    "section_eyebrow": "TRANSPARENT PRICING",
+    "section_title": "Haircuts, Colors & Spa Menu",
+    "description": "All haircuts include personal consultation, hair wash, and blow dry. Transparent pricing with no hidden charges.",
+    "note_banner": "All services include a complimentary hair consultation and beverage.",
+    "categories": [
+      {
+        "id": "all",
+        "label": "All Services"
+      },
+      {
+        "id": "cutting",
+        "label": "Haircuts"
+      },
+      {
+        "id": "color",
+        "label": "Hair Colors"
+      },
+      {
+        "id": "rituals",
+        "label": "Hair Spa"
+      },
+      {
+        "id": "bridal",
+        "label": "Bridal & Party"
+      }
+    ],
+    "services": [
+      {
+        "id": "cut-women",
+        "category": "cutting",
+        "name": "Women's Haircut & Blow Dry",
+        "tag": "Popular",
+        "duration": "45 mins",
+        "price_senior": "₹1,200",
+        "price_master": "₹1,400",
+        "price_display": "₹1,200",
+        "description": "Personalized face-framing haircut, relaxing shampoo wash, conditioning, and professional blow dry styling.",
+        "includes": [
+          "Consultation",
+          "Hair Wash",
+          "Blow Dry Styling"
+        ],
+        "take_home_recommendation": "Moroccanoil Treatment Light for smooth daily shine."
+      },
+      {
+        "id": "cut-men",
+        "category": "cutting",
+        "name": "Men's Haircut & Beard Grooming",
+        "tag": "Gents",
+        "duration": "35 mins",
+        "price_senior": "₹750",
+        "price_master": "₹900",
+        "price_display": "₹750",
+        "description": "Precision haircut, scalp wash, and beard trimming with razor edge detailing.",
+        "includes": [
+          "Scissor & Clipper Cut",
+          "Shampoo Wash",
+          "Beard Styling"
+        ],
+        "take_home_recommendation": "Matte styling clay for flexible hold."
+      },
+      {
+        "id": "color-balayage",
+        "category": "color",
+        "name": "Sun-Kissed Balayage & Highlights",
+        "tag": "Signature",
+        "duration": "150 mins",
+        "price_senior": "₹5,500",
+        "price_master": "₹6,500",
+        "price_display": "₹5,500",
+        "description": "Seamless, natural-looking hand-painted highlights that grow out softly without harsh root lines. Includes toner and Olaplex treatment.",
+        "includes": [
+          "Custom Foil/Balayage",
+          "Olaplex Bond Protector",
+          "Gloss Toner & Blow Dry"
+        ],
+        "take_home_recommendation": "Olaplex No. 4 & No. 5 Color Maintenance Shampoo."
+      },
+      {
+        "id": "color-global",
+        "category": "color",
+        "name": "Global Ammonia-Free Hair Color",
+        "tag": "Safe Color",
+        "duration": "90 mins",
+        "price_senior": "₹3,500",
+        "price_master": "₹4,200",
+        "price_display": "₹3,500",
+        "description": "Rich, even color from roots to ends using gentle ammonia-free formula with high shine.",
+        "includes": [
+          "Scalp Barrier Cream",
+          "Ammonia-free Color",
+          "Post-Color Conditioning Wash"
+        ],
+        "take_home_recommendation": "Color protect shampoo with UV filter."
+      },
+      {
+        "id": "color-root",
+        "category": "color",
+        "name": "Root Touch-Up & Grey Coverage",
+        "tag": "Quick",
+        "duration": "60 mins",
+        "price_senior": "₹1,800",
+        "price_master": "₹2,200",
+        "price_display": "₹1,800",
+        "description": "100% natural-looking grey coverage matching your existing hair shade perfectly.",
+        "includes": [
+          "Root Application (up to 1.5 inches)",
+          "Shampoo Wash",
+          "Blow Dry"
+        ],
+        "take_home_recommendation": "Hydrating hair mask once a week."
+      },
+      {
+        "id": "spa-botox",
+        "category": "rituals",
+        "name": "Keratin & Hair Botox Treatment",
+        "tag": "Anti-Frizz",
+        "duration": "120 mins",
+        "price_senior": "₹5,500",
+        "price_master": "₹6,500",
+        "price_display": "₹5,500",
+        "description": "Tames stubborn frizz and softens unruly curls for up to 4 months. Ideal for humid Pune monsoons and dry winters.",
+        "includes": [
+          "Clarifying Wash",
+          "Keratin Infusion",
+          "Nano-Steam Sealing"
+        ],
+        "take_home_recommendation": "Sulphate-free shampoo and leave-in serum."
+      },
+      {
+        "id": "spa-deep",
+        "category": "rituals",
+        "name": "Deep Conditioning Scalp & Hair Spa",
+        "tag": "Relaxing",
+        "duration": "50 mins",
+        "price_senior": "₹1,800",
+        "price_master": "₹2,200",
+        "price_display": "₹1,800",
+        "description": "Hot towel steam, essential oil head massage, and protein mask to repair dry, damaged hair.",
+        "includes": [
+          "20-min Head & Shoulder Massage",
+          "Ozone Steam",
+          "Deep Repair Hair Mask"
+        ],
+        "take_home_recommendation": "Nourishing argan hair oil."
+      },
+      {
+        "id": "bridal-party",
+        "category": "bridal",
+        "name": "Party Makeup & Hair Styling",
+        "tag": "Party Ready",
+        "duration": "75 mins",
+        "price_senior": "₹3,500",
+        "price_master": "₹4,200",
+        "price_display": "₹3,500",
+        "description": "HD party makeup with soft glam curls or elegant bun. Saree or dupatta draping included.",
+        "includes": [
+          "HD Skin Makeup",
+          "Hair Curls or Updo",
+          "Saree/Dupatta Draping"
+        ],
+        "take_home_recommendation": "Gentle micellar water for makeup removal."
+      },
+      {
+        "id": "bridal-full",
+        "category": "bridal",
+        "name": "Complete Bridal Hair & Makeup Package",
+        "tag": "Bridal Special",
+        "duration": "180 mins",
+        "price_senior": "₹12,000",
+        "price_master": "₹15,000",
+        "price_display": "₹12,000",
+        "description": "Bridal makeup trial, wedding day HD airbrush makeup, intricate bridal hair styling, floral setting, and lehenga draping.",
+        "includes": [
+          "Pre-Bridal Consultation & Trial",
+          "Wedding Day HD Airbrush",
+          "Hair Styling & Flowers",
+          "Lehenga Draping"
+        ],
+        "take_home_recommendation": "Touch-up kit with lipstick and blotting sheets."
+      }
+    ]
+  },
+  "lookbook": {
+    "section_code": "CLIENT LOOKS",
+    "section_eyebrow": "RECENT STYLES",
+    "section_title": "Real Clients, Real Haircuts",
+    "description": "Browse recent haircuts, colors, and styling done at our Koregaon Park salon.",
+    "filter_tags": [
+      "All Looks",
+      "Haircut",
+      "Hair Color",
+      "Hair Spa"
+    ],
+    "gallery_images": [
+      {
+        "id": "look-1",
+        "title": "Layered Lob with Soft Bangs",
+        "technique": "Precision Feathering",
+        "stylist": "Pooja Sharma",
+        "tag": "Haircut",
+        "span": "col-span-1 md:col-span-2",
+        "aspect": "aspect-[16/10]",
+        "image_url": "https://images.unsplash.com/photo-1580618672591-eb180b1a973f?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "look-2",
+        "title": "Warm Honey Balayage",
+        "technique": "Hand-painted Highlights",
+        "stylist": "Rohit Kadam",
+        "tag": "Hair Color",
+        "span": "col-span-1",
+        "aspect": "aspect-[4/5]",
+        "image_url": "https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "look-3",
+        "title": "Textured Crop & Fade",
+        "technique": "Scissor & Clipper Fade",
+        "stylist": "Pooja Sharma",
+        "tag": "Haircut",
+        "span": "col-span-1",
+        "aspect": "aspect-[4/5]",
+        "image_url": "https://images.unsplash.com/photo-1605497788044-5a32c7078486?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "look-4",
+        "title": "Glossy Keratin Smooth Finish",
+        "technique": "Nano-Steam Keratin",
+        "stylist": "Meera Joshi",
+        "tag": "Hair Spa",
+        "span": "col-span-1 md:col-span-2",
+        "aspect": "aspect-[16/10]",
+        "image_url": "https://images.unsplash.com/photo-1522337360788-8b13dee7a37e?q=80&w=800&auto=format&fit=crop"
+      }
+    ]
+  },
+  "masters": {
+    "section_code": "OUR STYLISTS",
+    "section_eyebrow": "EXPERIENCED TEAM",
+    "section_title": "Meet Our Senior Stylists",
+    "description": "Experienced professionals who listen carefully to what you want.",
+    "stylists": [
+      {
+        "id": "pooja",
+        "name": "Pooja Sharma",
+        "role": "Lead Stylist & Founder",
+        "experience": "12+ Years Experience",
+        "pedigree": "Trained in Mumbai & London",
+        "specialty": "Women's Precision Haircuts & Face-Framing",
+        "bio": "Styled over 4,000 clients in Pune. Known for low-maintenance haircuts that grow out gracefully.",
+        "image_url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop",
+        "booking_slug": "pooja-sharma"
+      },
+      {
+        "id": "rohit",
+        "name": "Rohit Kadam",
+        "role": "Senior Hair Colorist",
+        "experience": "8+ Years Experience",
+        "pedigree": "L'Oreal Certified Color Master",
+        "specialty": "Balayage, Global Color & Grey Blending",
+        "bio": "Specializes in rich shades that complement warm Indian skin tones without bleaching damage.",
+        "image_url": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=800&auto=format&fit=crop",
+        "booking_slug": "rohit-kadam"
+      },
+      {
+        "id": "meera",
+        "name": "Meera Joshi",
+        "role": "Hair Spa & Bridal Specialist",
+        "experience": "7+ Years Experience",
+        "pedigree": "Olaplex Certified Specialist",
+        "specialty": "Scalp Treatments, Keratin & Bridal Hair",
+        "bio": "Creates beautiful bridal updos, braids, and deeply rejuvenating scalp therapies.",
+        "image_url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=800&auto=format&fit=crop",
+        "booking_slug": "meera-joshi"
+      },
+      {
+        "id": "amit",
+        "name": "Amit Shinde",
+        "role": "Senior Men's Stylist",
+        "experience": "6+ Years Experience",
+        "pedigree": "Advanced Barbering Academy Mumbai",
+        "specialty": "Men's Scissor Fades & Beard Sculpting",
+        "bio": "Specializes in classic modern men's cuts and precision beard grooming.",
+        "image_url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=800&auto=format&fit=crop",
+        "booking_slug": "amit-shinde"
+      }
+    ]
+  },
+  "testimonials": {
+    "section_code": "CUSTOMER REVIEWS",
+    "section_eyebrow": "VERIFIED FEEDBACK",
+    "section_title": "Loved by Pune Residents",
+    "description": "What our clients say about their haircuts, colors, and salon visits.",
+    "press_quotes": [
+      {
+        "publication": "Pune Mirror Lifestyle",
+        "quote": "An oasis of calm in busy Koregaon Park. Pooja Sharma's haircuts are thoughtful, unhurried, and perfectly suited to daily wear.",
+        "author": "Anjali Chitnis",
+        "role": "Lifestyle Editor"
+      },
+      {
+        "publication": "What's Hot Pune",
+        "quote": "One of the best salons in Pune for ammonia-free balayage and relaxing hair spas. Clean, elegant, and completely pressure-free.",
+        "author": "Tanvi Rao",
+        "role": "Senior Beauty Writer"
+      }
+    ],
+    "client_reviews": [
+      {
+        "client_name": "Aditi Deshmukh",
+        "neighborhood": "Koregaon Park, Pune",
+        "service_received": "Sun-Kissed Balayage",
+        "stylist": "Rohit Kadam",
+        "rating": 5,
+        "review": "Got my caramel balayage done with Rohit in Koregaon Park. He understood my hair texture and gave me a shade that looks so natural under daylight. Truly relaxing experience."
+      },
+      {
+        "client_name": "Neha Kulkarni",
+        "neighborhood": "Kalyani Nagar, Pune",
+        "service_received": "Women's Haircut & Blow Dry",
+        "stylist": "Pooja Sharma",
+        "rating": 5,
+        "review": "Finally a salon in Pune where they don't force you to buy expensive packages! Clean chairs, polite staff, and Pooja's haircut was exactly what I showed her on my phone."
+      },
+      {
+        "client_name": "Radhika Mehta",
+        "neighborhood": "Viman Nagar, Pune",
+        "service_received": "Complete Bridal Hair Package",
+        "stylist": "Pooja & Meera",
+        "rating": 5,
+        "review": "Booked their bridal hair package for my reception. Pooja and Meera did an amazing job with soft curls that stayed intact through 6 hours of dancing."
+      }
+    ]
+  },
+  "booking_concierge": {
+    "section_code": "APPOINTMENT & VISITS",
+    "section_eyebrow": "RESERVE YOUR TIME",
+    "section_title": "Book Your Visit",
+    "lead_text": "Walk-ins are always welcome, or reserve your preferred time slot and stylist below.",
+    "whatsapp_number": "919822054321",
+    "whatsapp_display": "+91 98220 54321",
+    "whatsapp_concierge_message": "Hello Ananya Salon, I would like to book an appointment for haircut/color in Koregaon Park.",
+    "phone": "+91 98220 54321",
+    "email": "hello@ananyasalon.in",
+    "address": "Wakad, Pune, Maharashtra",
+    "address_details": "Opposite Starbucks, Lane 5, Pune 411001. Dedicated valet parking available.",
+    "instagram_handle": "@ananyasalonpune",
+    "instagram_url": "https://instagram.com",
+    "opening_hours": [
+      {
+        "days": "Tuesday — Sunday",
+        "hours": "10:00 AM — 08:00 PM"
+      },
+      {
+        "days": "Monday",
+        "hours": "Closed (Weekly Off)"
+      }
+    ],
+    "amenities": [
+      "Dedicated Valet Parking in Lane 5",
+      "Complimentary Filter Coffee & Green Tea",
+      "High-Speed Wi-Fi & Work-Friendly Seating",
+      "Ammonia-free & Sensitive Skin Certified Products"
+    ],
+    "form_config": {
+      "title": "Online Appointment Request",
+      "subtitle": "Choose your preferred time window. Our reception will confirm your booking within 30 minutes.",
+      "submit_button_text": "Confirm Appointment Request",
+      "confirmation_message": "Thank you! We have received your booking request. Our team will message you on WhatsApp shortly to confirm your slot.",
+      "consultation_notice": "No advance payment needed. Pay after your service at the salon via UPI (GPay/PhonePe), card, or cash."
+    }
+  },
+  "sticky_concierge": {
+    "headline": "ANANYA SALON • KOREGAON PARK",
+    "subtext": "Walk-ins & Appointments Welcome",
+    "badge": "Open Today",
+    "cta_text": "Book Appointment",
+    "cta_target": "#booking",
+    "whatsapp_text": "WhatsApp Us"
+  },
+  "footer": {
+    "atelier_tagline": "A calm, thoughtful hair salon in Koregaon Park, Pune. Dedicated to personalized haircuts, gentle colors, and restorative scalp care.",
+    "col_hours_title": "Opening Hours",
+    "col_concierge_title": "Contact & Location",
+    "col_legal_title": "Information",
+    "newsletter_title": "Salon Updates & Offers",
+    "newsletter_placeholder": "Enter your email address",
+    "newsletter_button": "Subscribe",
+    "newsletter_notice": "We send occasional styling tips and festive discounts. No spam.",
+    "copyright": "© 2026 Ananya Salon. All rights reserved.",
+    "legal_links": [
+      {
+        "label": "Service Menu & Pricing",
+        "href": "#services"
+      },
+      {
+        "label": "Hygiene & Sanitization Rules",
+        "href": "#"
+      },
+      {
+        "label": "Privacy Policy",
+        "href": "#"
+      }
+    ]
+  },
+  "slug": "golden-scissor",
+  "category": "salons",
+  "template": "salon",
+  "demo_link": "http://localhost:3000/demo/golden-scissor"
+}

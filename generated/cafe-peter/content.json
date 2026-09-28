@@ -1,0 +1,965 @@
+{
+  "branding": {
+    "business_name": "Cafe Peter",
+    "tagline": "Specialty Coffee Roastery & Slow Pour Bar",
+    "established_year": "2021",
+    "neighborhood": "Deccan Gymkhana, Pune",
+    "hero_headline": {
+      "line1": "Fresh Coffee,",
+      "line2_italic": "Roasted With Pure",
+      "line3": "Passion."
+    },
+    "hero_subheadline": "Sourced directly from shade-grown estates in Chikmagalur and Coorg, roasted fresh in small batches in Pune, and brewed with care.",
+    "primary_color": "#B85D38",
+    "secondary_color": "#231B16",
+    "canvas_color": "#F7F4EE",
+    "brass_color": "#D99B4B",
+    "olive_color": "#4A5844",
+    "hero_image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=1200&auto=format&fit=crop",
+    "hero_origin_stamp": {
+      "origin": "Chikmagalur, Karnataka",
+      "estate": "Kallathigiri Estate",
+      "masl": "1,350 MASL",
+      "varietal": "Selection 795 Arabica",
+      "process": "Washed & Sun-Dried",
+      "notes": [
+        "Dark Chocolate",
+        "Jaggery",
+        "Roasted Almonds"
+      ],
+      "lot_number": "LOT CK-2026-14"
+    },
+    "rotating_stamp_badge": "FRESH BATCH DAILY • CRAFT ROASTED • PUNE DECCAN • "
+  },
+  "ticker": {
+    "announcement": "NOW ROASTING: CHIKMAGALUR ESTATE LOT",
+    "highlight_text": "DARK CHOCOLATE & SPICED JAGGERY",
+    "hours_summary": "OPEN DAILY 07:30 AM – 10:30 PM IST"
+  },
+  "navigation": {
+    "nav_links": [
+      {
+        "label": "Our Story",
+        "href": "#manifesto"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Brewing Guide",
+        "href": "#calculator"
+      },
+      {
+        "label": "Photos",
+        "href": "#gallery"
+      },
+      {
+        "label": "Coffee Tasting",
+        "href": "#cuppings"
+      },
+      {
+        "label": "Visit Us",
+        "href": "#visit"
+      }
+    ],
+    "reserve_cta": "Book Table",
+    "order_cta": "Order Beans (WhatsApp)"
+  },
+  "hero_actions": {
+    "primary_cta": {
+      "text": "View Cafe Menu",
+      "href": "#menu"
+    },
+    "secondary_cta": {
+      "text": "Visit Our Cafe",
+      "href": "#visit"
+    },
+    "status_pill": "Open Today: 7:30 AM – 10:30 PM",
+    "quick_stats": [
+      {
+        "label": "Coffee Origin",
+        "value": "100% Indian Estates"
+      },
+      {
+        "label": "Roasting Drum",
+        "value": "Small Batch Roast"
+      },
+      {
+        "label": "Farm-To-Cup",
+        "value": "7 Days Fresh Roast"
+      }
+    ]
+  },
+  "roasting_manifesto": {
+    "badge": "OUR ROASTING PROMISE",
+    "title": "From Karnataka Western Ghats to Pune Cups in Fresh Small Batches.",
+    "subtitle": "We source single-origin specialty Arabica directly from heritage coffee estates in Chikmagalur, Coorg, and Biligirirangana Hills. Never stale, never bitter.",
+    "body_paragraphs": [
+      "Most commercial coffees sit in plastic warehouse packaging for months before reaching your cup. At Deccan Coffee Roasters, we source green beans directly from shade-grown estates in the Western Ghats of Karnataka and Tamil Nadu.",
+      "We roast in small batches right here in Pune. By controlling temperature and airflow minute by minute, we bring out the bean's natural notes of toasted hazelnuts, dark cocoa, and sugarcane jaggery without bitter char."
+    ],
+    "harvest_cycle_badge": "DIRECT ESTATE PARTNERSHIPS • FRESH ROAST PROMISE",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Direct Estate Sourcing",
+        "description": "We visit plantations in Chikmagalur and Coorg, buying directly from family estates with fair and transparent pricing.",
+        "metric": "100%",
+        "metric_label": "Direct Estate Sourced"
+      },
+      {
+        "number": "02",
+        "title": "Small-Batch Drum Roasting",
+        "description": "We roast only small 10kg batches in our cast-iron roaster to maintain uniform heat and bring out deep sweetness.",
+        "metric": "10kg",
+        "metric_label": "Batch Size Maximum"
+      },
+      {
+        "number": "03",
+        "title": "Precision Barista Extraction",
+        "description": "Our baristas weigh each dose to the gram and calibrate grinders twice daily for clean, balanced coffee.",
+        "metric": "93.0°C",
+        "metric_label": "Brew Temperature"
+      }
+    ],
+    "direct_trade_stats": [
+      {
+        "value": "100%",
+        "label": "Single-Estate Coffee",
+        "subtext": "Traceable directly to Karnataka & Kerala estates"
+      },
+      {
+        "value": "84+",
+        "label": "Specialty Grade Rating",
+        "subtext": "Top grade Arabica lots"
+      },
+      {
+        "value": "7 Days",
+        "label": "Fresh Roast Window",
+        "subtext": "Beans ground within days of roasting"
+      },
+      {
+        "value": "₹0",
+        "label": "Surcharge on Oat Milk",
+        "subtext": "Fair pricing for dairy alternatives"
+      }
+    ]
+  },
+  "menu": {
+    "badge": "FRESH CAFE MENU",
+    "title": "Freshly Brewed Coffee & Warm Sourdough Bakes",
+    "subtitle": "All espresso drinks pulled on our customized dual-boiler machine with seasonal Indian single-origin espresso. Fresh farm milk and house oat milk available.",
+    "tabs": [
+      {
+        "id": "espresso",
+        "label": "Espresso & Milk"
+      },
+      {
+        "id": "slow_bar",
+        "label": "Pourover & Cold Brew"
+      },
+      {
+        "id": "tonics",
+        "label": "Signature Cold Drinks"
+      },
+      {
+        "id": "bakery",
+        "label": "Fresh Bakery & Toast"
+      },
+      {
+        "id": "retail_beans",
+        "label": "Whole Coffee Beans (250g)"
+      }
+    ],
+    "items": [
+      {
+        "id": "item-1",
+        "category": "espresso",
+        "name": "Velvet Flat White",
+        "price": "₹220",
+        "description": "Double ristretto shot with silky steamed milk and subtle latte art. Smooth, rich, and creamy.",
+        "notes": [
+          "Toasted Hazelnut",
+          "Dark Cocoa",
+          "Brown Sugar"
+        ],
+        "tags": [
+          "Customer Favorite",
+          "Dairy / Oat Option"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-2",
+        "category": "espresso",
+        "name": "Single-Origin Cortado",
+        "price": "₹200",
+        "description": "Equal parts rich espresso and warm textured milk served in a classic glass tumbler.",
+        "notes": [
+          "Roasted Almonds",
+          "Caramel",
+          "Creamy Crema"
+        ],
+        "tags": [
+          "Single-Origin",
+          "Short Pour"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-3",
+        "category": "espresso",
+        "name": "Cardamom Filter Latte",
+        "price": "₹240",
+        "description": "Freshly cracked Malabar green cardamom infused with Chikmagalur double espresso and hot steamed milk.",
+        "notes": [
+          "Green Cardamom",
+          "Vanilla",
+          "Jaggery Sweetness"
+        ],
+        "tags": [
+          "Signature Drink",
+          "Indian Spices"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-4",
+        "category": "espresso",
+        "name": "Double Espresso Shot",
+        "price": "₹170",
+        "description": "Pure extraction with thick golden crema. Sourced from Kallathigiri Estate.",
+        "notes": [
+          "Dark Chocolate",
+          "Plum",
+          "Walnut"
+        ],
+        "tags": [
+          "Pure Shot",
+          "Single-Origin"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-5",
+        "category": "espresso",
+        "name": "Classic Americano",
+        "price": "₹190",
+        "description": "Double espresso poured over hot water for a clean, rich, and aromatic cup.",
+        "notes": [
+          "Toffee",
+          "Dried Fruit",
+          "Rich Cocoa"
+        ],
+        "tags": [
+          "Black Coffee",
+          "Zero Sugar"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-6",
+        "category": "slow_bar",
+        "name": "V60 Pourover: Chikmagalur Kallathigiri",
+        "price": "₹260",
+        "description": "Manual hand pour brewed slowly using Japanese V60 dripper. Clear, tea-like body with delicate citrus and floral notes.",
+        "origin": "Chikmagalur, Karnataka",
+        "masl": "1,350 MASL",
+        "process": "Washed Micro-Lot",
+        "notes": [
+          "Orange Blossom",
+          "Sweet Lime",
+          "Jaggery"
+        ],
+        "tags": [
+          "Manual Brew",
+          "Single-Estate"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-7",
+        "category": "slow_bar",
+        "name": "Chemex Carafe for Two: Coorg Honey Sun-Dried",
+        "price": "₹380",
+        "description": "Thick bonded filter paper yields a bright, crystal-clear brew served in a glass carafe to share.",
+        "origin": "Coorg, Karnataka",
+        "masl": "1,200 MASL",
+        "process": "Honey Process",
+        "notes": [
+          "Ripe Mango",
+          "Wild Honey",
+          "Red Apple"
+        ],
+        "tags": [
+          "Shared Carafe (500ml)",
+          "Smooth Finish"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-8",
+        "category": "slow_bar",
+        "name": "18-Hour Slow Cold Drip Coffee",
+        "price": "₹250",
+        "description": "Single-drop-per-second cold water extraction over 18 hours. Ultra-smooth, rich body served over clear ice.",
+        "origin": "Attikan Estate, Biligirirangana Hills",
+        "masl": "1,500 MASL",
+        "process": "Natural Process",
+        "notes": [
+          "Dark Raisins",
+          "Molasses",
+          "Dark Chocolate"
+        ],
+        "tags": [
+          "Cold Brewed",
+          "Low Acidity"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-9",
+        "category": "slow_bar",
+        "name": "AeroPress Immersion Coffee",
+        "price": "₹220",
+        "description": "Fast immersion brew creating a punchy, clean cup with rich mouthfeel and sweet finish.",
+        "origin": "Wayanad, Kerala",
+        "masl": "1,100 MASL",
+        "process": "Washed",
+        "notes": [
+          "Blackcurrant",
+          "Cane Sugar",
+          "Hazelnut"
+        ],
+        "tags": [
+          "Concentrated Brew",
+          "Single-Origin"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-10",
+        "category": "tonics",
+        "name": "Sparkling Espresso Tonic",
+        "price": "₹260",
+        "description": "Chilled botanical tonic water, squeeze of fresh lemon, rosemary sprig, and a floating shot of fresh espresso.",
+        "notes": [
+          "Zesty Citrus",
+          "Crisp Bittersweet",
+          "Herbal"
+        ],
+        "tags": [
+          "Signature Refreshment",
+          "Chilled"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-11",
+        "category": "tonics",
+        "name": "Cascara Berry Iced Soda",
+        "price": "₹220",
+        "description": "Brewed from dried coffee cherry skins (cascara) with organic berry compote and sparkling soda.",
+        "notes": [
+          "Hibiscus",
+          "Pomegranate",
+          "Tamarind"
+        ],
+        "tags": [
+          "Antioxidant Rich",
+          "Refreshing"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-12",
+        "category": "tonics",
+        "name": "Matcha Coconut Iced Latte",
+        "price": "₹260",
+        "description": "Stone-ground Japanese green matcha whisked fresh and poured over cold coconut-oat milk and ice.",
+        "notes": [
+          "Earthy Sweetness",
+          "Creamy Coconut",
+          "Mellow"
+        ],
+        "tags": [
+          "Zero Coffee",
+          "Dairy-Free"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-13",
+        "category": "bakery",
+        "name": "Fresh Cardamom Cinnamon Bun",
+        "price": "₹190",
+        "description": "Slow-fermented brioche dough twisted with butter, Ceylon cinnamon, and freshly ground cardamom.",
+        "notes": [
+          "Warm Spice",
+          "Golden Butter",
+          "Soft Crust"
+        ],
+        "tags": [
+          "Baked Daily at 7 AM",
+          "Vegetarian"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-14",
+        "category": "bakery",
+        "name": "Sourdough Toast with Spiced Paneer & Herb Butter",
+        "price": "₹260",
+        "description": "Toasted house sourdough bread topped with grilled marinated paneer cubes, mint herb butter, and roasted seeds.",
+        "notes": [
+          "Crusty Sourdough",
+          "Herbed Paneer",
+          "Savory"
+        ],
+        "tags": [
+          "All-Day Breakfast",
+          "Vegetarian"
+        ],
+        "is_signature": true
+      },
+      {
+        "id": "item-15",
+        "category": "bakery",
+        "name": "Almond Butter Croissant",
+        "price": "₹220",
+        "description": "Flaky butter croissant filled with homemade roasted almond paste and topped with toasted almond flakes.",
+        "notes": [
+          "Flaky Butter",
+          "Roasted Almonds",
+          "Golden Crust"
+        ],
+        "tags": [
+          "Freshly Baked",
+          "Vegetarian"
+        ],
+        "is_signature": false
+      },
+      {
+        "id": "item-16",
+        "category": "retail_beans",
+        "name": "Chikmagalur Kallathigiri Estate (250g)",
+        "price": "₹550",
+        "description": "Medium roast Arabica with rich chocolate notes and smooth body. Ideal for French Press, South Indian filter, or Moka Pot.",
+        "origin": "Chikmagalur, Karnataka",
+        "masl": "1,350 MASL",
+        "process": "Washed",
+        "roast_profile": "Medium Roast",
+        "bag_weight": "250g Whole Bean",
+        "notes": [
+          "Dark Chocolate",
+          "Jaggery",
+          "Almond"
+        ],
+        "tags": [
+          "Fresh Roast",
+          "Best Seller"
+        ],
+        "is_signature": true,
+        "image": "https://images.unsplash.com/photo-1559056199-641a0ac8b55e?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "item-17",
+        "category": "retail_beans",
+        "name": "Attikan Estate Dark Roast (250g)",
+        "price": "₹520",
+        "description": "Full-bodied dark roast from the high slopes of BR Hills. Bold cocoa, low acidity, and thick mouthfeel.",
+        "origin": "Biligirirangana Hills, Karnataka",
+        "masl": "1,500 MASL",
+        "process": "Natural Sun-Dried",
+        "roast_profile": "Medium-Dark Roast",
+        "bag_weight": "250g Whole Bean",
+        "notes": [
+          "Roasted Cocoa",
+          "Caramelized Sugar",
+          "Nutmeg"
+        ],
+        "tags": [
+          "Bold & Rich",
+          "Great with Milk"
+        ],
+        "is_signature": false,
+        "image": "https://images.unsplash.com/photo-1611854779393-1b2da9d400fe?q=80&w=800&auto=format&fit=crop"
+      },
+      {
+        "id": "item-18",
+        "category": "retail_beans",
+        "name": "Coorg Riverdale Honey Process (250g)",
+        "price": "₹580",
+        "description": "Light-medium roast with natural fruit sweetness, notes of tropical fruit and wild honey. Superb for V60 pourover.",
+        "origin": "Coorg, Karnataka",
+        "masl": "1,200 MASL",
+        "process": "Honey Process",
+        "roast_profile": "Light-Medium Roast",
+        "bag_weight": "250g Whole Bean",
+        "notes": [
+          "Mango",
+          "Honey",
+          "Cane Sugar"
+        ],
+        "tags": [
+          "Pour-Over Special",
+          "Limited Lot"
+        ],
+        "is_signature": false,
+        "image": "https://images.unsplash.com/photo-1587734195503-904fca47e0e9?q=80&w=800&auto=format&fit=crop"
+      }
+    ]
+  },
+  "brew_calculator": {
+    "badge": "COFFEE RATIO GUIDE",
+    "title": "Interactive Home Brewing Ratio Guide",
+    "subtitle": "Dial in the exact ratio of ground coffee to hot water for your brewer. Get clean, balanced extraction every time.",
+    "methods": [
+      {
+        "id": "v60",
+        "name": "Hario V60 Pourover",
+        "default_ratio": 16,
+        "ratio_display": "1:16.0",
+        "grind_size": "Medium-Fine",
+        "grind_microns": "600–700 µm",
+        "water_temp": "93.0°C (200°F)",
+        "brew_time": "3:00 min",
+        "description": "Conical dripper with spiral ribs. Delivers high clarity, vibrant sweetness, and delicate floral notes.",
+        "steps": [
+          {
+            "time": "0:00 – 0:45",
+            "action": "Bloom with Hot Water",
+            "water_pct": 20,
+            "tip": "Pour 3x coffee weight in water. Let coffee bloom and release natural CO2 gases."
+          },
+          {
+            "time": "0:45 – 1:30",
+            "action": "First Gentle Pour",
+            "water_pct": 40,
+            "tip": "Pour in slow concentric circles starting from the center outward."
+          },
+          {
+            "time": "1:30 – 2:15",
+            "action": "Second Pour",
+            "water_pct": 40,
+            "tip": "Pour remainder of water steadily. Give dripper one gentle swirl."
+          },
+          {
+            "time": "2:15 – 3:00",
+            "action": "Total Drawdown",
+            "water_pct": 0,
+            "tip": "Allow bed to drain flat. Swirl carafe and pour into cups."
+          }
+        ]
+      },
+      {
+        "id": "chemex",
+        "name": "Classic Chemex",
+        "default_ratio": 15,
+        "ratio_display": "1:15.0",
+        "grind_size": "Medium-Coarse",
+        "grind_microns": "800–900 µm",
+        "water_temp": "94.0°C (201°F)",
+        "brew_time": "4:30 min",
+        "description": "Heavy bonded filter paper removes sediment and oils, creating an exceptionally clean and smooth cup.",
+        "steps": [
+          {
+            "time": "0:00 – 0:50",
+            "action": "Bloom & Degas",
+            "water_pct": 18,
+            "tip": "Wet coffee bed evenly with 18% water, allow bubbling to crest."
+          },
+          {
+            "time": "0:50 – 2:00",
+            "action": "First Pulse Pour",
+            "water_pct": 42,
+            "tip": "Pour steadily in circles, keeping water level below wood collar."
+          },
+          {
+            "time": "2:00 – 3:15",
+            "action": "Second Pulse Pour",
+            "water_pct": 40,
+            "tip": "Bring water to final scale weight with gentle circular pouring."
+          },
+          {
+            "time": "3:15 – 4:30",
+            "action": "Drawdown & Serve",
+            "water_pct": 0,
+            "tip": "Discard filter cone. Swirl glass carafe before serving."
+          }
+        ]
+      },
+      {
+        "id": "aeropress",
+        "name": "AeroPress (Inverted)",
+        "default_ratio": 13,
+        "ratio_display": "1:13.0",
+        "grind_size": "Fine-Medium",
+        "grind_microns": "450–550 µm",
+        "water_temp": "91.0°C (195°F)",
+        "brew_time": "2:00 min",
+        "description": "Air-pressurized immersion yields concentrated body, high sweetness, and low bitterness in 2 minutes.",
+        "steps": [
+          {
+            "time": "0:00 – 0:20",
+            "action": "Inverted Fill",
+            "water_pct": 100,
+            "tip": "Set inverted position, add grounds, pour 100% water in 20 seconds."
+          },
+          {
+            "time": "0:20 – 0:40",
+            "action": "Stir Gently",
+            "water_pct": 0,
+            "tip": "Stir 5 times gently for uniform contact."
+          },
+          {
+            "time": "0:40 – 1:30",
+            "action": "Rest & Steep",
+            "water_pct": 0,
+            "tip": "Rinse paper filter, screw cap on, let coffee steep."
+          },
+          {
+            "time": "1:30 – 2:00",
+            "action": "Flip & Press",
+            "water_pct": 0,
+            "tip": "Carefully flip onto cup and press plunger down gently for 30 seconds."
+          }
+        ]
+      },
+      {
+        "id": "french_press",
+        "name": "Classic French Press",
+        "default_ratio": 15,
+        "ratio_display": "1:15.0",
+        "grind_size": "Coarse",
+        "grind_microns": "950–1100 µm",
+        "water_temp": "95.0°C (203°F)",
+        "brew_time": "5:00 min",
+        "description": "Direct immersion extracts natural coffee oils, delivering rich mouthfeel and dark chocolate depth.",
+        "steps": [
+          {
+            "time": "0:00 – 0:30",
+            "action": "Pour Hot Water",
+            "water_pct": 100,
+            "tip": "Pour all heated water vigorously over coarse coffee grounds."
+          },
+          {
+            "time": "0:30 – 4:00",
+            "action": "Steep with Lid On",
+            "water_pct": 0,
+            "tip": "Place plunger lid on top without pressing down yet. Allow grounds to brew."
+          },
+          {
+            "time": "4:00 – 4:30",
+            "action": "Break Crust",
+            "water_pct": 0,
+            "tip": "Break top crust with a spoon and skim away floating foam."
+          },
+          {
+            "time": "4:30 – 5:00",
+            "action": "Press & Decant",
+            "water_pct": 0,
+            "tip": "Press mesh filter down smoothly and pour into cups immediately."
+          }
+        ]
+      }
+    ],
+    "tips": [
+      "Use clean, filtered water for the best flavor clarity.",
+      "Rinse paper filters with hot water first to remove paper taste.",
+      "Store whole coffee beans in an airtight container away from direct sunlight."
+    ],
+    "default_method": "v60",
+    "default_coffee_grams": 18,
+    "min_grams": 12,
+    "max_grams": 45,
+    "step_grams": 1
+  },
+  "atmosphere_gallery": {
+    "badge": "OUR CAFE SPACE",
+    "title": "Natural Light, Warm Wood & Fresh Coffee Aromas",
+    "subtitle": "A peaceful neighborhood cafe near Deccan Gymkhana with comfortable seating, fast Wi-Fi, and an open coffee bar.",
+    "ambience_audio_label": "Listen: Cafe Room Ambience",
+    "images": [
+      {
+        "url": "https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?q=80&w=1200&auto=format&fit=crop",
+        "title": "Sunlit Wooden Seating",
+        "subtitle": "Natural afternoon light filling our open cafe seating near Prabhat Road.",
+        "aspect": "aspect-4/3",
+        "tag": "Cafe Space"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1511920170033-f8396924c348?q=80&w=1200&auto=format&fit=crop",
+        "title": "Fresh Espresso Extraction",
+        "subtitle": "Rich, honey-colored crema extracted from Chikmagalur single-origin beans.",
+        "aspect": "aspect-square",
+        "tag": "Coffee Bar"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1200&auto=format&fit=crop",
+        "title": "Slow Pourover Bar",
+        "subtitle": "Single-origin beans brewed fresh by hand for every order.",
+        "aspect": "aspect-square",
+        "tag": "Brew Bar"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=1200&auto=format&fit=crop",
+        "title": "Fresh Morning Bakes",
+        "subtitle": "Warm cardamom cinnamon buns and sourdough toast fresh out of the oven.",
+        "aspect": "aspect-square",
+        "tag": "Bakery"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1447933601403-0c6688de566e?q=80&w=1200&auto=format&fit=crop",
+        "title": "Estate Jute Sacks",
+        "subtitle": "Fresh green coffee arriving in jute bags directly from Chikmagalur plantations.",
+        "aspect": "aspect-4/3",
+        "tag": "Fresh Harvest"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1521017432531-fbd92d768814?q=80&w=1200&auto=format&fit=crop",
+        "title": "Ceramic Cups & Coffee Bar",
+        "subtitle": "Handcrafted Indian ceramic cups resting on our coffee machine.",
+        "aspect": "aspect-square",
+        "tag": "Ceramics"
+      }
+    ]
+  },
+  "cupping_events": {
+    "badge": "WEEKEND TASTING SESSIONS",
+    "title": "Coffee Tasting Flights & Brewing Workshops in Pune",
+    "subtitle": "Join us on Saturday and Sunday mornings around our tasting table. Learn to cup coffee, identify aroma notes, and brew better coffee at home.",
+    "rsvp_cta_text": "Book Seat via WhatsApp",
+    "events": [
+      {
+        "id": "cup-1",
+        "title": "Saturday Coffee Tasting: South Indian Micro-Lots",
+        "date": "Every Saturday",
+        "time": "10:30 AM – 11:45 AM",
+        "host": "Rohan Kulkarni (Head Roaster)",
+        "seats_total": 8,
+        "seats_left": 3,
+        "price": "₹650 / Guest",
+        "description": "Taste and compare 4 distinct estate coffees from Chikmagalur, Coorg, Wayanad, and Shevaroys. Learn to evaluate body, acidity, and chocolate-fruit notes like a professional cupper.",
+        "flight_origins": [
+          "Kallathigiri Estate Washed",
+          "Attikan Estate Dark Roast",
+          "Coorg Riverdale Honey",
+          "Wayanad Highland Arabica"
+        ],
+        "includes": [
+          "Professional cupping spoon and flavor evaluation sheet",
+          "4-coffee comparative tasting flight",
+          "Freshly baked cardamom bun",
+          "Complimentary 100g sample coffee bag"
+        ],
+        "is_sold_out": false
+      },
+      {
+        "id": "cup-2",
+        "title": "Sunday Workshop: Master Home Pourover Brewing",
+        "date": "Every Sunday",
+        "time": "11:00 AM – 12:30 PM",
+        "host": "Sneha Deshpande (Lead Barista)",
+        "seats_total": 6,
+        "seats_left": 2,
+        "price": "₹850 / Guest",
+        "description": "Hands-on workshop teaching grind size calibration, water temperature control, and pouring technique on Hario V60 and AeroPress.",
+        "flight_origins": [
+          "Single-origin beans provided for practical brewing practice"
+        ],
+        "includes": [
+          "Step-by-step home brew handbook",
+          "Hands-on brewing with guided barista coaching",
+          "250g bag of whole coffee beans of your choice"
+        ],
+        "is_sold_out": false
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "CUSTOMER REVIEWS",
+    "title": "Loved by Pune Coffee Enthusiasts",
+    "subtitle": "What daily visitors, remote workers, and specialty coffee lovers say about our coffee.",
+    "reviews": [
+      {
+        "author": "Rahul Kulkarni",
+        "role": "Software Architect",
+        "publication": "Deccan Gymkhana Regular",
+        "quote": "Hands down the best flat white in Pune. The Chikmagalur Kallathigiri lot has rich chocolate notes with zero bitterness. Their sourdough toast and cardamom buns are exceptional.",
+        "rating": 5,
+        "favorite_order": "Velvet Flat White & Cardamom Bun"
+      },
+      {
+        "author": "Sneha Patil",
+        "role": "Designer",
+        "publication": "FC Road Resident",
+        "quote": "Such a peaceful spot to sit with a book or get work done. High ceilings, polite baristas who actually know their coffee origins, and fast Wi-Fi. A gem in Pune.",
+        "rating": 5,
+        "favorite_order": "V60 Pourover (Kallathigiri)"
+      },
+      {
+        "author": "Amit Joshi",
+        "role": "Founder, Pune Tech Studio",
+        "publication": "Kothrud",
+        "quote": "I buy my whole beans from here every two weeks. The roast date is always fresh within 4-5 days. Their cold drip over ice is my go-to during warm Pune afternoons.",
+        "rating": 5,
+        "favorite_order": "18-Hour Slow Cold Drip"
+      },
+      {
+        "author": "Tanvi Rao",
+        "role": "Food & Lifestyle Writer",
+        "publication": "Pune Food Guide",
+        "quote": "Deccan Coffee Roasters sets a real quality standard for specialty coffee in Pune. Clean aesthetic, friendly vibe, and authentic estate-sourced Indian coffees.",
+        "rating": 5,
+        "favorite_order": "Sparkling Espresso Tonic"
+      }
+    ]
+  },
+  "visit_booking": {
+    "badge": "VISIT OUR CAFE",
+    "title": "Visit Deccan Coffee Roasters in Pune.",
+    "subtitle": "Drop in any morning or evening for fresh coffee and sourdough bakes, or reserve a table in advance.",
+    "address": "Wakad, Pune, Maharashtra",
+    "neighborhood": "Deccan Gymkhana • Pune",
+    "transit_notes": "5-minute walk from Garware College Metro Station & FC Road. Dedicated two-wheeler and valet car parking.",
+    "opening_hours": [
+      {
+        "days": "Monday – Friday",
+        "hours": "07:30 AM – 10:30 PM",
+        "notes": "Bakery available from 08:00 AM • Coffee all day"
+      },
+      {
+        "days": "Saturday & Sunday",
+        "hours": "07:30 AM – 11:00 PM",
+        "notes": "Weekend Tasting Sessions at 10:30 AM"
+      }
+    ],
+    "amenities": [
+      {
+        "icon": "laptop",
+        "label": "Fast Wi-Fi & Work-Friendly Seating"
+      },
+      {
+        "icon": "coffee",
+        "label": "Fresh Roasted Coffee Beans Available"
+      },
+      {
+        "icon": "bike",
+        "label": "Dedicated Parking Available"
+      },
+      {
+        "icon": "plant",
+        "label": "Oat & Almond Milk Available"
+      }
+    ],
+    "phone": "+91 98220 89123",
+    "email": "hello@deccancoffee.in",
+    "whatsapp_number": "+91 98220 89123",
+    "whatsapp_message_prefix": "Hello Deccan Coffee Roasters, I would like to book a table or tasting session: ",
+    "instagram_handle": "@deccancoffeeroasters",
+    "instagram_url": "https://instagram.com",
+    "booking_form": {
+      "title": "Reserve a Table or Workshop Seat",
+      "description": "Walk-ins are always welcome. For weekend table reservations or coffee tasting flights, reserve below.",
+      "occasions": [
+        "Casual Coffee & Bakery (1–4 Guests)",
+        "Saturday Coffee Tasting Flight",
+        "Sunday Home Pourover Workshop",
+        "Quiet Work / Reading Table"
+      ],
+      "submit_text": "Confirm Booking via WhatsApp",
+      "disclaimer": "Reservations held for 15 minutes. We will confirm your table immediately on WhatsApp. UPI (GPay/PhonePe) accepted at cafe."
+    }
+  },
+  "sticky_order_bar": {
+    "lot_announcement": "Fresh Roast: Chikmagalur Kallathigiri Estate 250g whole beans available now.",
+    "origin_badge": "1,350 MASL • Fresh Batch",
+    "cta_text": "Order 250g Beans (₹550)",
+    "cta_href": "#menu",
+    "secondary_cta_text": "Brewing Guide",
+    "secondary_cta_href": "#calculator"
+  },
+  "footer": {
+    "brand_bio": "Deccan Coffee Roasters is an independent specialty coffee roastery and cafe established in 2021 in Deccan Gymkhana, Pune. We source single-estate Arabica directly from Karnataka and roast fresh daily.",
+    "newsletter": {
+      "title": "Get Fresh Roast Updates",
+      "subtitle": "Subscribe to receive updates when new estate lots arrive, plus home brewing tips and cafe events.",
+      "placeholder": "Enter your email address...",
+      "button_text": "Subscribe",
+      "success_text": "Thank you! You will receive our seasonal coffee guide shortly."
+    },
+    "navigation_columns": [
+      {
+        "title": "The Cafe",
+        "links": [
+          {
+            "label": "Deccan Gymkhana Cafe",
+            "href": "#visit"
+          },
+          {
+            "label": "Full Coffee & Food Menu",
+            "href": "#menu"
+          },
+          {
+            "label": "Photo Gallery",
+            "href": "#gallery"
+          },
+          {
+            "label": "Table Reservations",
+            "href": "#visit"
+          }
+        ]
+      },
+      {
+        "title": "The Roastery",
+        "links": [
+          {
+            "label": "Our Sourcing Promise",
+            "href": "#manifesto"
+          },
+          {
+            "label": "Coffee Ratio Calculator",
+            "href": "#calculator"
+          },
+          {
+            "label": "Weekend Coffee Tastings",
+            "href": "#cuppings"
+          },
+          {
+            "label": "Retail Beans (250g)",
+            "href": "#menu"
+          }
+        ]
+      },
+      {
+        "title": "Indian Coffee Estates",
+        "links": [
+          {
+            "label": "Kallathigiri Estate (Chikmagalur)",
+            "href": "#menu"
+          },
+          {
+            "label": "Attikan Estate (BR Hills)",
+            "href": "#menu"
+          },
+          {
+            "label": "Riverdale Estate (Coorg)",
+            "href": "#menu"
+          },
+          {
+            "label": "Highland Arabica (Wayanad)",
+            "href": "#menu"
+          }
+        ]
+      }
+    ],
+    "roast_registry_stamp": "FRESH ROAST GUARANTEE • 100% INDIAN SINGLE-ESTATE ARABICA • PUNE, MAHARASHTRA",
+    "copyright": "© 2021–2026 DECCAN COFFEE ROASTERS. ALL RIGHTS RESERVED."
+  },
+  "slug": "cafe-peter",
+  "category": "cafes",
+  "template": "cafe",
+  "demo_link": "http://localhost:3000/demo/cafe-peter"
+}

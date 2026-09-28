@@ -1,0 +1,482 @@
+{
+  "_comment": "VAJRA STRENGTH & FITNESS CLUB — Pune, Maharashtra. Fallback content schema.",
+  "branding": {
+    "business_name": "Olympus Health Club",
+    "business_short_code": "OH-01",
+    "tagline": "STRENGTH & FITNESS IN BANER",
+    "hero_headline_lines": [
+      "BUILD",
+      "YOUR REAL",
+      "STRENGTH."
+    ],
+    "hero_subheadline": "A 12,000 sq.ft. modern gym in Baner, Pune. Free weights, Olympic barbells, cardio machines, boxing turf, and certified trainers who actually teach you right.",
+    "primary_color": "#D4FF00",
+    "secondary_color": "#14161B",
+    "canvas_color": "#090A0C",
+    "accent_infrared": "#FF3B30",
+    "hero_image": "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?q=80&w=1470&auto=format&fit=crop",
+    "hero_video_poster": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1470&auto=format&fit=crop"
+  },
+  "telemetry": {
+    "live_badge": "GYM HOURS",
+    "compound_status": "OPEN TODAY",
+    "current_capacity_percent": 65,
+    "active_athletes": 38,
+    "next_session_countdown": "30 MIN",
+    "indoor_temp": "24°C AC",
+    "soundtrack_bpm": "Baner Branch"
+  },
+  "navigation": {
+    "nav_links": [
+      {
+        "label": "Workouts",
+        "href": "#disciplines"
+      },
+      {
+        "label": "Schedule",
+        "href": "#schedule"
+      },
+      {
+        "label": "About",
+        "href": "#compound"
+      },
+      {
+        "label": "Fees",
+        "href": "#rates"
+      },
+      {
+        "label": "Trainers",
+        "href": "#coaches"
+      }
+    ],
+    "cta_button_text": "BOOK FREE TRIAL",
+    "cta_button_target": "#booking"
+  },
+  "hero_actions": {
+    "primary_cta": {
+      "text": "BOOK FREE 2-DAY TRIAL",
+      "href": "#booking",
+      "subtext": "No payment needed · Walk in today"
+    },
+    "secondary_cta": {
+      "text": "VIEW WORKOUT PLANS",
+      "href": "#disciplines",
+      "subtext": "Weight loss, muscle gain & strength"
+    },
+    "telemetry_card": {
+      "discipline": "Strength & Conditioning",
+      "coach": "Vikram Shinde (Certified Coach)",
+      "zone": "Free Weights Floor",
+      "soundtrack": "High-Energy Training Mix"
+    }
+  },
+  "about": {
+    "section_code": "ABOUT OUR GYM",
+    "section_title": "BUILT FOR HONEST FITNESS",
+    "lead_statement": "No crowded machine queues, no fake promises. Just real training, good weights, and trainers who pay attention.",
+    "body_paragraphs": [
+      "Started in 2021 on Baner Road, Vajra Fitness Club was made for people who want real fitness results in Pune. Whether you want to lift weights, lose body fat, or stay active after long desk hours, our gym has everything you need.",
+      "We keep the floor clean, spacious, and well-equipped with imported barbells, bumper plates, and cardio machines. Trainers are always on the floor to correct your exercise form and prevent injuries."
+    ],
+    "specifications": [
+      {
+        "value": "12,000",
+        "unit": "SQ FT",
+        "label": "Spacious Air-Conditioned Floor"
+      },
+      {
+        "value": "12",
+        "unit": "MAX",
+        "label": "Members Per Group Batch"
+      },
+      {
+        "value": "100%",
+        "unit": "CERTIFIED",
+        "label": "Certified Personal Trainers"
+      },
+      {
+        "value": "₹0",
+        "unit": "FREE",
+        "label": "Parking & Locker Facility"
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "discipline-01",
+      "code": "PLAN 01",
+      "name": "STRENGTH & FREE WEIGHTS",
+      "price": "₹2,500 / month",
+      "description": "Squats, deadlifts, bench press, and dumbbell workouts. Learn safe lifting form with our experienced strength coaches.",
+      "intensity_level": "High",
+      "class_cap": "10 Members",
+      "duration": "60 Min",
+      "equipment": "Olympic Barbells, Rubber Bumper Plates, Squat Racks",
+      "image": "https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?q=80&w=1470&auto=format&fit=crop"
+    },
+    {
+      "id": "discipline-02",
+      "code": "PLAN 02",
+      "name": "BOXING & CARDIO CONDITIONING",
+      "price": "₹2,200 / month",
+      "description": "Punch bag drills, pad work, agility ladders, and interval cardio to build stamina and burn stubborn calories.",
+      "intensity_level": "High",
+      "class_cap": "12 Members",
+      "duration": "50 Min",
+      "equipment": "Heavy Punching Bags, Boxing Gloves, Battle Ropes",
+      "image": "https://images.unsplash.com/photo-1549060279-7e168fcee0c2?q=80&w=1470&auto=format&fit=crop"
+    },
+    {
+      "id": "discipline-03",
+      "code": "PLAN 03",
+      "name": "FAT LOSS & HIIT CIRCUIT",
+      "price": "₹2,000 / month",
+      "description": "Fast-paced kettlebell swings, rowing machines, sled pushes, and core circuits to speed up fat burning.",
+      "intensity_level": "Medium",
+      "class_cap": "12 Members",
+      "duration": "45 Min",
+      "equipment": "Kettlebells, Concept2 Rowers, Turf Track",
+      "image": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1470&auto=format&fit=crop"
+    },
+    {
+      "id": "discipline-04",
+      "code": "PLAN 04",
+      "name": "POSTURE & DESK STRETCHING",
+      "price": "₹1,800 / month",
+      "description": "Special mobility and stretching sessions for IT engineers and office workers suffering from neck, shoulder, and back stiffness.",
+      "intensity_level": "Low",
+      "class_cap": "15 Members",
+      "duration": "45 Min",
+      "equipment": "Foam Rollers, Resistance Bands, Yoga Mats",
+      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=1470&auto=format&fit=crop"
+    },
+    {
+      "id": "discipline-05",
+      "code": "PLAN 05",
+      "name": "PERSONAL TRAINING (1-ON-1)",
+      "price": "₹6,000 / month",
+      "description": "Dedicated personal trainer with personalized Indian diet plan, posture correction, and weekly body composition tracking.",
+      "intensity_level": "Custom",
+      "class_cap": "1 Member",
+      "duration": "60 Min",
+      "equipment": "Full Gym Access & Private Assessment Room",
+      "image": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1470&auto=format&fit=crop"
+    }
+  ],
+  "schedule": {
+    "section_code": "DAILY TIMETABLE",
+    "section_title": "BATCH TIMINGS",
+    "days": [
+      {
+        "id": "day-mon",
+        "day": "MON",
+        "date": "Every Mon",
+        "active": true
+      },
+      {
+        "id": "day-tue",
+        "day": "TUE",
+        "date": "Every Tue",
+        "active": false
+      },
+      {
+        "id": "day-wed",
+        "day": "WED",
+        "date": "Every Wed",
+        "active": false
+      },
+      {
+        "id": "day-thu",
+        "day": "THU",
+        "date": "Every Thu",
+        "active": false
+      },
+      {
+        "id": "day-fri",
+        "day": "FRI",
+        "date": "Every Fri",
+        "active": false
+      },
+      {
+        "id": "day-sat",
+        "day": "SAT",
+        "date": "Every Sat",
+        "active": false
+      }
+    ],
+    "sessions": [
+      {
+        "id": "sesh-01",
+        "time": "06:30 AM",
+        "title": "Morning Strength & Lifting",
+        "category": "Strength",
+        "coach": "Vikram Shinde",
+        "coach_role": "Head Coach",
+        "total_slots": 12,
+        "booked_slots": 8,
+        "is_urgent": false,
+        "intensity": "High"
+      },
+      {
+        "id": "sesh-02",
+        "time": "07:45 AM",
+        "title": "Fat Loss HIIT Batch",
+        "category": "Conditioning",
+        "coach": "Amit Deshmukh",
+        "coach_role": "Cardio Specialist",
+        "total_slots": 14,
+        "booked_slots": 11,
+        "is_urgent": true,
+        "intensity": "High"
+      },
+      {
+        "id": "sesh-03",
+        "time": "09:00 AM",
+        "title": "Posture & Mobility for IT",
+        "category": "Mobility",
+        "coach": "Priya Kulkarni",
+        "coach_role": "Mobility Trainer",
+        "total_slots": 15,
+        "booked_slots": 7,
+        "is_urgent": false,
+        "intensity": "Low"
+      },
+      {
+        "id": "sesh-04",
+        "time": "06:00 PM",
+        "title": "Evening Boxing & Circuit",
+        "category": "Combat",
+        "coach": "Amit Deshmukh",
+        "coach_role": "Cardio Specialist",
+        "total_slots": 12,
+        "booked_slots": 9,
+        "is_urgent": false,
+        "intensity": "High"
+      },
+      {
+        "id": "sesh-05",
+        "time": "07:30 PM",
+        "title": "After-Work Barbell Compound",
+        "category": "Strength",
+        "coach": "Vikram Shinde",
+        "coach_role": "Head Coach",
+        "total_slots": 12,
+        "booked_slots": 10,
+        "is_urgent": true,
+        "intensity": "High"
+      }
+    ]
+  },
+  "gallery": {
+    "section_code": "FACILITY PHOTOS",
+    "section_title": "INSIDE OUR BANER GYM",
+    "subtitle": "Take a look at our workout floor, free weights, boxing turf, and clean locker rooms.",
+    "gallery_images": [
+      {
+        "url": "https://images.unsplash.com/photo-1540497077202-7c8a3999166f?q=80&w=1470&auto=format&fit=crop",
+        "title": "Main Barbell & Squat Area",
+        "caption": "Imported barbells, Olympic bumper plates, and rubber drop mats.",
+        "tag": "FREE WEIGHTS",
+        "span": "col-span-12 lg:col-span-8"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1584735935682-2f2b69dff9d2?q=80&w=1471&auto=format&fit=crop",
+        "title": "Dumbbell & Free Weight Rack",
+        "caption": "Dumbbells from 2.5 kg to 50 kg with adjustable benches.",
+        "tag": "DUMBBELLS",
+        "span": "col-span-12 sm:col-span-6 lg:col-span-4"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1517838277536-f5f99be501cd?q=80&w=1470&auto=format&fit=crop",
+        "title": "Turf Track & Sled Push",
+        "caption": "Dedicated 25-meter turf track for sprint and sled drills.",
+        "tag": "FUNCTIONAL TURF",
+        "span": "col-span-12 sm:col-span-6 lg:col-span-4"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?q=80&w=1469&auto=format&fit=crop",
+        "title": "Cardio Deck",
+        "caption": "Treadmills, elliptical cross-trainers, and rowing machines.",
+        "tag": "CARDIO",
+        "span": "col-span-12 sm:col-span-6 lg:col-span-4"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1593079831268-3381b0db4a77?q=80&w=1469&auto=format&fit=crop",
+        "title": "Clean Lockers & Showers",
+        "caption": "Hygienic changing rooms with secure personal lockers and hot showers.",
+        "tag": "LOCKERS",
+        "span": "col-span-12 sm:col-span-6 lg:col-span-4"
+      }
+    ]
+  },
+  "coaches": [
+    {
+      "name": "Vikram Shinde",
+      "role": "HEAD STRENGTH COACH",
+      "credentials": "Ex-State Weightlifting Champion · CSCS Certified",
+      "specialty": "Barbell Technique, Muscle Gain & Heavy Lifting",
+      "image": "https://images.unsplash.com/photo-1567013127542-490d757e51fc?q=80&w=1374&auto=format&fit=crop"
+    },
+    {
+      "name": "Amit Deshmukh",
+      "role": "BOXING & CONDITIONING COACH",
+      "credentials": "National Kickboxing Medalist · ACE Certified",
+      "specialty": "Stamina, Punch Bag Drills & Rapid Fat Loss",
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1364&auto=format&fit=crop"
+    },
+    {
+      "name": "Priya Kulkarni",
+      "role": "NUTRITION & MOBILITY SPECIALIST",
+      "credentials": "M.Sc. Sports Nutrition · Certified Yoga & Mobility",
+      "specialty": "Desk Worker Posture, Flexibility & Indian Diets",
+      "image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1376&auto=format&fit=crop"
+    }
+  ],
+  "membership_tiers": [
+    {
+      "id": "tier-monthly",
+      "name": "MONTHLY PASS",
+      "badge": "FLEXIBLE",
+      "price": "₹2,500",
+      "billing_period": "/ month",
+      "description": "Full access to gym equipment, cardio zone, lockers, and general trainer guidance on floor.",
+      "features": [
+        "Full Gym & Cardio Floor Access",
+        "General Trainer Guidance",
+        "Free Locker & Shower Access",
+        "Dedicated Free Parking in Baner",
+        "No Joining Fee"
+      ],
+      "cta_text": "START MONTHLY",
+      "is_featured": false
+    },
+    {
+      "id": "tier-quarterly",
+      "name": "3-MONTH QUARTERLY",
+      "badge": "MOST POPULAR",
+      "price": "₹6,500",
+      "billing_period": "/ 3 months",
+      "description": "Save ₹1,000. Perfect plan to build consistent fitness habits and see visible transformation.",
+      "features": [
+        "Everything in Monthly Pass",
+        "1 Free Body Composition Assessment",
+        "1 Personalized Diet Guide",
+        "Attend Any 4 Group HIIT Batches",
+        "Option to Freeze for 10 Days"
+      ],
+      "cta_text": "JOIN FOR 3 MONTHS",
+      "is_featured": true
+    },
+    {
+      "id": "tier-annual",
+      "name": "ANNUAL CHAMPION PASS",
+      "badge": "BEST VALUE",
+      "price": "₹18,000",
+      "billing_period": "/ year",
+      "description": "Just ₹1,500 per month. Complete year-round health commitment with premium perks.",
+      "features": [
+        "Full 365 Days Access",
+        "2 Free Personal Training Sessions",
+        "Monthly Progress & Diet Consultations",
+        "2 Free Guest Passes Every Month",
+        "Option to Freeze for 30 Days"
+      ],
+      "cta_text": "JOIN FOR 1 YEAR",
+      "is_featured": false
+    },
+    {
+      "id": "tier-trial",
+      "name": "2-DAY FREE TRIAL PASS",
+      "badge": "100% FREE",
+      "price": "₹0",
+      "billing_period": "trial pass",
+      "description": "Try our gym, test the weights, meet our trainers, and experience the facility before you decide.",
+      "features": [
+        "2 Full Days Gym Access",
+        "Try Any 1 Group Workout Batch",
+        "Free 15-Minute Trainer Consultation",
+        "Free Parking on Baner Road",
+        "Zero Pressure to Join"
+      ],
+      "cta_text": "GET FREE PASS",
+      "is_featured": false
+    }
+  ],
+  "testimonials": [
+    {
+      "athlete": "Rahul Joshi",
+      "discipline": "Baner Resident · IT Architect",
+      "achievement": "Lost 9 kg & fixed lower back pain",
+      "quote": "Sitting 10 hours at a desk in Hinjewadi ruined my posture. After 3 months of guided lifting and mobility work with Vikram sir, my lower back pain is completely gone and I have much more energy."
+    },
+    {
+      "athlete": "Dr. Sneha Kulkarni",
+      "discipline": "Aundh Resident · Pediatrician",
+      "achievement": "Consistent 4 days/week since 1 year",
+      "quote": "Super clean gym with a very respectful crowd. No loud selfie influencers or creepy stares. Trainers actually pay attention to your form instead of scrolling on phones. Best gym in West Pune."
+    },
+    {
+      "athlete": "Rohit Jadhav",
+      "discipline": "Wakad Resident · Club Cricketer",
+      "achievement": "Improved bowling pace & stamina",
+      "quote": "The free weight area and turf track are top notch. Proper rubber bumper plates and squat racks. If you are serious about strength and fitness, Vajra Club is the place to be."
+    }
+  ],
+  "contact": {
+    "section_code": "LOCATION & CONTACT",
+    "section_title": "VISIT US OR GET IN TOUCH",
+    "lead_text": "Visit us directly on Baner Road for a quick tour, or message us on WhatsApp to activate your free trial pass.",
+    "phone": "+91 98220 14892",
+    "whatsapp_number": "+91 98220 14892",
+    "whatsapp_message": "Hello, I want to book a free 2-Day Trial Workout at Vajra Fitness Club, Baner.",
+    "email": "contact@vajrafitness.in",
+    "address": "Kothrud, Pune, 411038",
+    "instagram_handle": "@vajrafitnesspune",
+    "instagram_url": "https://instagram.com",
+    "opening_hours": [
+      {
+        "days": "MONDAY — SATURDAY",
+        "hours": "06:00 AM — 10:00 PM"
+      },
+      {
+        "days": "SUNDAY",
+        "hours": "07:00 AM — 01:00 PM"
+      }
+    ],
+    "parking_transit": "Dedicated free car & two-wheeler parking · 5 mins from Balewadi High Street",
+    "booking_form": {
+      "title": "BOOK YOUR FREE 2-DAY PASS",
+      "description": "Enter your name and phone number. Our team will send your entry pass directly on WhatsApp.",
+      "submit_text": "CONFIRM FREE TRIAL →",
+      "disclaimer": "Pass valid for 7 days from generation. Please bring sports shoes and a water bottle."
+    }
+  },
+  "sticky_conversion_dock": {
+    "headline": "OLYMPUS HEALTH CLUB // FREE PASS",
+    "badge": "FREE 2-DAY TRIAL AVAILABLE",
+    "cta_text": "BOOK FREE TRIAL →",
+    "cta_target": "#booking"
+  },
+  "footer": {
+    "copyright": "© 2026 VAJRA FITNESS CLUB. ALL RIGHTS RESERVED.",
+    "subtext": "Shop 12-16, Primrose The Mall, Baner Road, Baner, Pune 411045. Phone: +91 98220 14892",
+    "legal_links": [
+      {
+        "label": "GYM RULES",
+        "href": "#"
+      },
+      {
+        "label": "MEMBERSHIP TERMS",
+        "href": "#"
+      },
+      {
+        "label": "PRIVACY POLICY",
+        "href": "#"
+      }
+    ]
+  },
+  "slug": "olympus-health-club",
+  "category": "gyms",
+  "template": "gym",
+  "demo_link": "http://localhost:3000/demo/olympus-health-club"
+}
