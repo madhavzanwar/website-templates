@@ -20,7 +20,23 @@ if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8', errors='replace')
     sys.stderr.reconfigure(encoding='utf-8', errors='replace')
 
-BASE_URL_DEFAULT = os.getenv("DEMO_BASE_URL", os.getenv("BASE_URL", "http://localhost:3000"))
+# Load .env file manually if it exists
+def load_env():
+    env_path = os.path.join(os.path.dirname(__file__), '.env')
+    if os.path.exists(env_path):
+        with open(env_path, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.strip()
+                if line and not line.startswith('#') and '=' in line:
+                    k, v = line.split('=', 1)
+                    k = k.strip()
+                    v = v.strip().strip('"\'')
+                    if k not in os.environ:
+                        os.environ[k] = v
+
+load_env()
+BASE_URL_DEFAULT = os.getenv("BASE_URL", os.getenv("DEMO_BASE_URL", "http://localhost:3000"))
+
 
 def clean_phone_number(raw_phone: str) -> Optional[str]:
     """Extract clean digits and format as Indian phone / WhatsApp number."""
