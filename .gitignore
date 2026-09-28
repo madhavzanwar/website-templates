@@ -38,6 +38,8 @@ state.json
 outreach_state.json
 pune_smb_leads.csv
 preview/
+.wwebjs_auth/
+.wwebjs_cache/
 preview/*
 audit_report.txt
 contacts.csv
