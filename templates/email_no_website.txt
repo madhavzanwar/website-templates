@@ -1,0 +1,16 @@
+Hi {{owner_or_team}},
+
+I searched for {{category_plural}} in {{locality}} on Google and could not find a website for {{business_name}}. Most people check Google or Maps before they visit, and if you do not show up, they go to whoever does.
+
+I make simple, professional websites for local businesses. It is a one-time payment, there are no monthly fees, and you own it fully.
+
+I have already made a demo website for {{business_name}}, so you can see how it would look before you decide anything. {{slots_line}}
+
+Would you like to see it? Just reply "yes" and I will send the link.
+
+Thanks,
+{{sender_name}}
+{{sender_phone}}
+
+If you do not want emails from me, reply "no" and I will not write again.
+{{sender_address}}

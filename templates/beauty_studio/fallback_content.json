@@ -1,0 +1,158 @@
+{
+  "category_id": "beauty studios",
+  "category_label": "Bridal Makeup & Beauty Studio",
+  "branding": {
+    "business_name": "Elite Bridal Makeup & Beauty Studio Studio",
+    "tagline": "HD Bridal Glam, Rejuvenating Facials & Luxury Skin Therapy",
+    "hero_headline": "Flawless Bridal Artistry & Rejuvenating Skin Therapies",
+    "hero_subheadline": "Pune's premier beauty studio for airbrush bridal makeup, customized skincare facials, microblading, and pre-bridal pampering.",
+    "primary_color": "#E11D48",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER BRIDAL MAKEUP & BEAUTY STUDIO IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Bridal Makeup & Beauty Studio",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for bridal makeup & beauty studio, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "HD & Airbrush Bridal Makeup",
+      "description": "Long-wearing sweat-proof bridal makeup using high-end brands (MAC, Huda, Charlotte Tilbury) including hair styling and draping.",
+      "price": "\u20b915,000 - \u20b925,000",
+      "tag": "Bridal Special"
+    },
+    {
+      "name": "Hydra-Facial & Glow Therapy",
+      "description": "Deep suction pore extraction, hyaluronic acid serum infusion, and oxygen peel for glowing skin.",
+      "price": "\u20b93,500",
+      "tag": "Skincare"
+    },
+    {
+      "name": "Party & Engagement Makeup",
+      "description": "Soft glam makeup with natural lashes, contouring, and elegant modern hairstyle.",
+      "price": "\u20b94,500",
+      "tag": "Party Glam"
+    },
+    {
+      "name": "Microblading & Lash Extensions",
+      "description": "Semi-permanent feather stroke eyebrow tattooing and classic Korean eyelash extensions.",
+      "price": "\u20b96,000 - \u20b912,000",
+      "tag": "Lash & Brow"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?q=80&w=800&auto=format&fit=crop",
+      "title": "Makeup Artistry in Action",
+      "tag": "Bridal"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1522337660859-02fbefca4702?q=80&w=800&auto=format&fit=crop",
+      "title": "Luxury Makeup Vanity",
+      "tag": "Studio"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1512496015851-a90fb38ba796?q=80&w=800&auto=format&fit=crop",
+      "title": "Deep Hydrating Facial",
+      "tag": "Skincare"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?q=80&w=800&auto=format&fit=crop",
+      "title": "Bridal Transformation",
+      "tag": "Glam"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560750588-73207b1ef5b8?q=80&w=800&auto=format&fit=crop",
+      "title": "Lash & Brow Studio",
+      "tag": "Enhancements"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1500840216050-6ffa99d75160?q=80&w=800&auto=format&fit=crop",
+      "title": "Radiant Skin Portrait",
+      "tag": "Glow"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "Pre-Bridal Glow Package",
+      "price": "\u20b98,500",
+      "billing": "Complete Ritual",
+      "features": [
+        "Hydra Facial",
+        "Full Body Polishing",
+        "Aroma Pedicure & Manicure",
+        "Hair Spa Treatment"
+      ]
+    },
+    {
+      "name": "Signature Bridal Package",
+      "price": "\u20b922,000",
+      "billing": "Wedding Day",
+      "features": [
+        "Airbrush HD Makeup",
+        "Lashes & Lenses",
+        "Designer Hair Styling",
+        "Saree/Lehenga Draping"
+      ]
+    },
+    {
+      "name": "Sangeet / Reception Glam",
+      "price": "\u20b96,000",
+      "billing": "Per Function",
+      "features": [
+        "HD Party Makeup",
+        "Textured Hair Styling",
+        "Touchup Kit Provided"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Radhika Patel",
+      "quote": "Booked them for my wedding and reception. The makeup stayed intact even after 8 hours of dancing! Got endless compliments.",
+      "rating": 5
+    },
+    {
+      "author": "Shalini Nair",
+      "quote": "The hydra-facial did wonders for my dull skin before my sister's wedding. Clean, aesthetic studio and sweet staff.",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your bridal makeup & beauty studio services.",
+    "email": "info@beautystudios.in",
+    "address": "Aundh, Pune, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE BRIDAL MAKEUP & BEAUTY STUDIO. ALL RIGHTS RESERVED."
+  }
+}

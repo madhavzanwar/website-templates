@@ -1,0 +1,523 @@
+{
+  "branding": {
+    "business_name": "Vastu & Arche Architecture Studio",
+    "monogram": "VASTU & ARCHE",
+    "tagline": "Bespoke residential architecture, luxury interior design, and timeless homes crafted across Pune and Mumbai.",
+    "hero_headline": "Space as Light, Volume & Material Honesty.",
+    "hero_subheadline": "Bespoke luxury residential architecture and interior design crafted for generational permanence.",
+    "primary_color": "#0F38D9",
+    "slate_color": "#151618",
+    "stone_color": "#E2DDD3",
+    "canvas_color": "#F3F0EA",
+    "hero_image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1800&auto=format&fit=crop",
+    "hero_metadata": {
+      "archive_no": "PROJECT ARCHIVE 2026",
+      "coordinates": "KALYANI NAGAR, PUNE • 18.5482° N, 73.9037° E",
+      "typology": "PRIVATE RESIDENCE",
+      "sqft": "8,500 SQ FT"
+    },
+    "commissions_status": "Consultations Open • Pune & Mumbai",
+    "monograph_download_url": "#monograph"
+  },
+  "studio_philosophy": {
+    "eyebrow": "ESTABLISHED 2012 • PUNE & MUMBAI",
+    "manifesto_quote": "We design homes that respond to regional climate, age gracefully over decades, and create an atmosphere of quiet dignity.",
+    "manifesto_author": "RAHUL DESHMUKH & PRIYA JOSHI • PRINCIPAL ARCHITECTS",
+    "paragraphs": [
+      "Our practice rejects fleeting interior trends and superficial ornamentation. We believe enduring architecture is born from honest spatial proportions, natural cross-ventilation, and authentic regional materials.",
+      "Based between our head studio in Viman Nagar, Pune and our branch office in Bandra West, Mumbai, our team brings together master stonemasons, traditional woodcarvers, and structural engineers to deliver timeless residences across Maharashtra."
+    ],
+    "portrait_image": "https://images.unsplash.com/photo-1507679799987-c73779587ccf?q=80&w=1200&auto=format&fit=crop",
+    "credentials": [
+      {
+        "accolade": "AD100 India Leading Practice",
+        "year": "2024–2026",
+        "organization": "Architectural Digest India"
+      },
+      {
+        "accolade": "Best Luxury Residence",
+        "year": "2025",
+        "organization": "IIID National Design Awards"
+      },
+      {
+        "accolade": "Sustainable Residential Excellence",
+        "year": "2024",
+        "organization": "Indian Institute of Architects"
+      },
+      {
+        "accolade": "Heritage Restoration Honor",
+        "year": "2023",
+        "organization": "Maharashtra Heritage Trust"
+      }
+    ],
+    "core_pillars": [
+      {
+        "number": "01",
+        "title": "Climate-Responsive Form",
+        "description": "Designing for natural Deccan breezes, deep verandas, and sun-shaded courtyard light."
+      },
+      {
+        "number": "02",
+        "title": "Natural Regional Materials",
+        "description": "Sourcing Makrana marble, seasoned Nilambur teak, and Sahyadri black basalt that gain patina over time."
+      },
+      {
+        "number": "03",
+        "title": "Acoustic & Thermal Calm",
+        "description": "Combining thick masonry walls, traditional lime plasters, and courtyard water features to buffer urban noise."
+      }
+    ]
+  },
+  "services": [
+    {
+      "id": "phase-01",
+      "phase_code": "STAGE 01",
+      "phase_title": "Spatial Planning, Vastu Harmony & Site Feasibility",
+      "duration": "Weeks 01–04",
+      "focus": "Sunlight path analysis, structural load evaluation, Vastu alignment, and family lifestyle zoning.",
+      "deliverables": [
+        "Volumetric 3D Massing Studies",
+        "Structural & Vastu Feasibility Plan",
+        "Deccan Climate & Daylight Analysis",
+        "Room Layout & Spatial Program"
+      ],
+      "technical_standards": "1:100 preliminary CAD schematics, BIM LOD 200 mapping, natural ventilation assessment."
+    },
+    {
+      "id": "phase-02",
+      "phase_code": "STAGE 02",
+      "phase_title": "Architectural Design, 3D Visualizations & MEP Engineering",
+      "duration": "Weeks 05–10",
+      "focus": "Wall partitions, ceiling volumes, natural light portals, and integrated HVAC and electrical planning.",
+      "deliverables": [
+        "Photorealistic 3D Visualizations",
+        "Municipal Approval Blueprint Package",
+        "1:20 Sectional Elevation Studies",
+        "Integrated Electrical & Concealed VRF HVAC Plan"
+      ],
+      "technical_standards": "BIM LOD 350 coordinated model, 3mm shadow-gap detailing, lighting lux simulations."
+    },
+    {
+      "id": "phase-03",
+      "phase_code": "STAGE 03",
+      "phase_title": "Material Selection, Stone Quarry Visits & Custom Millwork",
+      "duration": "Weeks 11–18",
+      "focus": "Direct quarry selection of Makrana marble and Kota stone, timber seasoning checks, and custom furniture curation.",
+      "deliverables": [
+        "Physical Tactile Material Specification Box",
+        "Custom Woodwork Shop Drawings (1:5 Detail)",
+        "Quarry Slab Selection & Quality Inspection",
+        "Lighting & Loose Furniture Schedule"
+      ],
+      "technical_standards": "Material origin verification, fire and acoustic compliance, dry-lay stone block approval."
+    },
+    {
+      "id": "phase-04",
+      "phase_code": "STAGE 04",
+      "phase_title": "On-Site Construction Supervision & Turnkey Handover",
+      "duration": "Weeks 19–36",
+      "focus": "Weekly site supervision, tolerance inspection, custom art installation, and final turnkey handover.",
+      "deliverables": [
+        "Weekly Geometric Quality Audits",
+        "Complete Turnkey Handover & Snag Checklist",
+        "Bound Project Archive & Drawings Record",
+        "50-Year Natural Material Maintenance Guide"
+      ],
+      "technical_standards": "On-site laser-level verification, plumbing acoustic dampening, waterproofing warranty."
+    }
+  ],
+  "portfolio_projects": [
+    {
+      "id": "kalyani-nagar-villa",
+      "title": "Kalyani Nagar Courtyard Villa",
+      "typology": "Private Residences",
+      "location": "Kalyani Nagar, Pune",
+      "coordinates": "18.5482° N, 73.9037° E",
+      "sqft": "8,500 SQ FT",
+      "completion_year": "2025",
+      "lead_architect": "Rahul Deshmukh",
+      "description": "A contemporary Deccan villa centered around a serene water courtyard with fluted Makrana marble, deep cantilevered concrete overhangs, and brass detailing.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Primary living pavilion with bush-hammered stone hearth and floor-to-ceiling garden glazing",
+          "aspect": "16/9"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=1200&auto=format&fit=crop",
+          "caption": "Diffused natural light penetrating the central courtyard colonnade",
+          "aspect": "4/3"
+        }
+      ],
+      "materials_specified": [
+        "Makrana White Marble",
+        "Seasoned Nilambur Teak",
+        "Hand-Troweled Lime Plaster",
+        "Natural Brass Joinery"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Full Architecture, Interior Design & Custom Millwork",
+      "highlight_metric": "8,500 SQ FT • 16-MONTH BUILD"
+    },
+    {
+      "id": "prabhat-road-heritage",
+      "title": "Prabhat Road Heritage Bungalow",
+      "typology": "Bungalow Restorations",
+      "location": "Prabhat Road, Deccan Gymkhana, Pune",
+      "coordinates": "18.5144° N, 73.8378° E",
+      "sqft": "5,800 SQ FT",
+      "completion_year": "2024",
+      "lead_architect": "Priya Joshi",
+      "description": "Restoration of a 1948 family residence, preserving exposed Sahyadri basalt stone walls while integrating modern acoustic insulation and seasoned teak joinery.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Living area featuring restored heritage timber posts and seamless Kota stone floor",
+          "aspect": "16/9"
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+          "caption": "Monolithic stone vanity carved from single block of black basalt",
+          "aspect": "3/4"
+        }
+      ],
+      "materials_specified": [
+        "Sahyadri Black Basalt",
+        "Honed Kota Stone",
+        "Restored Teakwood",
+        "Handloom Khadi Linen"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1584622650111-993a426fbf0a?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Heritage Preservation & Contemporary Interiors",
+      "highlight_metric": "5,800 SQ FT • HISTORIC RESTORATION"
+    },
+    {
+      "id": "bandra-seaface-penthouse",
+      "title": "Bandra Bandstand Duplex",
+      "typology": "Luxury Penthouses",
+      "location": "Bandra West, Mumbai",
+      "coordinates": "19.0544° N, 72.8205° E",
+      "sqft": "6,200 SQ FT",
+      "completion_year": "2025",
+      "lead_architect": "Rahul Deshmukh",
+      "description": "Minimalist sea-facing residence overlooking the Arabian Sea, featuring continuous honed limestone, acoustic windows, and concealed brass pocket doors.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Dining area illuminated by panoramic coastal light and teak louver screens",
+          "aspect": "16/9"
+        }
+      ],
+      "materials_specified": [
+        "Honed Limestone Slabs",
+        "Burmese Teak Panels",
+        "Acoustic Linen Drapery",
+        "Waxed Brass Hardware"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Turnkey Interior Architecture & Art Advisory",
+      "highlight_metric": "6,200 SQ FT • SEAFACING RESIDENCE"
+    },
+    {
+      "id": "mulshi-lake-retreat",
+      "title": "Mulshi Lakefront Pavilion",
+      "typology": "Holiday Homes & Retreats",
+      "location": "Mulshi Valley, Pune District",
+      "coordinates": "18.5089° N, 73.5186° E",
+      "sqft": "7,400 SQ FT",
+      "completion_year": "2024",
+      "lead_architect": "Priya Joshi",
+      "description": "Earth-sheltered weekend sanctuary overlooking Mulshi Lake, crafted with local rough-hewn basalt stone, river pebble floors, and floor-to-ceiling glass expanses.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Pavilion integration with reflecting pool and Sahyadri mountain views",
+          "aspect": "16/9"
+        }
+      ],
+      "materials_specified": [
+        "Sahyadri Basalt Stone",
+        "Exposed Concrete",
+        "Natural Lime Wash",
+        "Cane & Bamboo Weaves"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Architecture, Landscape Integration & Interiors",
+      "highlight_metric": "7,400 SQ FT • IIID AWARD WINNER"
+    },
+    {
+      "id": "koregaon-park-bungalow",
+      "title": "Koregaon Park Tropical Modern House",
+      "typology": "Private Residences",
+      "location": "Lane 5, Koregaon Park, Pune",
+      "coordinates": "18.5362° N, 73.8938° E",
+      "sqft": "9,200 SQ FT",
+      "completion_year": "2026",
+      "lead_architect": "Rahul Deshmukh",
+      "description": "A serene residence nestled under ancient banyan trees, featuring exposed concrete ceilings, polished Kota stone floors, and internal landscaped courts.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Integrated library joinery and courtyard garden opening",
+          "aspect": "16/9"
+        }
+      ],
+      "materials_specified": [
+        "Fine-Polished Kota Stone",
+        "Quarter-Sawn Teak",
+        "Black Powder-Coated Steel",
+        "Acoustic Cork Paneling"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1600566753376-12c8ab7fb75b?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Comprehensive Architectural Envelope & Custom Furniture",
+      "highlight_metric": "9,200 SQ FT • GREEN BUILDING CERTIFIED"
+    },
+    {
+      "id": "marine-drive-art-deco",
+      "title": "Marine Drive Art Deco Apartment",
+      "typology": "Heritage Restorations",
+      "location": "Marine Drive, South Mumbai",
+      "coordinates": "18.9438° N, 72.8232° E",
+      "sqft": "3,800 SQ FT",
+      "completion_year": "2025",
+      "lead_architect": "Priya Joshi",
+      "description": "Restoration of a classic 1938 Art Deco sea-facing apartment, reviving authentic terrazzo flooring, curved timber mouldings, and warm brass fixtures.",
+      "images": [
+        {
+          "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1600&auto=format&fit=crop",
+          "caption": "Restored dining room and curved brass-accented credenza",
+          "aspect": "16/9"
+        }
+      ],
+      "materials_specified": [
+        "Cast Terrazzo Flooring",
+        "Curved Teak Mouldings",
+        "Ribbed Fluted Glass",
+        "Antiqued Brass Fittings"
+      ],
+      "cad_elevation_url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=1200&auto=format&fit=crop",
+      "scope": "Heritage Restoration & Bespoke Millwork",
+      "highlight_metric": "3,800 SQ FT • ARCHITECTURAL DIGEST FEATURE"
+    }
+  ],
+  "before_after_renovation": {
+    "project_title": "1948 Deccan Heritage Bungalow Transformation",
+    "subtitle": "PRABHAT ROAD, DECCAN GYMKHANA, PUNE • HISTORIC RESTORATION",
+    "location": "Prabhat Road, Deccan Gymkhana, Pune (18.5144° N, 73.8378° E)",
+    "year_built": "1948",
+    "year_restored": "2024",
+    "square_footage": "5,800 SQ FT",
+    "before_label": "ORIGINAL 1948 STRUCTURE (DILAPIDATED)",
+    "before_image": "https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1600&auto=format&fit=crop",
+    "after_label": "RESTORED HERITAGE RESIDENCE (VASTU & ARCHE)",
+    "after_image": "https://images.unsplash.com/photo-1600565193348-f74bd3c7ccdf?q=80&w=1600&auto=format&fit=crop",
+    "narrative": "We restored an iconic 1948 stone bungalow in Prabhat Road, stabilizing decayed timber rafters and restoring load-bearing black basalt walls. We introduced modern plumbing, air conditioning, and double-glazed windows without compromising the building's historical integrity.",
+    "pins": [
+      {
+        "id": "pin-1",
+        "x": 26,
+        "y": 34,
+        "title": "Sahyadri Black Basalt",
+        "detail": "Original 1948 stone walls structurally pinned, hand-pointed with traditional lime mortar, and left exposed as focal surfaces.",
+        "category": "Stone Restoration"
+      },
+      {
+        "id": "pin-2",
+        "x": 68,
+        "y": 56,
+        "title": "Continuous Kota Stone Floor",
+        "detail": "Replaced cracked subfloors with a seamless honed Kota stone slab floor with silent acoustic underlay.",
+        "category": "Natural Flooring"
+      },
+      {
+        "id": "pin-3",
+        "x": 82,
+        "y": 24,
+        "title": "Seasoned Nilambur Teak Rafters",
+        "detail": "Restored original timber roof trusses treated with natural linseed oils and detailed with concealed steel ties.",
+        "category": "Carpentry Heritage"
+      },
+      {
+        "id": "pin-4",
+        "x": 44,
+        "y": 72,
+        "title": "Concealed Climate Control",
+        "detail": "VRF cooling conduits integrated behind fluted teak paneling with zero visual clutter or duct exposure.",
+        "category": "Services Integration"
+      }
+    ]
+  },
+  "materials": [
+    {
+      "id": "makrana-marble",
+      "name": "Makrana Pure White Marble",
+      "provenance": "Makrana, Rajasthan",
+      "acoustic_nrc": "0.15 NRC",
+      "patina_cycle": "Deepens luster with natural footfall",
+      "thermal_mass": "Naturally Cool in Summer",
+      "finish_spec": "Honed bookmatched slabs with crystalline white calcite veins",
+      "description": "The quintessential marble of Indian historic architecture. Crystalline and cool underfoot, perfect for Pune's warm summer afternoons.",
+      "photo": "https://images.unsplash.com/photo-1590381105924-c72589b9ef3f?q=80&w=800&auto=format&fit=crop",
+      "tag": "Flooring & Monoliths"
+    },
+    {
+      "id": "nilambur-teak",
+      "name": "Seasoned Nilambur Teakwood",
+      "provenance": "Nilambur, Kerala",
+      "acoustic_nrc": "0.45 NRC",
+      "patina_cycle": "Rich golden-brown grain with natural oils",
+      "thermal_mass": "Moderate",
+      "finish_spec": "Quarter-sawn seasoned timber finished with natural organic oil",
+      "description": "Dense, water-resistant hardwood with rich grain and natural termite resistance, crafted by our in-house master carpenters into doors and joinery.",
+      "photo": "https://images.unsplash.com/photo-1546484396-fb3fc6f95f98?q=80&w=800&auto=format&fit=crop",
+      "tag": "Architectural Millwork"
+    },
+    {
+      "id": "pune-basalt",
+      "name": "Hand-Dressed Black Basalt",
+      "provenance": "Sahyadri Quarries, Maharashtra",
+      "acoustic_nrc": "0.10 NRC",
+      "patina_cycle": "Weatherproof Volcanic Stone",
+      "thermal_mass": "High Thermal Mass",
+      "finish_spec": "Hand-chiseled rough face and honed smooth hearth blocks",
+      "description": "Local Maharashtra volcanic black stone providing unmatched structural honesty and a deep connection to regional Sahyadri architecture.",
+      "photo": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=800&auto=format&fit=crop",
+      "tag": "Plinths & Hearth Walls"
+    },
+    {
+      "id": "kota-stone",
+      "name": "Fine-Honed Green Kota Stone",
+      "provenance": "Kota, Rajasthan",
+      "acoustic_nrc": "0.18 NRC",
+      "patina_cycle": "Velvety Matt Sheen",
+      "thermal_mass": "High (Radiant Cooling)",
+      "finish_spec": "Leather-finish fine honed slabs with water-tight joints",
+      "description": "Naturally non-porous and cool limestone slabs that evoke classic Indian bungalows while pairing seamlessly with modern concrete and brass.",
+      "photo": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?q=80&w=800&auto=format&fit=crop",
+      "tag": "Verandas & Living Areas"
+    },
+    {
+      "id": "lime-plaster",
+      "name": "Traditional Chunam Slaked Lime Plaster",
+      "provenance": "Deccan Lime Kilns, Maharashtra",
+      "acoustic_nrc": "0.72 NRC",
+      "patina_cycle": "Breathable Mineral (Zero VOC)",
+      "thermal_mass": "High Thermal Insulation",
+      "finish_spec": "Hand-troweled slaked lime with river sand and natural marble dust",
+      "description": "A breathable, anti-fungal traditional Indian wall finish that keeps interiors naturally cool during peak summer while eliminating wall glare.",
+      "photo": "https://images.unsplash.com/photo-1584100936595-c0654b55a2e2?q=80&w=800&auto=format&fit=crop",
+      "tag": "Wall Surfaces"
+    },
+    {
+      "id": "handloom-textiles",
+      "name": "Maheshwari & Khadi Pure Linen",
+      "provenance": "Maheshwar, Madhya Pradesh",
+      "acoustic_nrc": "0.85 NRC",
+      "patina_cycle": "Softens with natural laundering",
+      "thermal_mass": "Insulative",
+      "finish_spec": "Handwoven heavyweight plain weave organic linen",
+      "description": "Textiles crafted on handlooms by master weavers, offering gentle daylight filtration and superior acoustic absorption for double-height living spaces.",
+      "photo": "https://images.unsplash.com/photo-1508873696983-2df5703bc225?q=80&w=800&auto=format&fit=crop",
+      "tag": "Acoustic Drapery"
+    }
+  ],
+  "testimonials": [
+    {
+      "quote": "Vastu & Arche crafted our Koregaon Park residence with exceptional sensitivity to natural light, cross-ventilation, and privacy. It feels tranquil, cool in summer, and deeply rooted in Pune's architectural heritage.",
+      "source": "Rajesh & Sunita Kirloskar",
+      "source_title": "Homeowners, Koregaon Park Residence",
+      "project_reference": "Koregaon Park Tropical Modern House",
+      "badge": "PRIVATE RESIDENCE"
+    },
+    {
+      "quote": "Our Prabhat Road bungalow restoration was handled with immense respect for our family's heritage. The craftsmanship in black basalt stone and teak wood is simply world-class.",
+      "source": "Adv. Shrikant Deshpande",
+      "source_title": "Senior Advocate, Bombay High Court",
+      "project_reference": "Prabhat Road Heritage Bungalow",
+      "badge": "HERITAGE RESTORATION"
+    },
+    {
+      "quote": "A rare architecture and interior practice in Maharashtra that balances clean contemporary lines with deep technical rigor, transparent costing, and reliable on-time execution.",
+      "source": "Architectural Digest India",
+      "source_title": "AD100 Editorial Citation",
+      "project_reference": "Kalyani Nagar Courtyard Villa",
+      "badge": "AD100 RECOGNITION"
+    },
+    {
+      "quote": "From initial 3D design visualizations to the final handover in Kalyani Nagar, Rahul and Priya were on site every week ensuring flawless construction quality.",
+      "source": "Anand & Meera Shinde",
+      "source_title": "Managing Director, Tech Ventures Pune",
+      "project_reference": "Kalyani Nagar Courtyard Villa",
+      "badge": "CLIENT TESTIMONIAL"
+    }
+  ],
+  "consultation_intake": {
+    "title": "Book an Architectural & Interior Consultation",
+    "subtitle": "PROJECT INQUIRY & SITE PLANNING",
+    "description": "Our studio accepts a select number of residential and boutique projects each year to guarantee direct principal oversight from concept design through turnkey handover.",
+    "typologies": [
+      "Luxury Private Residence / Villa",
+      "Bungalow Renovation / Heritage",
+      "Penthouse / Duplex Apartment",
+      "Weekend Holiday Home / Farmhouse",
+      "Commercial Office / Boutique Space"
+    ],
+    "spatial_footprints": [
+      "2,500 – 4,500 Sq Ft",
+      "4,500 – 8,000 Sq Ft",
+      "8,000 – 15,000 Sq Ft",
+      "15,000+ Sq Ft (Estate)"
+    ],
+    "investment_tiers": [
+      "₹75 Lakhs – ₹1.5 Crores",
+      "₹1.5 Crores – ₹3 Crores",
+      "₹3 Crores – ₹6 Crores",
+      "₹6 Crores+ (Luxury Estate)"
+    ],
+    "readiness_stages": [
+      "Plot / Site Acquired (Ready to Start)",
+      "Architectural Drawings in Progress",
+      "Structure Ready (Interior Fitout Needed)",
+      "Early Planning & Budgeting Stage"
+    ],
+    "disclaimer": "All project discussions are strictly confidential. Our studio team will get in touch within 24 hours."
+  },
+  "contact": {
+    "phone": "+919822012345",
+    "phone_display": "+91 98220 12345",
+    "whatsapp_number": "919822012345",
+    "email": "hello@vastuarche.com",
+    "headquarters_address": "Studio 402, Platinum Square, Vascon, Viman Nagar, Pune, Maharashtra 411014",
+    "headquarters_coords": "18.5679° N, 73.9143° E (Pune)",
+    "european_address": "Level 6, Supreme Headquarters, Linking Road, Bandra West, Mumbai, Maharashtra 400050",
+    "european_coords": "19.0600° N, 72.8338° E (Mumbai)",
+    "instagram_handle": "@vastu.arche.studio",
+    "journal_handle": "vastu-arche-portfolio-2026.pdf"
+  },
+  "navigation_links": [
+    {
+      "label": "Portfolio",
+      "href": "#works"
+    },
+    {
+      "label": "Before & After",
+      "href": "#before-after"
+    },
+    {
+      "label": "Process",
+      "href": "#methodology"
+    },
+    {
+      "label": "Materials",
+      "href": "#materiality"
+    },
+    {
+      "label": "About Studio",
+      "href": "#atelier"
+    },
+    {
+      "label": "Contact",
+      "href": "#commission-brief"
+    }
+  ]
+}

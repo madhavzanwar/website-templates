@@ -1,0 +1,156 @@
+{
+  "category_id": "boutiques",
+  "category_label": "Designer Fashion & Ethnic Couture Boutique",
+  "branding": {
+    "business_name": "Elite Designer Fashion & Ethnic Couture Boutique Studio",
+    "tagline": "Handcrafted Sarees, Indo-Western Silhouettes & Bespoke Tailoring",
+    "hero_headline": "Timeless Elegance & Contemporary Craftsmanship For Every Occasion",
+    "hero_subheadline": "Explore curated collections of pure Paithani and Banarasi silk sarees, designer lehengas, fusion kurtas, and custom-tailored trousseau wear.",
+    "primary_color": "#7C2D12",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER DESIGNER FASHION & ETHNIC COUTURE BOUTIQUE IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Designer Fashion & Ethnic Couture Boutique",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for designer fashion & ethnic couture boutique, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "Designer Bridal & Festive Lehengas",
+      "description": "Intricate hand zardozi, gota patti, and resham thread embroidery on pure raw silk and organza.",
+      "price": "\u20b925,000 - \u20b995,000",
+      "tag": "Bridal"
+    },
+    {
+      "name": "Pure Handloom Silk Sarees (Paithani & Banarasi)",
+      "description": "Authentic weave certified heritage sarees with golden zari pallus and traditional motifs.",
+      "price": "\u20b98,500 - \u20b945,000",
+      "tag": "Heritage"
+    },
+    {
+      "name": "Indo-Western Fusion Dresses & Co-ord Sets",
+      "description": "Modern drape pants, structured blazers, and printed cape sets crafted for festive parties.",
+      "price": "\u20b94,200 - \u20b912,000",
+      "tag": "Fusion"
+    },
+    {
+      "name": "Custom Tailoring & Blouse Designing",
+      "description": "Master artisan pattern drafting, bridal blouse maggam work, and perfect made-to-measure fitting.",
+      "price": "From \u20b91,500",
+      "tag": "Tailoring"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?q=80&w=800&auto=format&fit=crop",
+      "title": "Boutique Showroom Interior",
+      "tag": "Boutique"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1490481651871-ab68de25d43d?q=80&w=800&auto=format&fit=crop",
+      "title": "Ethnic Designer Wear",
+      "tag": "Festive"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?q=80&w=800&auto=format&fit=crop",
+      "title": "Silk Sarees Collection",
+      "tag": "Handloom"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1489987707025-afc232f7ea0f?q=80&w=800&auto=format&fit=crop",
+      "title": "Premium Fabric Textures",
+      "tag": "Fabrics"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1445205170230-053b83016050?q=80&w=800&auto=format&fit=crop",
+      "title": "Curated Apparel Racks",
+      "tag": "Collection"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=800&auto=format&fit=crop",
+      "title": "Custom Fitting & Styling",
+      "tag": "Bespoke"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "Bespoke Blouse & Dupatta Set",
+      "price": "\u20b93,500",
+      "billing": "Made to order",
+      "features": [
+        "Custom Neckline Design",
+        "Hand Embroidery Embellishment",
+        "Perfect Body Fitting Guarantee"
+      ]
+    },
+    {
+      "name": "Festive Fusion Wardrobe",
+      "price": "\u20b914,000",
+      "billing": "Complete Look",
+      "features": [
+        "Designer Co-ord or Anarkali",
+        "Matching Accessories",
+        "Free Alteration Services"
+      ]
+    },
+    {
+      "name": "Bridal Trousseau Curation",
+      "price": "Bespoke",
+      "billing": "Custom Package",
+      "features": [
+        "Personal Designer Consultation",
+        "Complete 5-Outfit Wedding Wardrobe",
+        "Priority Handloom Sourcing"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Smita Kadam",
+      "quote": "Got my wedding reception lehenga customized here. The embroidery and fitting were absolutely immaculate!",
+      "rating": 5
+    },
+    {
+      "author": "Tanvi Bhagat",
+      "quote": "Love their collection of modern handloom sarees. Very tasteful designs and courteous staff.",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your designer fashion & ethnic couture boutique services.",
+    "email": "info@boutiques.in",
+    "address": "Prabhat Road, Deccan, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE DESIGNER FASHION & ETHNIC COUTURE BOUTIQUE. ALL RIGHTS RESERVED."
+  }
+}

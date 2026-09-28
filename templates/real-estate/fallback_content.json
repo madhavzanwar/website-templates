@@ -1,0 +1,448 @@
+{
+  "businessName": "Shubh Properties",
+  "tagline": "RERA-Verified Residential Advisory",
+  "mahaReraNumber": "MahaRERA Reg: A52100028471",
+  "navLinks": [
+    { "label": "Featured Homes", "href": "#properties" },
+    { "label": "Pune Localities", "href": "#localities" },
+    { "label": "Why Us", "href": "#why-us" },
+    { "label": "EMI Calculator", "href": "#emi-calculator" },
+    { "label": "Our Team", "href": "#team" },
+    { "label": "Reviews", "href": "#reviews" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "headline": "Find Your Ideal Home in Pune",
+    "subheadline": "Direct advisory with trusted Pune property consultants. We offer 100% MahaRERA-verified residential properties across prime Pune corridors with zero hidden brokerage.",
+    "localityOptions": [
+      "All Localities",
+      "Hadapsar & Magarpatta",
+      "Kharadi",
+      "Baner",
+      "Viman Nagar",
+      "Wakad",
+      "Bavdhan & Mulshi Road"
+    ],
+    "budgetOptions": [
+      "All Budgets",
+      "Under ₹75 Lakh",
+      "₹75 Lakh – ₹1.5 Crore",
+      "₹1.5 Crore – ₹2.5 Crore",
+      "Above ₹2.5 Crore"
+    ],
+    "bhkOptions": [
+      "All Configurations",
+      "2 BHK",
+      "3 BHK",
+      "4 BHK & Luxury"
+    ],
+    "propertyTypeOptions": [
+      "All Property Types",
+      "Apartment",
+      "Penthouse / Luxury",
+      "Gated Villa"
+    ],
+    "stats": [
+      {
+        "value": "₹650+ Cr",
+        "label": "Property Transacted",
+        "detail": "Verified registrations across Pune"
+      },
+      {
+        "value": "1,400+",
+        "label": "Families Settled",
+        "detail": "Happy homeowners in top societies"
+      },
+      {
+        "value": "MahaRERA",
+        "label": "Registered Advisory",
+        "detail": "Reg: A52100028471"
+      },
+      {
+        "value": "Zero",
+        "label": "Hidden Brokerage",
+        "detail": "Direct builder tie-up inventory"
+      }
+    ]
+  },
+  "featuredProperties": {
+    "title": "Featured Residential Properties in Pune",
+    "subtitle": "Carefully shortlisted homes with clear legal titles, verified commencement certificates, and genuine MahaRERA compliance.",
+    "filterCategories": [
+      "All Properties",
+      "Under ₹1 Crore",
+      "₹1 Cr – ₹2 Cr",
+      "Luxury ₹2 Cr+"
+    ],
+    "properties": [
+      {
+        "id": "prop-hadapsar-solitaire",
+        "title": "The Solitaire Residences",
+        "locality": "Hadapsar / Magarpatta",
+        "bhk": "2 BHK Smart Residence",
+        "price": "₹58 Lakh",
+        "priceInLakhs": 58,
+        "carpetArea": "765 sq.ft. carpet",
+        "possession": "Ready to Move",
+        "reraId": "MahaRERA: P52100034912",
+        "propertyType": "Apartment",
+        "highlights": [
+          "5 mins to Magarpatta Cybercity",
+          "Clubhouse, pool & landscaped garden",
+          "Covered basement reserved parking"
+        ],
+        "badge": "High Rental Yield",
+        "gradientTheme": "navy-gold"
+      },
+      {
+        "id": "prop-kharadi-riverfront",
+        "title": "Riverfront Grandeur",
+        "locality": "Kharadi",
+        "bhk": "3 BHK Premium Deck Home",
+        "price": "₹1.15 Crore",
+        "priceInLakhs": 115,
+        "carpetArea": "1,180 sq.ft. carpet",
+        "possession": "Possession Dec 2026",
+        "reraId": "MahaRERA: P52100041285",
+        "propertyType": "Apartment",
+        "highlights": [
+          "Adjacent to EON Free Zone & WTC",
+          "Mula-Mutha river promenade view",
+          "EV car charging bay included"
+        ],
+        "badge": "IT Corridor Hotspot",
+        "gradientTheme": "emerald-navy"
+      },
+      {
+        "id": "prop-baner-skyline",
+        "title": "Skyline Panache",
+        "locality": "Baner",
+        "bhk": "3 BHK Elegance Suite",
+        "price": "₹1.48 Crore",
+        "priceInLakhs": 148,
+        "carpetArea": "1,420 sq.ft. carpet",
+        "possession": "Ready to Move",
+        "reraId": "MahaRERA: P52100029871",
+        "propertyType": "Apartment",
+        "highlights": [
+          "200m from Balewadi High Street",
+          "Double-height air-conditioned lobby",
+          "Rooftop infinity deck & fitness lounge"
+        ],
+        "badge": "Prime West Pune",
+        "gradientTheme": "slate-gold"
+      },
+      {
+        "id": "prop-viman-nagar-aeropolis",
+        "title": "The Aeropolis Penthouse",
+        "locality": "Viman Nagar",
+        "bhk": "4 BHK Ultra-Luxury Penthouse",
+        "price": "₹2.35 Crore",
+        "priceInLakhs": 235,
+        "carpetArea": "2,240 sq.ft. carpet",
+        "possession": "Possession in 6 Months",
+        "reraId": "MahaRERA: P52100048110",
+        "propertyType": "Penthouse / Luxury",
+        "highlights": [
+          "3 mins from Pune International Airport",
+          "Private terrace garden & plunge deck",
+          "Italian marble flooring & smart automation"
+        ],
+        "badge": "Exclusive Enclave",
+        "gradientTheme": "rich-navy"
+      },
+      {
+        "id": "prop-wakad-greenfield",
+        "title": "Greenfield Heights",
+        "locality": "Wakad",
+        "bhk": "2 BHK Urban Smart",
+        "price": "₹72 Lakh",
+        "priceInLakhs": 72,
+        "carpetArea": "840 sq.ft. carpet",
+        "possession": "Ready to Move",
+        "reraId": "MahaRERA: P52100037620",
+        "propertyType": "Apartment",
+        "highlights": [
+          "Quick 7-min drive to Hinjewadi Phase 1",
+          "Walk to Phoenix Mall of the Millennium",
+          "Children's play park & badminton court"
+        ],
+        "badge": "Ready Possession",
+        "gradientTheme": "teal-navy"
+      },
+      {
+        "id": "prop-mulshi-whispering",
+        "title": "Sahyadri Whispering Palms",
+        "locality": "Mulshi Road / Bavdhan",
+        "bhk": "4 BHK Independent Villa",
+        "price": "₹3.20 Crore",
+        "priceInLakhs": 320,
+        "carpetArea": "3,450 sq.ft. carpet",
+        "possession": "Under Construction - Q3 2027",
+        "reraId": "MahaRERA: P52100052309",
+        "propertyType": "Gated Villa",
+        "highlights": [
+          "Private 3-car parking & manicured lawn",
+          "Unobstructed Sahyadri valley views",
+          "Gated society with solar backup & clubhouse"
+        ],
+        "badge": "Luxury Villa",
+        "gradientTheme": "gold-navy"
+      }
+    ]
+  },
+  "localityGuide": {
+    "title": "Pune Residential Locality Guide",
+    "subtitle": "Practical, transparent neighborhood data to help you evaluate commute times, pricing trends, and social infrastructure across Pune.",
+    "localities": [
+      {
+        "id": "loc-baner",
+        "name": "Baner",
+        "tagline": "West Pune IT Hub & Lifestyle Epicenter",
+        "averagePriceSqFt": "₹9,200 – ₹12,500 / sq.ft.",
+        "commuteHighlights": "10 mins to Hinjewadi Phase 1 • 25 mins to Pune Station",
+        "description": "Baner is West Pune's most vibrant residential corridor. Known for Balewadi High Street's gourmet cafes, reputable schools, and seamless expressway access for weekend trips to Mumbai.",
+        "lifestyleTags": [
+          "Balewadi High Street Dining",
+          "Upcoming Metro Line 3 Station",
+          "Symbiosis & Vibgyor Schools",
+          "Direct Expressway Access"
+        ]
+      },
+      {
+        "id": "loc-kharadi",
+        "name": "Kharadi",
+        "tagline": "East IT SEZ Corridor & Riverfront Growth",
+        "averagePriceSqFt": "₹8,400 – ₹11,000 / sq.ft.",
+        "commuteHighlights": "5 mins to EON IT Park & WTC • 15 mins to Pune Airport",
+        "description": "East Pune's powerhouse employment zone with massive tech campuses. Kharadi features wide arterial roads, riverside developments, and high rental yields from multinational IT workforce.",
+        "lifestyleTags": [
+          "World Trade Center Pune",
+          "EON IT Free Zone",
+          "Radisson Blu & High Street",
+          "High Rental Appreciation"
+        ]
+      },
+      {
+        "id": "loc-viman-nagar",
+        "name": "Viman Nagar",
+        "tagline": "Airport Proximity & Established Luxury",
+        "averagePriceSqFt": "₹11,500 – ₹16,000 / sq.ft.",
+        "commuteHighlights": "5 mins to Pune Airport • 10 mins to Koregaon Park",
+        "description": "A prestigious, mature residential neighborhood with leafy avenues, premier retail destinations, and seamless access to Koregaon Park and Kalyani Nagar.",
+        "lifestyleTags": [
+          "Phoenix Marketcity Mall",
+          "Symbiosis International Campus",
+          "Joggers Park & Green Canopy",
+          "Minutes to Airport"
+        ]
+      },
+      {
+        "id": "loc-hadapsar",
+        "name": "Hadapsar & Magarpatta",
+        "tagline": "Integrated Township & High Affordability",
+        "averagePriceSqFt": "₹7,200 – ₹9,800 / sq.ft.",
+        "commuteHighlights": "Inside Magarpatta Cybercity • 15 mins to SP Infocity",
+        "description": "Pune's pioneer in walk-to-work townships. Magarpatta City and Amanora offer gated self-sustained living with top schools, shopping malls, and corporate campuses within walking distance.",
+        "lifestyleTags": [
+          "Magarpatta Cybercity",
+          "Seasons & Amanora Malls",
+          "Walk-to-Work Lifestyle",
+          "Family-Friendly Gated Living"
+        ]
+      },
+      {
+        "id": "loc-wakad",
+        "name": "Wakad",
+        "tagline": "Hinjewadi Gateway & Young Family Living",
+        "averagePriceSqFt": "₹7,800 – ₹9,500 / sq.ft.",
+        "commuteHighlights": "7 mins to Hinjewadi Tech Gate • 2 mins to Mumbai Highway",
+        "description": "The top choice for Hinjewadi IT professionals seeking modern high-rises. Boasts the newly opened Phoenix Mall of the Millennium, top CBSE schools, and rapid connectivity.",
+        "lifestyleTags": [
+          "Phoenix Mall of the Millennium",
+          "Indira College & EuroSchool",
+          "Quick Hinjewadi Access",
+          "Well-Planned Societies"
+        ]
+      }
+    ]
+  },
+  "whyChooseUs": {
+    "title": "Why Homebuyers Trust Shubh Properties",
+    "subtitle": "We operate as your dedicated property advisors, not aggressive brokers. From title verification to keys in hand, we protect your family's investment.",
+    "pillars": [
+      {
+        "id": "pillar-rera",
+        "title": "100% MahaRERA Verified Properties",
+        "description": "We verify RERA certificates, commencement permits, and approved layouts before presenting any home to you. Zero unapproved or litigated projects.",
+        "badge": "MahaRERA Reg: A52100028471",
+        "iconName": "ShieldCheck"
+      },
+      {
+        "id": "pillar-loan",
+        "title": "End-to-End Home Loan Assistance",
+        "description": "Direct tie-ups with SBI, HDFC Bank, ICICI Bank, and Bank of Baroda. Fast-track sanction letters and doorstep paperwork support at no extra cost.",
+        "badge": "Direct Bank Tie-Ups",
+        "iconName": "BadgePercent"
+      },
+      {
+        "id": "pillar-legal",
+        "title": "Transparent Legal & Registration Support",
+        "description": "Our legal associates verify 30-year title search reports, draft sale agreements, and manage Haveli / PCMC sub-registrar coordination.",
+        "badge": "Sub-Registrar Desk",
+        "iconName": "FileText"
+      },
+      {
+        "id": "pillar-handover",
+        "title": "Dedicated Handover & Snagging Support",
+        "description": "We conduct a thorough pre-possession snag inspection, verify covered parking allotment, and guide you through society membership formalities.",
+        "badge": "Key Handover Checklist",
+        "iconName": "KeyRound"
+      }
+    ]
+  },
+  "agents": {
+    "title": "Meet Our Senior Property Consultants",
+    "subtitle": "Pune natives with deep hyper-local insight, official MahaRERA certifications, and a commitment to honest, transparent advice.",
+    "team": [
+      {
+        "id": "agent-sanjay",
+        "name": "Sanjay Kulkarni",
+        "role": "Senior Residential Director",
+        "experience": "14 Years in Pune Real Estate",
+        "reraNumber": "MahaRERA Cert: A52100028471-A1",
+        "speciality": "East Pune Corridors & Townships (Hadapsar, Kharadi, Magarpatta)",
+        "languages": ["Marathi", "Hindi", "English"],
+        "phone": "+91 98220 45890",
+        "bio": "Having guided over 750 families across Pune, Sanjay specializes in large family homes, developer negotiations, and safe documentation."
+      },
+      {
+        "id": "agent-deepa",
+        "name": "Deepa Joshi",
+        "role": "First-Time Homebuyer Specialist",
+        "experience": "7 Years in Residential Advisory",
+        "reraNumber": "MahaRERA Cert: A52100028471-A2",
+        "speciality": "Budget & Mid-Segment Housing (Wakad, Baner, Hinjewadi corridor)",
+        "languages": ["Marathi", "Hindi", "English"],
+        "phone": "+91 98220 45892",
+        "bio": "Deepa patiently assists young IT professionals through budget planning, stamp duty calculations, and bank loan approvals without stress."
+      },
+      {
+        "id": "agent-amit",
+        "name": "Amit Shinde",
+        "role": "Luxury Estates & NRI Services Head",
+        "experience": "9 Years in Premium Residential",
+        "reraNumber": "MahaRERA Cert: A52100028471-A3",
+        "speciality": "Penthouses, Gated Villas & NRI Portfolios (Viman Nagar, Bavdhan, Mulshi)",
+        "languages": ["Marathi", "Hindi", "English"],
+        "phone": "+91 98220 45893",
+        "bio": "Amit oversees high-value residential acquisitions for senior corporate leaders and overseas NRIs seeking vetted, high-appreciation Pune assets."
+      }
+    ]
+  },
+  "testimonials": {
+    "title": "Homebuyer Stories & Verified Reviews",
+    "subtitle": "Read genuine experiences from families who found their dream home in Pune through Shubh Properties.",
+    "items": [
+      {
+        "id": "test-1",
+        "clientName": "Rahul & Sneha Deshmukh",
+        "roleOrCompany": "Software Architect at Barclays Kharadi",
+        "propertyPurchased": "3 BHK at Riverfront Grandeur, Kharadi (₹1.15 Crore)",
+        "locality": "Kharadi, Pune",
+        "quote": "Finding a 3 BHK near EON Free Zone without paying 2% unnecessary brokerage seemed impossible until we contacted Sanjay Kulkarni. He arranged 4 site visits in a single Saturday, verified the developer's RERA escrow account, and helped us get our SBI home loan approved within 6 working days.",
+        "rating": 5,
+        "verifiedBadge": "Verified Kharadi Homeowner • 2026"
+      },
+      {
+        "id": "test-2",
+        "clientName": "Dr. Priya & Vikram Joshi",
+        "roleOrCompany": "Consultant Physician & Pediatrician",
+        "propertyPurchased": "4 BHK Penthouse at Aeropolis, Viman Nagar (₹2.35 Crore)",
+        "locality": "Viman Nagar, Pune",
+        "quote": "As practicing doctors, we had zero time to verify title deeds or follow up with sub-registrar offices. Amit Shinde handled the entire legal chain of documents, clarified the carpet area compliance under RERA, and accompanied us during final key handover. Exemplary professionalism.",
+        "rating": 5,
+        "verifiedBadge": "Verified Viman Nagar Buyer • 2026"
+      },
+      {
+        "id": "test-3",
+        "clientName": "Anjali & Rohan Kadam",
+        "roleOrCompany": "Senior QA Lead, Hinjewadi Phase 1",
+        "propertyPurchased": "2 BHK at Greenfield Heights, Wakad (₹72 Lakh)",
+        "locality": "Wakad, Pune",
+        "quote": "Being first-time buyers, we were anxious about construction delays and hidden costs. Deepa Joshi patiently explained the stamp duty calculations, checked the PCMC completion certificate, and helped us secure a covered car park spot. We moved in with complete peace of mind!",
+        "rating": 5,
+        "verifiedBadge": "Verified Wakad Homeowner • 2025"
+      },
+      {
+        "id": "test-4",
+        "clientName": "Sunita & Amit Patil",
+        "roleOrCompany": "Business Owners, Swargate & Hadapsar",
+        "propertyPurchased": "2 BHK Smart Residence, Hadapsar (₹58 Lakh)",
+        "locality": "Hadapsar, Pune",
+        "quote": "We purchased this apartment for rental income and our daughter's college commute. Shubh Properties assisted with seamless registration at Haveli Sub-Registrar office and even helped us connect with a corporate tenant within 3 weeks of possession.",
+        "rating": 5,
+        "verifiedBadge": "Verified Hadapsar Buyer • 2025"
+      }
+    ]
+  },
+  "emiCalculator": {
+    "title": "Home Loan EMI Calculator",
+    "subtitle": "Plan your monthly budget with real-time EMI estimates and clear interest breakdowns before scheduling site visits.",
+    "defaultAmount": 7500000,
+    "defaultTenure": 20,
+    "defaultRate": 8.5,
+    "bankPartners": [
+      { "name": "State Bank of India", "rateFrom": "8.40% p.a." },
+      { "name": "HDFC Bank", "rateFrom": "8.50% p.a." },
+      { "name": "ICICI Bank", "rateFrom": "8.60% p.a." },
+      { "name": "Bank of Baroda", "rateFrom": "8.45% p.a." },
+      { "name": "Kotak Mahindra Bank", "rateFrom": "8.65% p.a." },
+      { "name": "Axis Bank", "rateFrom": "8.75% p.a." }
+    ],
+    "advisoryNote": "Note: Interest rates shown are indicative and subject to individual credit score (CIBIL 750+), property valuation, and bank norms. Our loan desk provides end-to-end doorstep assistance."
+  },
+  "contact": {
+    "title": "Schedule an In-Person Consultation or Site Visit",
+    "subtitle": "Visit our Magarpatta City office for an in-depth portfolio review, or request a chauffeured site visit to any shortlisted property.",
+    "officeAddress": {
+      "building": "Office 402, 4th Floor, Tower 6, Cybercity",
+      "area": "Magarpatta City, Hadapsar",
+      "city": "Pune",
+      "pincode": "411028",
+      "landmark": "Opposite Seasons Mall South Gate"
+    },
+    "phone": "+91 98220 45890",
+    "secondaryPhone": "+91 98220 45891",
+    "whatsapp": "+91 98220 45890",
+    "email": "contact@shubhpropertiespune.com",
+    "hours": "Monday to Sunday: 9:00 AM – 8:00 PM IST",
+    "bookingTokenNote": "Important Advisory: All token deposits and booking payments are accepted strictly through official developer RERA escrow accounts via Account Payee Cheque, RTGS / NEFT, or verified UPI gateway (GPay / PhonePe). Shubh Properties does not accept cash payments."
+  },
+  "footer": {
+    "disclaimer": "Shubh Properties is a premier residential real estate advisory firm registered under the Maharashtra Real Estate Regulatory Authority (MahaRERA). All project details, floor plans, dimensions, and prices shown are sourced directly from verified developer filings and are subject to change per RERA guidelines. Prospective purchasers are advised to independently inspect RERA project registration and legal search reports before making any financial commitment.",
+    "mahaReraText": "Registered with Maharashtra Real Estate Regulatory Authority (MahaRERA) under Section 9 of the Real Estate (Regulation and Development) Act, 2016.",
+    "mahaReraNumber": "MahaRERA Registration No. A52100028471",
+    "reraPortalUrl": "https://maharera.mahaonline.gov.in",
+    "quickLinks": [
+      { "label": "Featured Properties", "href": "#properties" },
+      { "label": "Pune Locality Guide", "href": "#localities" },
+      { "label": "Why Choose Us", "href": "#why-us" },
+      { "label": "EMI Calculator", "href": "#emi-calculator" },
+      { "label": "Our Consultants", "href": "#team" },
+      { "label": "Client Stories", "href": "#reviews" },
+      { "label": "Schedule Visit", "href": "#contact" }
+    ],
+    "puneMicroMarkets": [
+      "Hadapsar & Magarpatta",
+      "Kharadi & EON IT Park",
+      "Baner & Balewadi",
+      "Viman Nagar & Airport",
+      "Wakad & Hinjewadi Link",
+      "Bavdhan & Mulshi Road",
+      "Kothrud & Karve Nagar",
+      "Kalyani Nagar"
+    ],
+    "copyright": "© 2026 Shubh Properties. All Rights Reserved. Pune, Maharashtra."
+  }
+}

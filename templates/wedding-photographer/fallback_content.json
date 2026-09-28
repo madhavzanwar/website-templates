@@ -1,0 +1,620 @@
+{
+  "branding": {
+    "business_name": "AARAV & MAYA WEDDING STORIES",
+    "tagline": "Capturing the quiet emotions & joyful chaos of Indian weddings that live forever.",
+    "monogram": "A & M",
+    "subtitle": "FINE ART & CANDID INDIAN WEDDING PHOTOGRAPHY",
+    "location_base": "Pune & Mumbai • Available Across India & Worldwide",
+    "primary_color": "#B87D74",
+    "accent_blush": "#C58F84",
+    "canvas_ground": "#FAF7F2",
+    "secondary_matting": "#ECE6DD",
+    "structural_ink": "#1C1917",
+    "antique_amber": "#9D8469",
+    "darkroom_nocturne": "#141211",
+    "hero_headline": {
+      "line1": "Preserving the sacred and unscripted intimacy",
+      "line2_italic": "as timeless family heirlooms."
+    },
+    "hero_subheadline": "We document high-emotion Indian weddings through a blend of candid storytelling, natural light, and cinematic elegance across Udaipur, Goa, Jaipur, and Pune.",
+    "hero_image": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1600&auto=format&fit=crop",
+    "hero_location_stamp": "THE LEELA PALACE, UDAIPUR • CANDID STORIES",
+    "camera_gear_specs": "Sony Alpha 1 • Leica M • 85mm f/1.2 • Natural Light & Candid Storytelling",
+    "availability_status": {
+      "season_label": "Wedding Season 2026: Bookings Open",
+      "badge_text": "BOOKING STATUS",
+      "secondary_label": "2027 Inquiries Open",
+      "available_dates_count": 5,
+      "year_label": "2026 / 2027"
+    }
+  },
+  "navigation": {
+    "brand_wordmark": "AARAV & MAYA",
+    "brand_subtitle": "WEDDING STORIES",
+    "links": [
+      { "label": "Stories", "href": "#stories" },
+      { "label": "About Us", "href": "#philosophy" },
+      { "label": "Portfolio", "href": "#archive" },
+      { "label": "Packages", "href": "#investment" },
+      { "label": "Reviews", "href": "#testimonials" }
+    ],
+    "inquire_cta": "Book Consultation",
+    "audio_label_on": "Sound: On",
+    "audio_label_off": "Sound: Off",
+    "audio_subtext": "Ambient Tone"
+  },
+  "hero": {
+    "eyebrow": "FINE ART & CANDID WEDDING STORIES",
+    "headline_main": "Capturing the quiet emotions",
+    "headline_italic": "that live between the moments.",
+    "subheadline": "For couples who value heartfelt presence, genuine tears and laughter, and photographs that feel like a cherished family treasure for generations.",
+    "location_stamp": "THE LEELA PALACE, UDAIPUR • CANDID STORIES",
+    "film_stock_badge": "FINE-ART CANDID STORYTELLING",
+    "aspect_ratio_label": "ARCHIVAL PRINT RATIO 4:5",
+    "primary_cta": {
+      "label": "Explore Wedding Stories",
+      "href": "#stories"
+    },
+    "secondary_cta": {
+      "label": "Check Availability",
+      "href": "#inquiry"
+    },
+    "scroll_hint": "SCROLL TO EXPLORE STORIES"
+  },
+  "philosophy": {
+    "badge": "OUR PHOTOGRAPHY APPROACH",
+    "headline": "Weddings are emotional family milestones;",
+    "headline_italic": "not staged photoshoots.",
+    "subheading": "In an era of disposable reels and staged checklists, we focus on what truly matters. We capture each wedding with patience and care—honouring both the sacred Vedic rituals and the fleeting, quiet glances that go unnoticed by the crowd.",
+    "paragraphs": [
+      "We believe that real memories require authenticity. Rather than forcing you into uncomfortable, stiff poses or interrupting rituals with harsh flash lights, we move quietly throughout your celebrations—anticipating a father's tear before the bidaai, noticing hands gently reassuring each other during the pheras, and capturing the energy on the sangeet floor.",
+      "Every wedding story we document receives our full attention. To guarantee personal presence, emotional devotion, and handcrafted album delivery, we accept a limited number of wedding commissions each season."
+    ],
+    "quote": "A photograph is a memory you can hold. Forty years from now, when the music has faded and the wedding garments are stored away, these pictures will let you relive exactly how loved and joyful you felt on that day.",
+    "quote_author": "— Aarav & Maya Kulkarni, Founders & Lead Photographers",
+    "pillars": [
+      {
+        "number": "01",
+        "title": "Candid & Unobtrusive",
+        "subtitle": "Natural Emotion Over Fake Poses",
+        "narrative": "We observe rather than direct. By working quietly with available ambient and warm lamp light, we preserve the authentic atmosphere of your rituals without turning your mandap into a movie set.",
+        "technical_spec": "Natural Light • Fast Prime Lenses • Silent Shutters During Pheras"
+      },
+      {
+        "number": "02",
+        "title": "True-to-Life Colors",
+        "subtitle": "Rich Indian Tones without Artificial Filters",
+        "narrative": "We render deep marigolds, royal Banarasi silks, and warm sunset glows with authentic color accuracy. Your skin tones and heritage wedding attire look real, vibrant, and glowing.",
+        "technical_spec": "Hand-Calibrated Color • True Skin Tones • 100% Lifelong Archival Permanence"
+      },
+      {
+        "number": "03",
+        "title": "Handcrafted Albums",
+        "subtitle": "Museum-Grade Cotton Rag & Italian Leather",
+        "narrative": "Digital files easily get lost on old hard drives; handcrafted books become treasured heirlooms. We print your photographs on thick 300gsm acid-free cotton paper that lies completely flat.",
+        "technical_spec": "Lay-Flat Flush Mount • 300gsm Cotton Paper • Custom Debossed Gold Monograms"
+      }
+    ],
+    "analog_fidelity": {
+      "title": "OUR ARTISTIC DISCIPLINE",
+      "description": "Every wedding story is photographed with artistic composition and meticulous color grading to deliver timeless images.",
+      "formats": [
+        {
+          "name": "Sony Alpha 1 & G-Master Primes",
+          "medium": "Ultra-High Resolution Digital",
+          "description": "Blazing fast precision autofocus capturing instantaneous fleeting smiles, jai mala garland tosses, and spontaneous sangeet dances.",
+          "provenance": "Hand-Graded in Pune Studio"
+        },
+        {
+          "name": "Leica M System Rangefinder",
+          "medium": "Discrete Prime Lenses",
+          "description": "Completely silent shutter for emotional ceremony candids, Haldi rituals, and quiet bidaai moments without intrusion.",
+          "provenance": "Archival Monochrome & Color Grading"
+        }
+      ],
+      "lab_stamp": "PROCESSED & PRINTED WITH CERTIFIED ARCHIVAL LABORATORIES"
+    },
+    "artisan_portrait": {
+      "image": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop",
+      "caption": "Maya reviewing color-graded album spreads in our Pune studio.",
+      "photographers": "Aarav & Maya Kulkarni",
+      "role": "Founders & Lead Wedding Photographers",
+      "experience_years": "12+ Years Documenting 200+ Indian Weddings"
+    }
+  },
+  "featured_stories": {
+    "badge": "FEATURED WEDDING STORIES",
+    "headline": "Love stories told as heartfelt",
+    "headline_italic": "and timeless photo essays.",
+    "subheadline": "Each wedding is captured as an emotional visual story—balancing the grand heritage architecture with quiet, intimate human moments.",
+    "stories": [
+      {
+        "id": "rohan-and-meera",
+        "chapter_number": "STORY 01 / 03",
+        "couple_names": "Rohan & Meera",
+        "setting": "The Leela Palace, Lake Pichola, Udaipur",
+        "coordinates": "24.5854° N, 73.6811° E • UDAIPUR",
+        "narrative": "A three-day royal Marwari celebration on the shimmering waters of Lake Pichola. Rohan and Meera arrived by ceremonial royal boat as sunset reflected off the historic palace arches.",
+        "extended_story": "From the intimate family dawn haldi rituals on the lakeside terraces to a high-voltage sangeet under fairy lights that went on until 4 AM, we captured every spontaneous tear and laughter. The golden hour light across the palace courtyards was pure poetry.",
+        "coverage_summary": "3 Days • 4 Lead Photographers • 220 Guests",
+        "primary_photo": {
+          "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=1200&auto=format&fit=crop",
+          "alt": "Rohan & Meera walking through palace courtyard in Udaipur",
+          "caption": "Rohan & Meera ascending the palace courtyard stairs during sunset.",
+          "film_stock": "SONY A1 • 50MM F/1.2 • UDAIPUR PALACE"
+        },
+        "secondary_macro_photo": {
+          "url": "https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?q=80&w=800&auto=format&fit=crop",
+          "alt": "Handcrafted polki jewelry and intricate bridal mehendi details",
+          "caption": "Heirloom polki necklace and traditional bridal mehendi.",
+          "camera_spec": "LEICA M11 • MACRO 90MM"
+        },
+        "layout_orientation": "left",
+        "read_story_cta": "Explore Wedding Story",
+        "tags": ["Destination Wedding", "Udaipur Palace", "Royal Marwari", "3-Day Celebration"]
+      },
+      {
+        "id": "aditya-and-ananya",
+        "chapter_number": "STORY 02 / 03",
+        "couple_names": "Aditya & Ananya",
+        "setting": "Alila Diwa, South Goa",
+        "coordinates": "15.3144° N, 73.9168° E • SOUTH GOA",
+        "narrative": "A breezy coastal sunset wedding under lush coconut palms, followed by a barefoot after-party right on the white sands of Majorda Beach.",
+        "extended_story": "Aditya and Ananya wanted their celebration to feel warm, joyful, and completely relaxed. We documented their vibrant morning haldi splash in the pool, an emotional sunset pheras mandap decorated with fresh tuberose, and non-stop dancing under open coastal stars.",
+        "coverage_summary": "2 Days • 3 Photographers • 150 Guests",
+        "primary_photo": {
+          "url": "https://images.unsplash.com/photo-1520854221256-17451cc331bf?q=80&w=1200&auto=format&fit=crop",
+          "alt": "Aditya & Ananya embracing along the sunset coastal path",
+          "caption": "Sunset portraits amid the swaying coconut palms in South Goa.",
+          "film_stock": "LEICA M • 35MM SUMMICRON • GOA SUNSET"
+        },
+        "secondary_macro_photo": {
+          "url": "https://images.unsplash.com/photo-1544077960-604201fe74bc?q=80&w=800&auto=format&fit=crop",
+          "alt": "Tender close-up of Ananya smiling through happy tears",
+          "caption": "Spontaneous laughter during the garland exchange ceremony.",
+          "camera_spec": "85MM F/1.4 PORTRAIT"
+        },
+        "layout_orientation": "right",
+        "read_story_cta": "Explore Wedding Story",
+        "tags": ["Beachside Wedding", "South Goa", "Sunset Mandap", "Candid Moments"]
+      },
+      {
+        "id": "kabir-and-tanvi",
+        "chapter_number": "STORY 03 / 03",
+        "couple_names": "Kabir & Tanvi",
+        "setting": "Fazlani Nature's Nest, Lonavala & Pune",
+        "coordinates": "18.7546° N, 73.4062° E • LONAVALA, PUNE",
+        "narrative": "A serene forest mandap overlooking the Sahyadri mountains with marigold canopies, earthen diyas, and authentic Maharashtrian rituals.",
+        "extended_story": "Set against the misty hills of the Western Ghats, Kabir and Tanvi celebrated their union with intimate family rituals. Tanvi wore her grandmother's heirloom Paithani saree in deep peacock blue, while Kabir's joyful baarat featured live dhol-tasha beats.",
+        "coverage_summary": "2 Days • 3 Photographers • 180 Guests",
+        "primary_photo": {
+          "url": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+          "alt": "Kabir & Tanvi in traditional Maharashtrian wedding attire",
+          "caption": "The sacred pheras in front of the open-air floral mandap.",
+          "film_stock": "SONY A1 • 85MM F/1.4 • SAHYADRI HILLS"
+        },
+        "secondary_macro_photo": {
+          "url": "https://images.unsplash.com/photo-1532712938310-34cb3982ef74?q=80&w=800&auto=format&fit=crop",
+          "alt": "Warm brass lamps and traditional marigold arrangement",
+          "caption": "Traditional brass samai oil lamps and fresh marigold petals.",
+          "camera_spec": "35MM NATURAL LIGHT"
+        },
+        "layout_orientation": "left",
+        "read_story_cta": "Explore Wedding Story",
+        "tags": ["Sahyadri Hills", "Maharashtrian Wedding", "Heirloom Paithani", "Intimate Mandap"]
+      }
+    ]
+  },
+  "curated_archive": {
+    "badge": "CURATED WEDDING PORTFOLIO",
+    "headline": "A gallery of timeless moments,",
+    "headline_italic": "curated by emotion & celebration.",
+    "subheadline": "Tap on any photograph to view the full resolution photo, celebration setting, and moment details.",
+    "hud_label": "PHOTOGRAPH DETAILS",
+    "mood_filters": [
+      { "id": "all", "label": "All Moments" },
+      { "id": "quiet_vows", "label": "Sacred Pheras & Vows" },
+      { "id": "editorial_portraits", "label": "Couple Portraits" },
+      { "id": "golden_hour", "label": "Sunset Solitude" },
+      { "id": "analog_35mm", "label": "Emotional Candids" },
+      { "id": "revelry", "label": "Sangeet & Revelry" }
+    ],
+    "gallery_images": [
+      {
+        "id": "frame-01",
+        "url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bride and groom sharing an emotional glance during the sacred pheras",
+        "title": "Sacred Vows Around the Agni",
+        "mood": "quiet_vows",
+        "aspect_ratio": "vertical",
+        "hud": {
+          "frame_number": "MOMENT 01",
+          "shutter_aperture_iso": "Natural Mandap Flame Light",
+          "camera_lens": "Sony A1 • 50mm Prime",
+          "film_emulsion": "Warm Ceremonial Tone",
+          "location": "The Leela Palace, Udaipur"
+        }
+      },
+      {
+        "id": "frame-02",
+        "url": "https://images.unsplash.com/photo-1465495976277-4387d4b0b4c6?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Bridal dupatta flowing in the gentle coastal sea breeze",
+        "title": "Bridal Dupatta in the Sea Breeze",
+        "mood": "editorial_portraits",
+        "aspect_ratio": "landscape",
+        "hud": {
+          "frame_number": "MOMENT 02",
+          "shutter_aperture_iso": "Golden Hour Ambient",
+          "camera_lens": "Sony A1 • 85mm f/1.4",
+          "film_emulsion": "True Pastel Silk Tones",
+          "location": "Majorda Beach, South Goa"
+        }
+      },
+      {
+        "id": "frame-03",
+        "url": "https://images.unsplash.com/photo-1469371670807-013ccf25f16a?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Couple strolling peacefully in sunset light across palace grounds",
+        "title": "Sunset Solitude in the Courtyard",
+        "mood": "golden_hour",
+        "aspect_ratio": "vertical",
+        "hud": {
+          "frame_number": "MOMENT 03",
+          "shutter_aperture_iso": "Sunlit Backlight",
+          "camera_lens": "Leica M11 • 35mm",
+          "film_emulsion": "Golden Hour Warmth",
+          "location": "Jai Mahal Palace, Jaipur"
+        }
+      },
+      {
+        "id": "frame-04",
+        "url": "https://images.unsplash.com/photo-1522673607200-164d1b6ce486?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Timeless black and white embrace before the reception",
+        "title": "Quiet Whisper Before the Reception",
+        "mood": "analog_35mm",
+        "aspect_ratio": "square",
+        "hud": {
+          "frame_number": "MOMENT 04",
+          "shutter_aperture_iso": "Soft Window Light",
+          "camera_lens": "Leica M • 50mm",
+          "film_emulsion": "Archival Black & White",
+          "location": "Conrad Hotel, Pune"
+        }
+      },
+      {
+        "id": "frame-05",
+        "url": "https://images.unsplash.com/photo-1591604466107-ec97de577aff?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Fairy lights glowing over sangeet dance floor banquet",
+        "title": "Sangeet Night Under Canopy Lights",
+        "mood": "revelry",
+        "aspect_ratio": "landscape",
+        "hud": {
+          "frame_number": "MOMENT 05",
+          "shutter_aperture_iso": "Warm Fairy Light Ambience",
+          "camera_lens": "Sony A1 • 24-70mm",
+          "film_emulsion": "Vibrant Evening Color",
+          "location": "Fazlani Nature's Nest, Lonavala"
+        }
+      },
+      {
+        "id": "frame-06",
+        "url": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Couple sharing an unscripted laugh during haldi ceremony",
+        "title": "Haldi Laughter & Marigold Showers",
+        "mood": "golden_hour",
+        "aspect_ratio": "vertical",
+        "hud": {
+          "frame_number": "MOMENT 06",
+          "shutter_aperture_iso": "Direct Morning Light",
+          "camera_lens": "Sony A1 • 35mm Prime",
+          "film_emulsion": "Vibrant Turmeric Yellows",
+          "location": "JW Marriott, Pune"
+        }
+      },
+      {
+        "id": "frame-07",
+        "url": "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Tender close-up of entwined hands during the kanyadaan",
+        "title": "Hands Entwined in Sacred Blessing",
+        "mood": "quiet_vows",
+        "aspect_ratio": "square",
+        "hud": {
+          "frame_number": "MOMENT 07",
+          "shutter_aperture_iso": "Soft Diffused Light",
+          "camera_lens": "Sony A1 • 90mm Macro",
+          "film_emulsion": "Intimate Ritual Detail",
+          "location": "The Taj Mahal Palace, Mumbai"
+        }
+      },
+      {
+        "id": "frame-08",
+        "url": "https://images.unsplash.com/photo-1529636798458-92182e662485?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Regal bridal portrait in crimson Banarasi lehenga",
+        "title": "Regal Bridal Portrait in Crimson Silk",
+        "mood": "editorial_portraits",
+        "aspect_ratio": "vertical",
+        "hud": {
+          "frame_number": "MOMENT 08",
+          "shutter_aperture_iso": "Natural Window Illumination",
+          "camera_lens": "Sony A1 • 85mm f/1.2",
+          "film_emulsion": "Classic Indian Crimson Tones",
+          "location": "Rambagh Palace, Jaipur"
+        }
+      },
+      {
+        "id": "frame-09",
+        "url": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=1200&auto=format&fit=crop",
+        "alt": "Joyful unscripted dancing on sangeet stage with friends",
+        "title": "The Sangeet Celebration Surge",
+        "mood": "analog_35mm",
+        "aspect_ratio": "landscape",
+        "hud": {
+          "frame_number": "MOMENT 09",
+          "shutter_aperture_iso": "Dynamic Ambient Stage Light",
+          "camera_lens": "Leica M11 • 28mm",
+          "film_emulsion": "High Energy Candids",
+          "location": "Alila Diwa, Goa"
+        }
+      }
+    ]
+  },
+  "investment": {
+    "badge": "PACKAGES & INVESTMENT",
+    "title": "An investment in living memories",
+    "title_italic": "and timeless family heirlooms.",
+    "subtitle": "We believe your wedding documentation should be transparent, all-inclusive, and handcrafted to last generations with zero hidden surprises.",
+    "note": "ACCEPTING LIMITED WEDDING COMMISSIONS EACH SEASON TO MAINTAIN HIGHEST QUALITY",
+    "packages": [
+      {
+        "id": "collection-intimate",
+        "ledger_code": "PACKAGE 01 // INTIMATE",
+        "name": "The Intimate Celebration",
+        "clientele_type": "Single-day intimate weddings, temple ceremonies, engagements, or court weddings up to 75 guests.",
+        "starting_price": "₹1,50,000",
+        "hours": "Up to 6 Hours of Comprehensive Coverage",
+        "coverage_details": "1 Lead Senior Photographer (Aarav or Maya) + Lighting Assistant",
+        "description": "Designed for couples wanting high-quality, candid documentation for an intimate wedding ceremony, engagement, or registration.",
+        "inclusions": [
+          "6 Hours of Continuous Candid & Traditional Coverage",
+          "1 Lead Senior Photographer (Aarav or Maya)",
+          "High-Resolution Edited Digital Photographs (400+ Images)",
+          "Private Online Cloud Gallery with 5-Year High-Speed Access",
+          "Pre-Wedding Consultation & Timeline Planning Session",
+          "Sneak Peek Gallery Delivered Within 72 Hours for Family Sharing",
+          "Full Printing Rights for Personal Album Making"
+        ],
+        "film_allowance": "High-Resolution Master Files",
+        "album_spec": "Complimentary 10x10 Linen Keepsake Book (20 Spreads)",
+        "delivery_timeline": "3 to 4 Weeks Final Delivery • 72-Hour Sneak Preview",
+        "is_featured": false
+      },
+      {
+        "id": "collection-signature",
+        "ledger_code": "PACKAGE 02 // SIGNATURE",
+        "name": "The 2-Day Signature Wedding",
+        "clientele_type": "Complete multi-event celebrations: Mehendi, Haldi, Sangeet & Full Wedding Ceremony.",
+        "starting_price": "₹2,80,000",
+        "hours": "Up to 2 Days of Comprehensive Multi-Event Coverage",
+        "coverage_details": "Both Lead Photographers (Aarav & Maya) + 1 Candid Cinematographer",
+        "description": "Our most popular wedding package. Complete dual-perspective coverage ensuring intimate emotional rituals and energetic sangeet dances are captured simultaneously.",
+        "inclusions": [
+          "2 Full Days of Coverage (Haldi, Mehendi, Sangeet & Pheras)",
+          "Both Lead Photographers: Aarav & Maya Kulkarni",
+          "1 Dedicated Cinematic Highlights Filmmaker (3-5 min Film)",
+          "800+ Master-Color Graded High-Resolution Photographs",
+          "12x12 Handcrafted Premium Lay-Flat Wedding Album (35 Spreads)",
+          "Luxury Wooden Keepsake Box with 50 Fine-Art Cotton Prints",
+          "48-Hour Curated Highlights Preview (50 Photos for WhatsApp/Social)",
+          "Full Drone Aerial Venue Coverage (Subject to local permissions)",
+          "Local Travel within Pune, Mumbai & Lonavala Included"
+        ],
+        "film_allowance": "Both Photography & Cinematic Highlights",
+        "album_spec": "12x12 Handcrafted Premium Lay-Flat Album in Custom Box",
+        "delivery_timeline": "4 to 5 Weeks Final Delivery • 48-Hour Highlights",
+        "is_featured": true,
+        "featured_badge": "MOST POPULAR CHOICE"
+      },
+      {
+        "id": "collection-destination",
+        "ledger_code": "PACKAGE 03 // DESTINATION",
+        "name": "The Grand Destination Wedding",
+        "clientele_type": "3-day destination weddings in Udaipur, Goa, Jaipur, or international locations with multiple large-scale events.",
+        "starting_price": "₹4,50,000",
+        "hours": "Up to 3 Days of Immersive Multi-Crew Coverage",
+        "coverage_details": "Full 5-Member Team (Aarav, Maya, 2 Cinematographers + Drone Pilot)",
+        "description": "The complete documentary and cinematic chronicle of your grand celebration with complete coverage of all rituals, guests, and candid moments.",
+        "inclusions": [
+          "3 Days of Comprehensive Coverage (Welcome Dinner to Reception)",
+          "Full Team of 5: Both Lead Photographers + 2 Filmmakers + Drone Pilot",
+          "1,500+ Hand-Curated and Master-Graded High-Resolution Photographs",
+          "Cinematic Wedding Film (5-7 min Teaser) + Full Ceremony Docu-Cut",
+          "Master 12x15 Leather/Linen Lay-Flat Album (45 Spreads)",
+          "Two Identical 8x10 Parent Companion Albums Included",
+          "Exclusive Couple Pre-Wedding Shoot Included (Half-Day Session)",
+          "48-Hour Turnaround of 100 High-Res Highlights for Family & Press",
+          "Delivered on Custom Engraved Wooden USB Drive in Presentation Box"
+        ],
+        "film_allowance": "Full Cinematic 4K Suite + Aerial Drone",
+        "album_spec": "Master 12x15 Leather Album + Two 8x10 Parent Companion Albums",
+        "delivery_timeline": "5 to 6 Weeks Final Delivery • 48-Hour Highlights",
+        "is_featured": false
+      }
+    ],
+    "bespoke_notice": "Every Indian wedding has its own traditions and flow. If your wedding involves multiple cities, cross-cultural ceremonies, or unique multi-day schedules, we are happy to customize a package.",
+    "currency_disclaimer": "All prices in Indian Rupees (₹). GST applicable as per government norms. Travel and accommodation for destination weddings arranged transparently with zero hidden markups."
+  },
+  "testimonials": {
+    "badge": "REVIEWS & KIND WORDS",
+    "title": "Love letters from couples who trusted us",
+    "title_italic": "with their most cherished days.",
+    "subtitle": "Reading these words from our couples and their families reminds us why we love documenting Indian weddings. Here are excerpts from genuine notes sent to our studio.",
+    "letters": [
+      {
+        "id": "letter-01",
+        "couple_names": "Rohan & Meera",
+        "wedding_date": "December 14, 2025",
+        "wedding_location": "The Leela Palace, Udaipur",
+        "letter_text": "Looking back through our wedding album, Aarav and Maya did not just capture what our wedding looked like; they preserved exactly how it felt. When Meera's father saw the picture of him gently placing his hand on her head before the bidaai, he broke down in tears. It is the most precious gift our family will cherish for generations.",
+        "highlight": "They preserved exactly how it felt—every real emotion.",
+        "film_vignette": "UDAIPUR PALACE • ROYAL MARWARI CELEBRATION"
+      },
+      {
+        "id": "letter-02",
+        "couple_names": "Aditya & Ananya",
+        "wedding_date": "November 22, 2025",
+        "wedding_location": "Alila Diwa, South Goa",
+        "letter_text": "We were both nervous about being photographed—we are shy and hated the thought of stiff poses. Aarav and Maya blended right in like old friends; we forgot cameras were even pointed at us. The pictures look like stills from a classic Mani Ratnam film. Our families still can't stop raving about the album.",
+        "highlight": "The pictures look like stills from a classic movie.",
+        "film_vignette": "SOUTH GOA • SUNSET BEACH CELEBRATION"
+      },
+      {
+        "id": "letter-03",
+        "couple_names": "Kabir & Tanvi",
+        "wedding_date": "January 18, 2026",
+        "wedding_location": "Fazlani Nature's Nest, Lonavala & Pune",
+        "letter_text": "When sudden rain showers started just before our open-air pheras, other photographers might have panicked. Aarav and Maya quickly protected their gear, embraced the mist, and turned the moody Sahyadri weather into the most magical afternoon of our lives. The framed prints in our living room bring smiles every morning.",
+        "highlight": "Turned the moody mountain mist into pure magic.",
+        "film_vignette": "SAHYADRI HILLS • MAHARASHTRIAN WEDDING"
+      }
+    ],
+    "album_lookbook": {
+      "title": "HANDCRAFTED WEDDING ALBUMS",
+      "subtitle": "Tangible, Archival Craftsmanship",
+      "description": "Your memories deserve a beautiful physical home. Each heirloom album is bound by hand using archival cotton linen or genuine Italian leather, with thick lay-flat flush-mounted pages designed to withstand decades of family browsing.",
+      "specifications": [
+        { "label": "Paper Quality", "value": "300gsm Acid-Free Archival Cotton Paper" },
+        { "label": "Binding Style", "value": "Seamless Lay-Flat Panoramic Spreads" },
+        { "label": "Cover Options", "value": "Natural Japanese Linen or Genuine Leather" },
+        { "label": "Embossing", "value": "Custom Hot-Foil Gold or Blind Debossed Names" },
+        { "label": "Packaging", "value": "Handcrafted Solid Teak Presentation Box" }
+      ],
+      "lookbook_photos": [
+        {
+          "url": "https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop",
+          "caption": "Hand-bound linen wedding album with custom debossed gold typography.",
+          "subcaption": "Seamless lay-flat panoramic spreads displaying ceremony highlights."
+        },
+        {
+          "url": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=800&auto=format&fit=crop",
+          "caption": "Archival fine-art prints housed in a solid teak presentation box.",
+          "subcaption": "Individual giclée cotton proofs protected for generations."
+        }
+      ]
+    }
+  },
+  "inquiry": {
+    "badge": "DATE AVAILABILITY & CONSULTATION",
+    "headline": "Tell us about your wedding,",
+    "headline_italic": "and let us create something timeless together.",
+    "narrative": "Because we accept a limited number of wedding commissions each season to give each couple our undivided attention and artistry, dates fill up 6 to 12 months in advance. Share your celebration plans, dates, and what you are most excited about.",
+    "availability_note": "2026 WEDDING SEASON: LIMITED DATES REMAINING • 2027 ENQUIRIES NOW OPEN",
+    "calendar_status": {
+      "season": "Wedding Season 2026",
+      "dates_left": "Limited Dates Available",
+      "booking_state": "BOOKINGS OPEN",
+      "intake_limit": "LIMITED WEDDING COMMISSIONS ANNUALLY"
+    },
+    "concierge_contacts": {
+      "phone": "+91 98220 54321",
+      "whatsapp_number": "919822054321",
+      "email": "hello@aaravandmaya.com",
+      "studio_locations": [
+        "Lane 7, Koregaon Park, Pune 411001",
+        "Pali Hill, Bandra West, Mumbai 400050"
+      ],
+      "instagram_handle": "@aaravandmayaweddings",
+      "response_time": "Personalized reply within 24 hours"
+    },
+    "form": {
+      "name_label": "Your Names (Both of You)",
+      "name_placeholder": "e.g. Meera Sharma & Rohan Singhal",
+      "email_label": "Email Address",
+      "email_placeholder": "meera@example.com",
+      "whatsapp_label": "WhatsApp / Phone Number",
+      "whatsapp_placeholder": "+91 98220 12345",
+      "date_label": "Anticipated Wedding Date or Season",
+      "season_options": [
+        "November – December 2026 (Winter Season)",
+        "January – February 2027 (Spring Season)",
+        "March – April 2027 (Summer Weddings)",
+        "Monsoon Season 2027",
+        "Exact Date Fixed (Please mention in vision note)"
+      ],
+      "location_label": "Wedding Venue & City",
+      "location_placeholder": "e.g. The Leela Palace Udaipur / Alila Diwa Goa / Pune",
+      "guest_count_label": "Estimated Guest Count",
+      "guest_options": [
+        "Intimate Wedding (Up to 80 guests)",
+        "Classic Wedding (80 to 200 guests)",
+        "Large Celebration (200 to 450 guests)",
+        "Grand Destination Wedding (450+ guests)"
+      ],
+      "investment_label": "Planned Photography Investment Budget",
+      "investment_tiers": [
+        "₹1,50,000 – ₹2,50,000 (Intimate Celebration)",
+        "₹2,80,000 – ₹4,00,000 (Signature 2-Day Wedding)",
+        "₹4,50,000 – ₹7,00,000+ (Grand Destination Celebration)",
+        "Custom / Multi-City Proposal"
+      ],
+      "vision_label": "Tell Us About Your Celebration & What You Value Most",
+      "vision_placeholder": "Tell us how you met, your celebration events (Haldi, Mehendi, Sangeet, Pheras), and what kind of photography you love...",
+      "submit_button": "Submit Inquiry & Check Availability",
+      "success_heading": "We Have Received Your Wedding Details.",
+      "success_message": "Thank you for reaching out to us! Aarav and Maya will review your dates and get back to you within 24 hours with availability and our detailed pricing brochure.",
+      "direct_whatsapp_cta": "Or Chat Directly on WhatsApp",
+      "confidentiality_note": "Your wedding details and contact information are held in complete privacy."
+    }
+  },
+  "sticky_dock": {
+    "season_text": "2026 Season: Bookings Open",
+    "status_indicator": "Active Inquiries",
+    "inquire_button_label": "Check Dates",
+    "whatsapp_button_label": "WhatsApp Us"
+  },
+  "footer": {
+    "colophon_heading": "AARAV & MAYA WEDDING STORIES",
+    "colophon_statement": "A fine-art wedding photography studio dedicated to authentic human emotion, natural light, and handcrafted family heirlooms across India.",
+    "lab_credentials": [
+      {
+        "lab_name": "Canvera Archival Labs",
+        "service": "High-Definition Giclée Flush-Mount Printing",
+        "city": "Bengaluru, India"
+      },
+      {
+        "lab_name": "Hahnemühle Certified Studio",
+        "service": "300gsm Acid-Free Cotton Rag Archival Papers",
+        "city": "Mumbai, India"
+      },
+      {
+        "lab_name": "Smyth Archival Binding",
+        "service": "Hand-Stitched Lay-Flat Heirloom Bookbinding",
+        "city": "Pune, India"
+      }
+    ],
+    "travel_coordinates": [
+      {
+        "region": "Pune, Mumbai & Lonavala",
+        "months": "Year-Round Coverage",
+        "fee_note": "Local Home Studio (Zero Travel Fee)"
+      },
+      {
+        "region": "Udaipur, Jaipur & Jodhpur",
+        "months": "October – March Peak Season",
+        "fee_note": "Regular Rajasthan Destination Circuit"
+      },
+      {
+        "region": "Goa, Alibaug & South India",
+        "months": "November – April Season",
+        "fee_note": "Coastal & Beach Destination Weddings"
+      }
+    ],
+    "social_links": [
+      { "platform": "Instagram", "handle": "@aaravandmayaweddings", "href": "https://instagram.com" },
+      { "platform": "WhatsApp", "handle": "+91 98220 54321", "href": "https://wa.me/919822054321" },
+      { "platform": "Email", "handle": "hello@aaravandmaya.com", "href": "mailto:hello@aaravandmaya.com" },
+      { "platform": "YouTube", "handle": "Aarav & Maya Wedding Films", "href": "https://youtube.com" }
+    ],
+    "copyright": "© 2026 AARAV & MAYA WEDDING STORIES. ALL RIGHTS RESERVED.",
+    "archival_seal": "FINE-ART & CANDID WEDDING PHOTOGRAPHY • PUNE & MUMBAI",
+    "curator_note": "Designed with museum-style passepartout framing, authentic Indian wedding details, and zero AI artifacts."
+  }
+}

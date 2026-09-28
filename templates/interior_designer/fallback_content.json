@@ -1,0 +1,158 @@
+{
+  "category_id": "interior designers",
+  "category_label": "Architecture & Interior Design Studio",
+  "branding": {
+    "business_name": "Elite Architecture & Interior Design Studio Studio",
+    "tagline": "Modern Residential Interiors, Luxury Modular Spaces & Turnkey Execution",
+    "hero_headline": "Crafting Soulful, Functional & Timeless Spaces You Love Coming Home To",
+    "hero_subheadline": "Specializing in luxury 2-4 BHK residential renovations, bespoke villas, modular kitchen craftsmanship, and turnkey 3D design-to-handover solutions in Pune.",
+    "primary_color": "#4338CA",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER ARCHITECTURE & INTERIOR DESIGN STUDIO IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Architecture & Interior Design Studio",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for architecture & interior design studio, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "Full Turnkey Residential Interiors (2 & 3 BHK)",
+      "description": "Complete design, civil changes, electrical, false ceiling, modular woodwork, and final styling with 10-year warranty.",
+      "price": "From \u20b98.5 Lakhs",
+      "tag": "Turnkey"
+    },
+    {
+      "name": "Luxury Modular Kitchen & Wardrobe Systems",
+      "description": "Hafele / Hettich hardware, anti-scratch acrylic shutters, hydraulic lift-ups, and quartz countertops.",
+      "price": "From \u20b92.5 Lakhs",
+      "tag": "Modular"
+    },
+    {
+      "name": "3D Photorealistic Design & Material Consultation",
+      "description": "Virtual 3D renders of every room, lighting layout, moodboards, and material selection assistance.",
+      "price": "\u20b935 / sq.ft.",
+      "tag": "Design Only"
+    },
+    {
+      "name": "Commercial Office & Boutique Styling",
+      "description": "Aesthetic workspaces, acoustic paneling, ergonomic layouts, and branding-aligned reception lobbies.",
+      "price": "Bespoke Quote",
+      "tag": "Commercial"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800&auto=format&fit=crop",
+      "title": "Minimalist Contemporary Living",
+      "tag": "Living"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=800&auto=format&fit=crop",
+      "title": "Warm Japandi Wood Interiors",
+      "tag": "Aesthetic"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=800&auto=format&fit=crop",
+      "title": "Open Modular Island Kitchen",
+      "tag": "Kitchen"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?q=80&w=800&auto=format&fit=crop",
+      "title": "Concealed Warm Lighting Detail",
+      "tag": "Lighting"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1616137466211-f939a420be84?q=80&w=800&auto=format&fit=crop",
+      "title": "Master Bedroom Suite",
+      "tag": "Bedroom"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1618219908412-a29a1bb7b86e?q=80&w=800&auto=format&fit=crop",
+      "title": "Material & Palette Moodboard",
+      "tag": "Materials"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "2 BHK Turnkey Design Package",
+      "price": "\u20b98,50,000",
+      "billing": "All-Inclusive",
+      "features": [
+        "Living Room TV Unit & Ceiling",
+        "Full Modular Kitchen with Baskets",
+        "Master Bedroom Wardrobe & Bed",
+        "Quality Plywood & 10-Yr Warranty"
+      ]
+    },
+    {
+      "name": "3 BHK Premium Turnkey Package",
+      "price": "\u20b913,50,000",
+      "billing": "All-Inclusive",
+      "features": [
+        "Complete 3 Bedrooms + Living + Dining",
+        "Acrylic Finish Modular Kitchen",
+        "Designer Wall Paneling & Paint",
+        "Curated Soft Furnishings Assistance"
+      ]
+    },
+    {
+      "name": "Villa / Penthouse Luxury Bespoke",
+      "price": "Custom",
+      "billing": "Per Sq.Ft.",
+      "features": [
+        "Imported Italian Marble Flooring",
+        "Smart Home Automation Integration",
+        "Custom Metal & Fluted Glasswork"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Abhishek & Neha Agarwal",
+      "quote": "Delivered our 3 BHK in Baner on the exact promised date! High quality finish and transparent cost breakdown without surprises.",
+      "rating": 5
+    },
+    {
+      "author": "Shweta Phadke",
+      "quote": "Their 3D design renders looked identical to the finished home. The modular kitchen is both gorgeous and super functional.",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your architecture & interior design studio services.",
+    "email": "info@interiordesigners.in",
+    "address": "Balewadi High Street, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE ARCHITECTURE & INTERIOR DESIGN STUDIO. ALL RIGHTS RESERVED."
+  }
+}

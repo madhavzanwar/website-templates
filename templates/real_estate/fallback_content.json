@@ -1,0 +1,156 @@
+{
+  "category_id": "real estate agents",
+  "category_label": "Real Estate Consultants & Property Advisory",
+  "branding": {
+    "business_name": "Elite Real Estate Consultants & Property Advisory Studio",
+    "tagline": "Verified Premium Residential & Commercial Properties Across Pune",
+    "hero_headline": "Find Your Dream Home With Zero Brokerage Hassles & Complete Title Clarity",
+    "hero_subheadline": "Specializing in luxury 2, 3 & 4 BHK apartments, gated villa communities, and commercial investments across Baner, Wakad, Kharadi, and Koregaon Park.",
+    "primary_color": "#0F766E",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER REAL ESTATE CONSULTANTS & PROPERTY ADVISORY IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Real Estate Consultants & Property Advisory",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for real estate consultants & property advisory, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "Luxury Gated 2 & 3 BHK Apartments",
+      "description": "RERA-registered high-rise residences with clubhouse, swimming pool, and excellent IT park connectivity.",
+      "price": "\u20b975 Lakhs - \u20b91.8 Cr",
+      "tag": "Residential"
+    },
+    {
+      "name": "Exclusive Private Villas & Row Houses",
+      "description": "Independent living with private gardens, solar power, and 24/7 security in suburban Pune.",
+      "price": "\u20b91.9 Cr - \u20b94.5 Cr",
+      "tag": "Luxury"
+    },
+    {
+      "name": "Grade-A Commercial Office & Retail Spaces",
+      "description": "Pre-leased high rental yield office spaces and high-street retail showrooms in booming hubs.",
+      "price": "\u20b91.2 Cr onwards",
+      "tag": "Commercial"
+    },
+    {
+      "name": "Home Loan Assistance & Legal Title Due Diligence",
+      "description": "End-to-end documentation assistance, lowest bank loan rates, and property registration support.",
+      "price": "Free Service For Buyers",
+      "tag": "Advisory"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?q=80&w=800&auto=format&fit=crop",
+      "title": "Modern Luxury Villa",
+      "tag": "Villas"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800&auto=format&fit=crop",
+      "title": "Designer Living Spaces",
+      "tag": "Apartments"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?q=80&w=800&auto=format&fit=crop",
+      "title": "High-Rise Gated Community",
+      "tag": "Architecture"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?q=80&w=800&auto=format&fit=crop",
+      "title": "Modular German Kitchen",
+      "tag": "Interiors"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?q=80&w=800&auto=format&fit=crop",
+      "title": "Consultation & Key Handover",
+      "tag": "Trust"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1582407947304-fd86f028f716?q=80&w=800&auto=format&fit=crop",
+      "title": "On-Site Property Inspection",
+      "tag": "Verification"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "First-Time Homebuyer Assistance",
+      "price": "Zero Brokerage",
+      "billing": "New Builder Bookings",
+      "features": [
+        "Free Site Visits via Cab",
+        "Price Negotiation With Builder",
+        "Bank Loan Approval Support"
+      ]
+    },
+    {
+      "name": "Resale & Rental Brokerage",
+      "price": "Standard 1%",
+      "billing": "On Deal Closing",
+      "features": [
+        "Verified Buyer Sourcing",
+        "Agreement & Stamp Duty Filing",
+        "Key Handover Coordination"
+      ]
+    },
+    {
+      "name": "Commercial Investor Advisory",
+      "price": "Bespoke",
+      "billing": "Custom Retainer",
+      "features": [
+        "High Yield Pre-Leased Assets",
+        "Tenant Due Diligence",
+        "Capital Growth Analysis"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Gaurav Shinde",
+      "quote": "Helped us find a fantastic 3 BHK in Wakad within our budget. Transparent dealings with zero pressure tactics.",
+      "rating": 5
+    },
+    {
+      "author": "Meenakshi Rao",
+      "quote": "Extremely knowledgeable about legal documentation and RERA approvals in Pune. Saved us immense time!",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your real estate consultants & property advisory services.",
+    "email": "info@realestateagents.in",
+    "address": "Hinjewadi / Wakad, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE REAL ESTATE CONSULTANTS & PROPERTY ADVISORY. ALL RIGHTS RESERVED."
+  }
+}

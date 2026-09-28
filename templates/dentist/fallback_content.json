@@ -1,0 +1,224 @@
+{
+  "businessName": "Smile Studio Dental Clinic",
+  "tagline": "Advanced Dental Care in Aundh",
+  "hero": {
+    "headline": "Beautiful Smiles Start Here",
+    "subheadline": "Experience world-class dental care in a relaxing environment. We combine advanced technology with a gentle touch to give you the smile you deserve.",
+    "badges": [
+      "500+ Happy Smiles",
+      "15 Years Experience",
+      "Painless Treatments"
+    ]
+  },
+  "navLinks": [
+    { "label": "About", "href": "#about" },
+    { "label": "Services", "href": "#services" },
+    { "label": "Our Team", "href": "#team" },
+    { "label": "Testimonials", "href": "#testimonials" },
+    { "label": "Pricing", "href": "#pricing" }
+  ],
+  "services": [
+    {
+      "id": "s1",
+      "title": "General Check-up",
+      "description": "Comprehensive oral examination and consultation for your dental health.",
+      "priceRange": "₹300 - ₹500",
+      "iconName": "Stethoscope"
+    },
+    {
+      "id": "s2",
+      "title": "Teeth Cleaning",
+      "description": "Professional scaling and polishing to remove plaque and tartar.",
+      "priceRange": "₹800 - ₹1,200",
+      "iconName": "Sparkles"
+    },
+    {
+      "id": "s3",
+      "title": "Braces & Aligners",
+      "description": "Orthodontic treatments including metal braces and invisible aligners.",
+      "priceRange": "₹25,000 - ₹80,000",
+      "iconName": "Smile"
+    },
+    {
+      "id": "s4",
+      "title": "Teeth Whitening",
+      "description": "Advanced laser teeth whitening for a brighter, more confident smile.",
+      "priceRange": "₹8,000 - ₹15,000",
+      "iconName": "Sun"
+    },
+    {
+      "id": "s5",
+      "title": "Dental Implants",
+      "description": "Permanent replacement for missing teeth with titanium implants.",
+      "priceRange": "₹30,000 - ₹60,000",
+      "iconName": "Activity"
+    },
+    {
+      "id": "s6",
+      "title": "Root Canal Treatment",
+      "description": "Painless endodontic therapy to save infected or damaged teeth.",
+      "priceRange": "₹3,500 - ₹6,000",
+      "iconName": "Shield"
+    },
+    {
+      "id": "s7",
+      "title": "Kids Dentistry",
+      "description": "Gentle and friendly dental care for children of all ages.",
+      "priceRange": "Varies",
+      "iconName": "Baby"
+    },
+    {
+      "id": "s8",
+      "title": "Smile Makeover",
+      "description": "Customized cosmetic treatments including veneers and crowns.",
+      "priceRange": "Consultation Required",
+      "iconName": "Camera"
+    }
+  ],
+  "whyChooseUs": [
+    {
+      "id": "w1",
+      "title": "Experienced Specialists",
+      "description": "Our team of MDS certified doctors brings years of expertise in specialized treatments.",
+      "iconName": "Award"
+    },
+    {
+      "id": "w2",
+      "title": "Digital X-rays & 3D Scans",
+      "description": "Equipped with state-of-the-art diagnostic tools for precise and safe treatments.",
+      "iconName": "Monitor"
+    },
+    {
+      "id": "w3",
+      "title": "EMI & Insurance Accepted",
+      "description": "Flexible payment options and tie-ups with major health insurance providers.",
+      "iconName": "CreditCard"
+    },
+    {
+      "id": "w4",
+      "title": "Pain-Free Guarantee",
+      "description": "We use modern anesthetics and techniques to ensure a comfortable experience.",
+      "iconName": "Heart"
+    }
+  ],
+  "doctors": [
+    {
+      "id": "d1",
+      "name": "Dr. Anjali Kulkarni",
+      "role": "Chief Dental Surgeon",
+      "qualifications": "BDS, MDS (Prosthodontics)"
+    },
+    {
+      "id": "d2",
+      "name": "Dr. Rohit Deshmukh",
+      "role": "Orthodontist",
+      "qualifications": "BDS, MDS (Ortho)"
+    },
+    {
+      "id": "d3",
+      "name": "Dr. Priya Mehta",
+      "role": "Paediatric Dentist",
+      "qualifications": "BDS, MDS (Pedodontics)"
+    }
+  ],
+  "transformations": [
+    {
+      "id": "t1",
+      "treatmentName": "Braces Treatment",
+      "description": "18 months of orthodontic correction for severe crowding."
+    },
+    {
+      "id": "t2",
+      "treatmentName": "Teeth Whitening",
+      "description": "Laser whitening session removing years of tea and coffee stains."
+    },
+    {
+      "id": "t3",
+      "treatmentName": "Dental Implants",
+      "description": "Full mouth rehabilitation with titanium implants and crowns."
+    },
+    {
+      "id": "t4",
+      "treatmentName": "Smile Makeover",
+      "description": "Porcelain veneers to correct chipped and discolored front teeth."
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "te1",
+      "patientName": "Sneha Patil",
+      "treatment": "Braces Treatment",
+      "rating": 5,
+      "review": "Dr. Rohit is amazing! I was very conscious of my smile, but after 1.5 years of braces, my teeth are perfectly aligned. The EMI option made it very affordable."
+    },
+    {
+      "id": "te2",
+      "patientName": "Vikram Joshi",
+      "treatment": "Root Canal",
+      "rating": 5,
+      "review": "I was terrified of getting a root canal, but Dr. Anjali made sure it was completely painless. The clinic is very clean and the staff is very polite."
+    },
+    {
+      "id": "te3",
+      "patientName": "Meera Sharma",
+      "treatment": "Kids Dentistry",
+      "rating": 5,
+      "review": "Brought my 5-year-old son for his first checkup. Dr. Priya was so patient and friendly! Now he isn't scared of the dentist anymore. Highly recommended for kids."
+    },
+    {
+      "id": "te4",
+      "patientName": "Rajesh Deshpande",
+      "treatment": "Dental Implants",
+      "rating": 4,
+      "review": "Got two implants done here. The 3D scanning process was very quick. Recovery was smooth and the new teeth feel completely natural. Great facility in Aundh."
+    }
+  ],
+  "pricing": [
+    {
+      "id": "p1",
+      "service": "Consultation & Check-up",
+      "price": "₹300 - ₹500"
+    },
+    {
+      "id": "p2",
+      "service": "Scaling & Polishing (Cleaning)",
+      "price": "₹800 - ₹1,200"
+    },
+    {
+      "id": "p3",
+      "service": "Laser Teeth Whitening",
+      "price": "₹8,000 - ₹15,000"
+    },
+    {
+      "id": "p4",
+      "service": "Metal / Ceramic Braces",
+      "price": "₹25,000 - ₹80,000"
+    },
+    {
+      "id": "p5",
+      "service": "Dental Implant (Per Tooth)",
+      "price": "₹30,000 - ₹60,000"
+    },
+    {
+      "id": "p6",
+      "service": "Root Canal Treatment (RCT)",
+      "price": "₹3,500 - ₹6,000"
+    },
+    {
+      "id": "p7",
+      "service": "Tooth Extraction",
+      "price": "₹1,000 - ₹3,500"
+    }
+  ],
+  "contact": {
+    "phone": "+91 98765 43210",
+    "whatsapp": "+91 98765 43210",
+    "email": "hello@smilestudioaundh.com",
+    "address": "Smile Studio Dental Clinic, 1st Floor, Harmony Plaza, Aundh, Pune, Maharashtra 411007",
+    "mapLink": "https://maps.google.com/?q=Aundh+Pune",
+    "hours": {
+      "weekdays": "Mon - Sat: 10:00 AM - 8:00 PM IST",
+      "weekends": "Sun: 10:00 AM - 2:00 PM IST"
+    }
+  }
+}

@@ -1,0 +1,159 @@
+{
+  "category_id": "event planners",
+  "category_label": "Wedding & Corporate Event Management",
+  "branding": {
+    "business_name": "Elite Wedding & Corporate Event Management Studio",
+    "tagline": "Flawless Execution, Breathtaking D\u00e9cor & Unforgettable Celebrations",
+    "hero_headline": "Turning Your Vision Into Seamless, Magical Celebrations",
+    "hero_subheadline": "Full-service wedding planning, luxury thematic decor, birthday galas, and corporate product launches planned with military precision and creative flair.",
+    "primary_color": "#7E22CE",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER WEDDING & CORPORATE EVENT MANAGEMENT IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Wedding & Corporate Event Management",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for wedding & corporate event management, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "End-to-End Wedding Planning",
+      "description": "Venue management, vendor coordination, hospitality, guest logistics, and entertainment.",
+      "price": "From \u20b91,20,000",
+      "tag": "Weddings"
+    },
+    {
+      "name": "Theme D\u00e9cor & Floral Architecture",
+      "description": "Stunning mandap designs, fairy-light canopies, exotic flower arrangements, and photobooths.",
+      "price": "From \u20b980,000",
+      "tag": "D\u00e9cor"
+    },
+    {
+      "name": "Corporate Conferences & Product Launches",
+      "description": "Audio-visual production, stage fabrication, LED walls, and delegate registration logistics.",
+      "price": "From \u20b965,000",
+      "tag": "Corporate"
+    },
+    {
+      "name": "Milestone Birthdays & Anniversary Galas",
+      "description": "Intimate luxury setups, bespoke entertainment, catering curation, and personalized gifting.",
+      "price": "From \u20b940,000",
+      "tag": "Social"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=800&auto=format&fit=crop",
+      "title": "Grand Banquet Setup",
+      "tag": "Banquet"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=800&auto=format&fit=crop",
+      "title": "Fairylight Evening Lawn",
+      "tag": "Outdoor"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=800&auto=format&fit=crop",
+      "title": "Floral Entrance Arch",
+      "tag": "Floral"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1478147427282-58a87a120781?q=80&w=800&auto=format&fit=crop",
+      "title": "Cocktail Night Lounge",
+      "tag": "Entertainment"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=800&auto=format&fit=crop",
+      "title": "Corporate Conference Stage",
+      "tag": "Corporate"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1527529482837-4698179dc6ce?q=80&w=800&auto=format&fit=crop",
+      "title": "Private Dinner Celebration",
+      "tag": "Private"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "D\u00e9cor Only Package",
+      "price": "\u20b91,50,000",
+      "billing": "Per Function",
+      "features": [
+        "Thematic Mandap/Stage",
+        "Entrance Archway & Pathway",
+        "Ambient Mood Lighting",
+        "Fresh Floral Table Settings"
+      ]
+    },
+    {
+      "name": "Complete Wedding Coordination",
+      "price": "\u20b93,50,000",
+      "billing": "Full 2-Day Event",
+      "features": [
+        "Complete Vendor Management",
+        "Guest RSVP & Hospitality Desk",
+        "Live Artist & DJ Coordination",
+        "Dedicated Event Manager On-Site"
+      ]
+    },
+    {
+      "name": "Bespoke Corporate Gala",
+      "price": "\u20b91,80,000",
+      "billing": "Full Day",
+      "features": [
+        "Stage & Sound Setup",
+        "MC & Live Performance",
+        "Photography & Videography",
+        "Branded Event Assets"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Kunal & Ritu",
+      "quote": "They made our 3-day wedding completely stress-free! The decor looked straight out of Pinterest and every timeline was met.",
+      "rating": 5
+    },
+    {
+      "author": "Anand Kulkarni (VP, TechCorp)",
+      "quote": "Seamlessly managed our 400-person annual corporate summit. Highly professional execution.",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your wedding & corporate event management services.",
+    "email": "info@eventplanners.in",
+    "address": "Kalyani Nagar, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE WEDDING & CORPORATE EVENT MANAGEMENT. ALL RIGHTS RESERVED."
+  }
+}

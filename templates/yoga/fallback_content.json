@@ -1,0 +1,156 @@
+{
+  "category_id": "yoga studios",
+  "category_label": "Holistic Yoga & Wellness Sanctuary",
+  "branding": {
+    "business_name": "Elite Holistic Yoga & Wellness Sanctuary Studio",
+    "tagline": "Traditional Hatha, Dynamic Vinyasa Flow & Pranayama Mindfulness",
+    "hero_headline": "Rebalance Body, Mind & Breath In A Peaceful Urban Sanctuary",
+    "hero_subheadline": "Daily group batches, sound healing therapy, certified prenatal yoga, and posture alignment classes guided by experienced yogic practitioners.",
+    "primary_color": "#15803D",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER HOLISTIC YOGA & WELLNESS SANCTUARY IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Holistic Yoga & Wellness Sanctuary",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for holistic yoga & wellness sanctuary, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "Traditional Hatha & Iyengar Alignment",
+      "description": "Focus on anatomical alignment, deep breathing, and holding asanas with props to build core stability.",
+      "price": "\u20b92,500 / month",
+      "tag": "Foundation"
+    },
+    {
+      "name": "Vinyasa Flow & Power Yoga",
+      "description": "Breath-synchronized dynamic sequences designed to build heat, cardiovascular stamina, and flexibility.",
+      "price": "\u20b92,800 / month",
+      "tag": "Dynamic"
+    },
+    {
+      "name": "Pranayama & Tibetan Sound Bath",
+      "description": "Meditative breath control techniques paired with singing bowl frequencies to soothe the nervous system.",
+      "price": "\u20b91,800 / month",
+      "tag": "Mindfulness"
+    },
+    {
+      "name": "Prenatal & Postnatal Gentle Yoga",
+      "description": "Doctor-approved gentle stretching, pelvic floor strengthening, and relaxation for expecting mothers.",
+      "price": "\u20b93,200 / month",
+      "tag": "Specialized"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1545205597-3d9d02c29597?q=80&w=800&auto=format&fit=crop",
+      "title": "Asana Alignment Practice",
+      "tag": "Asanas"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1506126613408-eca07ce68773?q=80&w=800&auto=format&fit=crop",
+      "title": "Mindful Meditation Space",
+      "tag": "Meditation"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop",
+      "title": "Group Morning Flow",
+      "tag": "Classes"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1599447421416-3414500d18a5?q=80&w=800&auto=format&fit=crop",
+      "title": "Breathwork & Pranayama",
+      "tag": "Breath"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop",
+      "title": "Zen Wooden Studio Floor",
+      "tag": "Sanctuary"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1588286840104-8957b019727f?q=80&w=800&auto=format&fit=crop",
+      "title": "Sun Salutation Ritual",
+      "tag": "Tradition"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "Monthly Unlimited Pass",
+      "price": "\u20b92,500",
+      "billing": "Per Month",
+      "features": [
+        "Attend Any 5 Days/Week Batch",
+        "Access to Morning & Evening Slots",
+        "Mats & Props Provided"
+      ]
+    },
+    {
+      "name": "Quarterly Commitment",
+      "price": "\u20b96,500",
+      "billing": "3 Months",
+      "features": [
+        "Save 15%",
+        "1 Free Weekend Sound Bath Session",
+        "Personal Flexibility Assessment"
+      ]
+    },
+    {
+      "name": "1-on-1 Therapeutic Yoga",
+      "price": "\u20b96,000",
+      "billing": "10 Private Sessions",
+      "features": [
+        "Back Pain & Posture Correction",
+        "Bespoke Home Practice Routine",
+        "Dietary Lifestyle Advice"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Deepa Iyer",
+      "quote": "The most calming yoga studio in Pune. My chronic back pain has reduced by 90% after three months of regular practice.",
+      "rating": 5
+    },
+    {
+      "author": "Sunil Bansal",
+      "quote": "The 6:30 AM morning Vinyasa class completely transformed my daily energy and focus. Great teachers!",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your holistic yoga & wellness sanctuary services.",
+    "email": "info@yogastudios.in",
+    "address": "Bavdhan / Kothrud, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE HOLISTIC YOGA & WELLNESS SANCTUARY. ALL RIGHTS RESERVED."
+  }
+}

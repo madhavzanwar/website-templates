@@ -1,0 +1,527 @@
+{
+  "businessName": "Aarogya PhysioWell",
+  "tagline": "Evidence-Based Physiotherapy & Advanced Sports Rehabilitation",
+  "location": {
+    "locality": "Wakad",
+    "city": "Pune",
+    "state": "Maharashtra",
+    "pincode": "411057",
+    "landmark": "Opp. Mont Vert Tropez, Datta Mandir Road",
+    "fullAddress": "1st Floor, Wellness Square, Datta Mandir Road, Opp. Mont Vert Tropez, Wakad, Pune, Maharashtra 411057",
+    "nearBy": "5 minutes from Hinjewadi Flyover & Bhumkar Chowk",
+    "parking": "Dedicated basement parking with elevator and wheelchair ramp access"
+  },
+  "contact": {
+    "phone": "+91 98230 45892",
+    "alternatePhone": "+91 20 6792 1100",
+    "whatsappNumber": "919823045892",
+    "whatsappDisplay": "+91 98230 45892",
+    "whatsappPrefillMessage": "Hi Aarogya PhysioWell, I would like to book a physiotherapy session in Wakad.",
+    "email": "care@aarogyaphysiowell.com",
+    "emergencyPhone": "+91 98230 45899"
+  },
+  "hours": {
+    "weekdays": "Monday – Saturday: 8:00 AM – 8:00 PM IST",
+    "sunday": "Sunday: 9:00 AM – 1:00 PM IST",
+    "note": "Early morning and late evening appointments available for Hinjewadi IT professionals"
+  },
+  "payment": {
+    "methods": "UPI (Google Pay, PhonePe, Paytm), Debit/Credit Cards, Cash, and Mediclaim reimbursement documentation"
+  },
+  "navLinks": [
+    { "label": "Conditions", "href": "#conditions" },
+    { "label": "Treatment Process", "href": "#process" },
+    { "label": "Therapists", "href": "#therapists" },
+    { "label": "Modalities", "href": "#modalities" },
+    { "label": "Stories", "href": "#stories" },
+    { "label": "Packages", "href": "#packages" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "hero": {
+    "badge": "Physiotherapy & Spine Rehabilitation Clinic • Wakad, Pune",
+    "headline": "Move Freely. Live Without Pain.",
+    "subheadline": "Targeted manual therapy, advanced pain-relief modalities, and personalized kinetic rehabilitation for back pain, joint stiffness, and athletic injuries in Wakad.",
+    "primaryCta": {
+      "text": "Book a Session",
+      "href": "#book"
+    },
+    "secondaryCta": {
+      "text": "Explore Conditions",
+      "href": "#conditions"
+    },
+    "trustStats": [
+      {
+        "value": "2,500+",
+        "label": "Patients Treated",
+        "sublabel": "Across Pune & PCMC"
+      },
+      {
+        "value": "12 Years",
+        "label": "in Pune",
+        "sublabel": "Clinical excellence"
+      },
+      {
+        "value": "98%",
+        "label": "Recovery Rate",
+        "sublabel": "Measurable pain relief"
+      }
+    ],
+    "highlights": [
+      "No long hospital waiting times",
+      "One-on-one 45-minute hands-on attention",
+      "Custom home exercise routine with video guidance"
+    ]
+  },
+  "conditionsSection": {
+    "title": "Conditions We Treat",
+    "subtitle": "Evidence-based clinical rehabilitation tailored for long-term mobility, postural correction, and rapid pain relief.",
+    "categories": [
+      "All",
+      "Spine & Neck",
+      "Joints & Sports",
+      "Specialized Care"
+    ],
+    "conditions": [
+      {
+        "id": "back-pain",
+        "category": "Spine & Neck",
+        "title": "Back Pain & Lumbar Strain",
+        "tag": "Most Common",
+        "icon": "Activity",
+        "summary": "Targeted relief for herniated discs, postural muscle spasms, and degenerative lumbar stiffness.",
+        "commonCauses": [
+          "Prolonged desk sitting",
+          "L4-L5 disc bulge",
+          "Improper weight lifting"
+        ],
+        "treatmentFocus": "Spinal decompression, core stabilization, and McKenzie manual therapy",
+        "timeline": "3–6 weeks"
+      },
+      {
+        "id": "neck-pain",
+        "category": "Spine & Neck",
+        "title": "Neck & Cervical Pain",
+        "tag": "IT Work Related",
+        "icon": "ShieldAlert",
+        "summary": "Focused relief for tech neck, cervical spondylosis, and radiating upper back tension.",
+        "commonCauses": [
+          "Laptop slouching",
+          "Cervical disc bulge",
+          "Trap muscle trigger points"
+        ],
+        "treatmentFocus": "Manual cervical traction, postural muscle release, and ergonomic retraining",
+        "timeline": "3–5 weeks"
+      },
+      {
+        "id": "sports-injuries",
+        "category": "Joints & Sports",
+        "title": "Sports Injuries & Sprains",
+        "tag": "Fast Recovery",
+        "icon": "Flame",
+        "summary": "Fast-track recovery for ACL/MCL sprains, meniscus tears, runner's knee, and ankle twists.",
+        "commonCauses": [
+          "Sudden pivot twists",
+          "Overuse in running/cricket",
+          "Muscle tears"
+        ],
+        "treatmentFocus": "Class IV laser therapy, joint stabilization, and progressive return-to-sport testing",
+        "timeline": "6–12 weeks"
+      },
+      {
+        "id": "knee-pain",
+        "category": "Joints & Sports",
+        "title": "Knee Pain & Arthritis",
+        "tag": "Joint Preservation",
+        "icon": "Zap",
+        "summary": "Joint preservation therapy, patellofemoral tracking correction, and cartilage decompression.",
+        "commonCauses": [
+          "Osteoarthritis",
+          "Patellar tendinitis",
+          "Quadriceps imbalance"
+        ],
+        "treatmentFocus": "Quadriceps strengthening, therapeutic ultrasound, and gait re-education",
+        "timeline": "4–8 weeks"
+      },
+      {
+        "id": "frozen-shoulder",
+        "category": "Joints & Sports",
+        "title": "Frozen Shoulder",
+        "tag": "Mobility Loss",
+        "icon": "RotateCw",
+        "summary": "Restoring complete overhead range of motion and breaking capsular adhesions through gentle mobilization.",
+        "commonCauses": [
+          "Adhesive capsulitis",
+          "Post-immobilization stiffness",
+          "Rotator cuff impingement"
+        ],
+        "treatmentFocus": "Maitland joint mobilizations, deep tissue release, and pulley mobility drills",
+        "timeline": "6–10 weeks"
+      },
+      {
+        "id": "post-surgery-rehab",
+        "category": "Specialized Care",
+        "title": "Post-Surgery Rehabilitation",
+        "tag": "Surgical Care",
+        "icon": "Crosshair",
+        "summary": "Structured post-operative protocols for total knee/hip replacements, arthroscopy, and spinal fusion.",
+        "commonCauses": [
+          "Total knee replacement (TKR)",
+          "ACL reconstruction",
+          "Lumbar spine surgery"
+        ],
+        "treatmentFocus": "Swelling control, scar tissue mobilization, progressive weight-bearing, and independent walking",
+        "timeline": "8–16 weeks"
+      },
+      {
+        "id": "sciatica",
+        "category": "Spine & Neck",
+        "title": "Sciatica & Nerve Impingement",
+        "tag": "Nerve Pain",
+        "icon": "Radio",
+        "summary": "Relieving shooting glute and leg pain through nerve gliding techniques and piriformis release.",
+        "commonCauses": [
+          "Piriformis syndrome",
+          "Nerve root compression",
+          "Spinal stenosis"
+        ],
+        "treatmentFocus": "Neural mobilizations, pelvis alignment, and targeted core decompression",
+        "timeline": "3–6 weeks"
+      },
+      {
+        "id": "neurological-rehab",
+        "category": "Specialized Care",
+        "title": "Neurological Rehabilitation",
+        "tag": "Neuro Care",
+        "icon": "HeartHandshake",
+        "summary": "Neuro-developmental therapy and balance re-education for stroke recovery, Parkinson's, and vestibular issues.",
+        "commonCauses": [
+          "Post-stroke hemiparesis",
+          "Parkinsonian gait stiffness",
+          "Vestibular balance loss"
+        ],
+        "treatmentFocus": "Neuroplastic re-education, proprioceptive balance drills, and functional transfer training",
+        "timeline": "8–24 weeks"
+      }
+    ]
+  },
+  "treatmentApproach": {
+    "title": "Our 4-Step Recovery Pathway",
+    "subtitle": "We don't just treat your symptoms. We identify why the pain started, fix the dysfunction, and make sure it does not come back.",
+    "steps": [
+      {
+        "stepNumber": "01",
+        "title": "Assessment & Functional Movement Screen",
+        "subtitle": "Root Cause Identification",
+        "description": "A comprehensive 60-minute evaluation assessing your spinal curvature, joint range of motion, nerve conduction, muscle imbalances, and postural habits.",
+        "highlights": [
+          "Computerized posture & gait evaluation",
+          "Orthopedic special tests for joint integrity",
+          "Workstation ergonomic review for desk workers"
+        ],
+        "duration": "Day 1 (60 Mins)"
+      },
+      {
+        "stepNumber": "02",
+        "title": "Custom Recovery Plan",
+        "subtitle": "Personalized Milestone Mapping",
+        "description": "A structured clinical roadmap designed specifically for your daily routine, whether you are coding at Hinjewadi Phase 1, managing a home, or training for a half-marathon.",
+        "highlights": [
+          "Targeted pain reduction targets within 7–14 days",
+          "Frequency and modality selection",
+          "Clear recovery timeline with measurable metrics"
+        ],
+        "duration": "Day 2 Review"
+      },
+      {
+        "stepNumber": "03",
+        "title": "Hands-On Manual Therapy & Modalities",
+        "subtitle": "Pain Relief & Tissue Healing",
+        "description": "Targeted manual joint mobilization, trigger point release, and advanced electrotherapy modalities to reduce pain, release muscle spasms, and speed up tissue repair.",
+        "highlights": [
+          "Deep joint mobilization (Maitland / Mulligan)",
+          "Class IV laser and targeted IFT for fast pain relief",
+          "Myofascial release and medical dry needling"
+        ],
+        "duration": "Weeks 1–3"
+      },
+      {
+        "stepNumber": "04",
+        "title": "Strengthening & Long-term Prevention",
+        "subtitle": "Permanent Freedom from Pain",
+        "description": "Active kinetic training, core stabilization, and posture re-education. You graduate with an easy 15-minute home exercise routine so pain never returns.",
+        "highlights": [
+          "Functional resistance and balance training",
+          "Video-guided home exercise prescription",
+          "Quarterly preventive check-ups"
+        ],
+        "duration": "Weeks 3 & Beyond"
+      }
+    ]
+  },
+  "therapistSection": {
+    "title": "Meet Our Certified Specialists",
+    "subtitle": "Experienced physiotherapists dedicated to one-on-one personalized care with proven clinical credentials.",
+    "team": [
+      {
+        "id": "rahul-joshi",
+        "name": "Dr. Rahul Joshi",
+        "role": "Head of Sports Rehab & Manual Therapy",
+        "qualifications": "BPT, MPT (Sports Medicine)",
+        "experienceYears": "14+ Years Experience",
+        "bio": "Former consulting physiotherapist for Maharashtra state athletes and badminton academies. Specializes in ACL rehabilitation, rotator cuff restoration, and high-performance return-to-sport testing.",
+        "specialties": [
+          "Sports Injuries",
+          "Manual Therapy",
+          "ACL & Knee Rehab",
+          "Return-to-Play Testing"
+        ],
+        "languages": "English, Hindi, Marathi",
+        "initials": "RJ"
+      },
+      {
+        "id": "meera-shinde",
+        "name": "Dr. Meera Shinde",
+        "role": "Senior Spine & Neurological Rehabilitation Specialist",
+        "qualifications": "BPT, MPT (Neurosciences)",
+        "experienceYears": "11+ Years Experience",
+        "bio": "Certified McKenzie Spine Specialist with extensive hospital ICU and outpatient rehabilitation experience. Expert in non-surgical disc herniation management, sciatica relief, and stroke balance restoration.",
+        "specialties": [
+          "Disc Herniation & Sciatica",
+          "Cervical Spondylosis",
+          "Stroke Rehabilitation",
+          "Vestibular Balance"
+        ],
+        "languages": "English, Hindi, Marathi",
+        "initials": "MS"
+      },
+      {
+        "id": "kavita-naik",
+        "name": "Ms. Kavita Naik",
+        "role": "Consultant Physiotherapist — Women's Health & Ergonomics",
+        "qualifications": "BPT, Certified Ergonomics Specialist",
+        "experienceYears": "8+ Years Experience",
+        "bio": "Dedicated to prenatal and postnatal physical health, chronic neck/back pain from IT desk work, and pelvic floor rehabilitation. Has conducted corporate posture workshops for 20+ Pune IT companies.",
+        "specialties": [
+          "IT Desk Ergonomics",
+          "Women's Health & Prenatal",
+          "Postural Correction",
+          "Dry Needling"
+        ],
+        "languages": "English, Hindi, Marathi",
+        "initials": "KN"
+      }
+    ]
+  },
+  "equipmentSection": {
+    "title": "Modern Modalities & Facilities",
+    "subtitle": "We invest in high-grade therapeutic modalities to speed up recovery times and provide painless healing.",
+    "equipment": [
+      {
+        "id": "laser",
+        "name": "Class IV Deep Tissue Laser",
+        "clinicalPurpose": "High-Power Biostimulation",
+        "description": "Delivers targeted photonic energy up to 15W into deep tissues to stimulate mitochondrial ATP production, cut inflammation by up to 60%, and accelerate ligament and tendon repair.",
+        "benefits": [
+          "Painless, warm therapeutic sensation",
+          "Accelerates cellular healing rate",
+          "Ideal for tennis elbow, plantar fasciitis, and acute sprains"
+        ],
+        "icon": "Zap"
+      },
+      {
+        "id": "tens-ift",
+        "name": "Advanced TENS & 4-Pole IFT",
+        "clinicalPurpose": "Electro-Analgesia & Spasm Relief",
+        "description": "Multi-channel interferential current that penetrates deep beneath superficial skin to block nerve pain pathways and relieve chronic lower back and neck muscle spasms.",
+        "benefits": [
+          "Instant natural pain reduction",
+          "Improves local blood circulation",
+          "Completely drug-free pain management"
+        ],
+        "icon": "Activity"
+      },
+      {
+        "id": "ultrasound",
+        "name": "Therapeutic Ultrasound (1 & 3 MHz)",
+        "clinicalPurpose": "Deep Acoustic Tissue Warming",
+        "description": "High-frequency sound waves that create microscopic acoustic vibrations inside stiff tendons and joint capsules, breaking down scar tissue and increasing collagen flexibility.",
+        "benefits": [
+          "Breaks chronic scar tissue & adhesions",
+          "Improves joint lubrication",
+          "Essential for frozen shoulder and bursitis"
+        ],
+        "icon": "Waves"
+      },
+      {
+        "id": "needling-cupping",
+        "name": "Dry Needling & Medical Cupping",
+        "clinicalPurpose": "Myofascial Trigger Point Deactivation",
+        "description": "Precision filiform needle insertion directly into muscular knots combined with vacuum cupping to restore oxygen flow, relieve trapped nerves, and release stubborn stiffness.",
+        "benefits": [
+          "Releases knots that massage cannot reach",
+          "Relieves deep tension headaches and tech neck",
+          "Rapid increase in range of motion"
+        ],
+        "icon": "Target"
+      },
+      {
+        "id": "decompression",
+        "name": "Spinal Decompression Traction",
+        "clinicalPurpose": "Non-Surgical Disc Relief",
+        "description": "Computerized cervical and lumbar traction table providing gentle, precise distractive force to widen spinal intervertebral spaces and pull herniated disc material off spinal nerves.",
+        "benefits": [
+          "Non-invasive alternative to spine surgery",
+          "Relieves radiating leg pain and sciatica",
+          "Creates negative intra-discal pressure"
+        ],
+        "icon": "Maximize2"
+      },
+      {
+        "id": "balance-gym",
+        "name": "Resistance & Balance Kinetic Gym",
+        "clinicalPurpose": "Active Functional Rehabilitation",
+        "description": "Equipped with therapeutic Swiss balls, wobble boards, resistance bands, and functional cable systems designed to rebuild stability, coordination, and athletic performance.",
+        "benefits": [
+          "Prepares patients for real-world movement",
+          "Rebuilds muscle strength safely",
+          "Prevents future re-injury"
+        ],
+        "icon": "ShieldCheck"
+      }
+    ]
+  },
+  "patientStories": {
+    "title": "Real Recovery Stories from Pune",
+    "subtitle": "Hear from working professionals, athletes, and senior citizens who regained active, pain-free lives with us.",
+    "stories": [
+      {
+        "id": "story-1",
+        "patientName": "Arjun Patil",
+        "profession": "Lead Software Architect",
+        "location": "Hinjewadi Phase 1, Pune",
+        "condition": "Severe Cervical Spondylosis & Finger Numbness",
+        "therapist": "Dr. Rahul Joshi",
+        "recoveryTimeline": "Pain-free in 5 weeks",
+        "quote": "Working 12-hour coding sprints gave me excruciating neck pain and numbness in my right fingers. Dr. Rahul identified cervical nerve compression, used manual traction and laser therapy, and helped set up my workstation. In 5 weeks, the pain and numbness were 100% gone.",
+        "story": "Arjun was unable to type without sharp radiating pain. With a combination of manual joint decompression and deep neck flexor strengthening, he resumed full productivity without any painkillers.",
+        "rating": 5
+      },
+      {
+        "id": "story-2",
+        "patientName": "Sunita Deshmukh",
+        "profession": "Homemaker & Grandmother",
+        "location": "Kothrud / Wakad, Pune",
+        "condition": "Bilateral Total Knee Replacement (TKR)",
+        "therapist": "Dr. Meera Shinde",
+        "recoveryTimeline": "Walked unassisted in 8 weeks",
+        "quote": "After my double knee replacement, I was terrified of walking or climbing steps. Dr. Meera was so gentle and encouraging. Within 8 weeks, I was walking in the society garden with my granddaughter without any walker or stick. A true blessing.",
+        "story": "Sunita achieved 115 degrees of knee flexion, mastered stair climbing, and regained her self-confidence through phased gait training and swelling control.",
+        "rating": 5
+      },
+      {
+        "id": "story-3",
+        "patientName": "Rohan Nair",
+        "profession": "Amateur Marathon Runner",
+        "location": "Wakad, Pune",
+        "condition": "Grade-2 Hamstring Tear",
+        "therapist": "Dr. Rahul Joshi",
+        "recoveryTimeline": "Back on the track in 10 weeks",
+        "quote": "I tore my hamstring just 10 weeks before the Pune Half Marathon. The team at Aarogya PhysioWell used Class IV laser therapy, dry needling, and eccentric strength rebuilding. Not only did I run pain-free, but I clocked 1:54:12 with zero discomfort.",
+        "story": "Rohan underwent functional movement screening and sport-specific plyometric drills before receiving full clearance for marathon competition.",
+        "rating": 5
+      },
+      {
+        "id": "story-4",
+        "patientName": "Priya Kulkarni",
+        "profession": "VP Banking Operations",
+        "location": "Baner, Pune",
+        "condition": "Acute L4-L5 Sciatica & Disc Bulge",
+        "therapist": "Dr. Meera Shinde",
+        "recoveryTimeline": "Recovered in 6 weeks without surgery",
+        "quote": "Two spine surgeons had recommended microdiscectomy surgery for my shooting sciatica pain. Aarogya PhysioWell was my final conservative attempt. Dr. Meera's decompression protocols relieved 90% of my pain within four weeks. Today I am back to work without surgery.",
+        "story": "Priya avoided spinal surgery through precise computerized decompression traction, neural flossing exercises, and core stabilization routines.",
+        "rating": 5
+      }
+    ]
+  },
+  "sessionPackages": {
+    "title": "Transparent Treatment Packages",
+    "subtitle": "Clear, upfront pricing in ₹ with zero hidden consultation or equipment charges.",
+    "notice": "All packages include personalized consultation, manual therapy, and required modalities with no extra add-on fees.",
+    "tiers": [
+      {
+        "id": "single-session",
+        "name": "Single Consultation & Therapy",
+        "price": "₹800",
+        "perSessionRate": "₹800 per session",
+        "isPopular": false,
+        "idealFor": "Initial clinical assessment, acute flare-ups, or single tune-up sessions",
+        "features": [
+          "60-minute comprehensive physical examination",
+          "One-on-one hands-on manual joint mobilization",
+          "1 electrotherapy modality (TENS/IFT/Ultrasound)",
+          "Personalized digital exercise guide",
+          "Postural & workstation advice"
+        ],
+        "validity": "Valid for 1 visit",
+        "ctaText": "Book Consultation"
+      },
+      {
+        "id": "comprehensive-rehab",
+        "name": "10-Session Comprehensive Rehab",
+        "price": "₹7,200",
+        "perSessionRate": "₹720 per session",
+        "savingsBadge": "Save 10%",
+        "isPopular": true,
+        "idealFor": "Cervical spondylosis, sciatica, frozen shoulder, and sports sprains",
+        "features": [
+          "Includes initial assessment & mid-term re-evaluation",
+          "45–60 minutes per session with senior therapist",
+          "Full access to advanced modalities (Laser, Cupping, Needling)",
+          "Active kinetic rehabilitation & balance drills",
+          "Direct WhatsApp therapist support between sessions",
+          "Shareable within immediate family members"
+        ],
+        "validity": "Valid for 60 days",
+        "ctaText": "Choose 10 Sessions"
+      },
+      {
+        "id": "post-surgery-recovery",
+        "name": "20-Session Post-Surgery Recovery",
+        "price": "₹13,500",
+        "perSessionRate": "₹675 per session",
+        "savingsBadge": "Save 15%",
+        "isPopular": false,
+        "idealFor": "Knee/hip replacement, ACL reconstruction, and neurological recovery",
+        "features": [
+          "Complete pre & post-surgical milestone protocol",
+          "Progressive gait, balance & stair-climbing training",
+          "Spinal decompression table and multi-modality use",
+          "Comprehensive written clinical progress report",
+          "Priority morning & evening slot reservations",
+          "Official billing receipts for Mediclaim reimbursement"
+        ],
+        "validity": "Valid for 120 days",
+        "ctaText": "Choose 20 Sessions"
+      }
+    ]
+  },
+  "bookingSection": {
+    "title": "Book Your Session in Wakad",
+    "subtitle": "Get in touch directly via WhatsApp or phone, or submit your appointment request below. We confirm within 30 minutes during clinic hours.",
+    "directWhatsappLabel": "Chat on WhatsApp",
+    "directCallLabel": "Call Clinic Directly",
+    "formTitle": "Request an Appointment",
+    "slots": [
+      "Morning (8:00 AM – 11:00 AM)",
+      "Midday (11:00 AM – 4:00 PM)",
+      "Evening (4:00 PM – 8:00 PM)"
+    ],
+    "parkingNotice": "Free dedicated basement parking available with direct elevator access and wheelchair ramp."
+  },
+  "footer": {
+    "aboutText": "Aarogya PhysioWell is a premier physiotherapy and physical rehabilitation clinic in Wakad, Pune. We provide evidence-based manual therapy, sports rehabilitation, and specialized spine care with an empathetic, patient-centered approach.",
+    "medicalDisclaimer": "All therapy sessions are conducted by qualified physiotherapists registered with the Maharashtra State Council for Occupational Therapy and Physiotherapy. Information on this website is for educational purposes.",
+    "copyrightText": "© 2026 Aarogya PhysioWell. All rights reserved. Wakad, Pune, Maharashtra."
+  }
+}

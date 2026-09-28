@@ -1,0 +1,159 @@
+{
+  "category_id": "wedding photographers",
+  "category_label": "Wedding & Candid Photography",
+  "branding": {
+    "business_name": "Elite Wedding & Candid Photography Studio",
+    "tagline": "Capturing Timeless Love Stories & Raw Candid Emotions",
+    "hero_headline": "Frames That Turn Your Wedding Memories Into Timeless Art",
+    "hero_subheadline": "We specialize in heartfelt candid moments, royal bridal portraits, and cinematic wedding films that let you relive your special day forever.",
+    "primary_color": "#BE185D",
+    "secondary_color": "#1E293B",
+    "canvas_color": "#FFFFFF",
+    "hero_image": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=1200&auto=format&fit=crop",
+    "badge": "PREMIER WEDDING & CANDID PHOTOGRAPHY IN PUNE"
+  },
+  "about": {
+    "title": "Dedicated To Excellence in Wedding & Candid Photography",
+    "subtitle": "Combining years of expertise, premium quality standards, and personalized client attention.",
+    "paragraphs": [
+      "We are one of Pune's most trusted destinations for wedding & candid photography, committed to delivering exceptional craftsmanship and unmatched service satisfaction.",
+      "Our team focuses on your unique requirements, using industry-leading methodologies and transparent communication from consultation to completion."
+    ],
+    "highlights": [
+      "Proven Track Record & Verified Client Satisfaction",
+      "Transparent Pricing With Zero Hidden Charges",
+      "Experienced Team of Industry Professionals",
+      "Convenient Location & Prompt Customer Support"
+    ]
+  },
+  "services": [
+    {
+      "name": "Candid Wedding Photography",
+      "description": "Unobtrusive capture of spontaneous emotions, tears of joy, and laughter throughout all ceremonies.",
+      "price": "From \u20b945,000 / day",
+      "tag": "Core"
+    },
+    {
+      "name": "Cinematic Wedding Film & Teaser",
+      "description": "4K cinematic highlight film, drone aerial shots, and personalized narrative storytelling.",
+      "price": "From \u20b960,000 / day",
+      "tag": "Cinematic"
+    },
+    {
+      "name": "Pre-Wedding Couple Shoot",
+      "description": "Styled outdoor couple photoshoot at picturesque locations in and around Pune & Lonavala.",
+      "price": "\u20b925,000",
+      "tag": "Pre-Wedding"
+    },
+    {
+      "name": "Traditional Rituals & Family Formals",
+      "description": "Complete stage coverage, family group portraits, and cultural ceremony documentation.",
+      "price": "From \u20b930,000 / day",
+      "tag": "Complete"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1519741497674-611481863552?q=80&w=800&auto=format&fit=crop",
+      "title": "Couple Sunset Portrait",
+      "tag": "Couple"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1583939003579-730e3918a45a?q=80&w=800&auto=format&fit=crop",
+      "title": "Mehndi Ceremony Details",
+      "tag": "Mehndi"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1511285560929-80b456fea0bc?q=80&w=800&auto=format&fit=crop",
+      "title": "Mandap & Sacred Vows",
+      "tag": "Ceremony"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1606800052052-a08af7148866?q=80&w=800&auto=format&fit=crop",
+      "title": "Varmala Garland Exchange",
+      "tag": "Ritual"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1537633552985-df8429e8048b?q=80&w=800&auto=format&fit=crop",
+      "title": "Outdoor Pre-Wedding",
+      "tag": "Pre-Wedding"
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1545232979-8bf68ee9b1af?q=80&w=800&auto=format&fit=crop",
+      "title": "Emotional Candid Moments",
+      "tag": "Candid"
+    }
+  ],
+  "pricing_tiers": [
+    {
+      "name": "Silver Package (1 Day)",
+      "price": "\u20b975,000",
+      "billing": "Single Day",
+      "features": [
+        "1 Candid Photographer",
+        "1 Traditional Photographer",
+        "Edited High-Res Gallery",
+        "30-Page Premium Album"
+      ]
+    },
+    {
+      "name": "Gold 2-Day Package",
+      "price": "\u20b91,50,000",
+      "billing": "2 Days Coverage",
+      "features": [
+        "2 Candid Photographers",
+        "Cinematographer + Drone",
+        "3-5 Min Highlight Film",
+        "2 Luxury Leather Photo Books"
+      ]
+    },
+    {
+      "name": "Platinum Royal Package",
+      "price": "\u20b92,40,000",
+      "billing": "3 Days + Pre-Wedding",
+      "features": [
+        "Complete 3-Day Crew",
+        "Pre-Wedding Shoot Included",
+        "Same-Day Edit Reel",
+        "3 Luxury Heirloom Albums"
+      ]
+    }
+  ],
+  "testimonials": [
+    {
+      "author": "Siddharth & Shruti",
+      "quote": "They captured our wedding so naturally without forcing awkward poses. The video teaser brought tears to our eyes!",
+      "rating": 5
+    },
+    {
+      "author": "Karan & Megha",
+      "quote": "Extremely professional team, arrived on time for all events, and delivered our edited albums well before the promised date.",
+      "rating": 5
+    }
+  ],
+  "contact": {
+    "phone": "+91 98220 99887",
+    "whatsapp_number": "919822099887",
+    "whatsapp_message": "Hello, I would like to enquire about your wedding & candid photography services.",
+    "email": "info@weddingphotographers.in",
+    "address": "Koregaon Park, Pune, Maharashtra 411001",
+    "opening_hours": [
+      {
+        "days": "Monday \u2013 Saturday",
+        "hours": "10:00 AM \u2013 08:00 PM"
+      },
+      {
+        "days": "Sunday",
+        "hours": "11:00 AM \u2013 05:00 PM"
+      }
+    ],
+    "inquiry_form": {
+      "title": "Request a Free Consultation / Quote",
+      "description": "Send us your requirement and our team will get in touch within 2 hours.",
+      "submit_text": "Send Inquiry via WhatsApp \u2192"
+    }
+  },
+  "footer": {
+    "copyright": "\u00a9 2026 ELITE WEDDING & CANDID PHOTOGRAPHY. ALL RIGHTS RESERVED."
+  }
+}

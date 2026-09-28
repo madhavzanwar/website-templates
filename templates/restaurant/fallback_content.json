@@ -1,0 +1,687 @@
+{
+  "branding": {
+    "business_name": "KAVYA HEARTH & CELLAR",
+    "monogram": "K • H • C",
+    "tagline": "Wood-Fired Indian Terroir • Handpicked Cellar Allocations • Coastal & Forest Harvest",
+    "established_year": "2020",
+    "city_district": "Kalyani Nagar, Pune",
+    "primary_color": "#D4A359",
+    "nocturnal_canvas": "#14080E",
+    "container_truffle": "#221619",
+    "smoked_bone": "#F5EFEB",
+    "cellar_burgundy": "#4A1525",
+    "gilt_border": "rgba(212, 163, 89, 0.18)",
+    "hero_headline": {
+      "line1": "Where Local Harvest",
+      "line2_italic": "Meets Live Fire"
+    },
+    "hero_eyebrow": "CONTEMPORARY INDIAN WOOD-FIRED DINING",
+    "hero_narrative": "An immersive multi-course journey celebrating Konkan coast seafood, Sahyadri forest botanicals, and heirloom Maharashtra grains seared over live babool and mango wood embers.",
+    "hero_primary_image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=1200&auto=format&fit=crop",
+    "hero_vignette_image": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=800&auto=format&fit=crop",
+    "hero_seal_text": "✦ WOOD-FIRED EXCELLENCE IN PUNE ✦",
+    "live_service_status": {
+      "status_label": "Dinner Seating",
+      "current_service": "Evening Service",
+      "seats_remaining_label": "Dinner Reservations Available"
+    }
+  },
+  "ticker": {
+    "announcement": "AUTUMN TASTING MENU NOW OPEN FOR BOOKINGS",
+    "cellar_note": "CURATED INDIAN ESTATE WINES & ARTISANAL BEVERAGES",
+    "valet_note": "COMPLIMENTARY VALET AVAILABLE AT KALYANI NAGAR ENTRANCE"
+  },
+  "navigation": {
+    "coordinates": "Plot 14, East Avenue • Kalyani Nagar, Pune",
+    "links": [
+      {
+        "label": "About Us",
+        "href": "#terroir"
+      },
+      {
+        "label": "Menu",
+        "href": "#menu"
+      },
+      {
+        "label": "Tasting Menu",
+        "href": "#tasting"
+      },
+      {
+        "label": "Chef & Team",
+        "href": "#chef"
+      },
+      {
+        "label": "Gallery",
+        "href": "#gallery"
+      },
+      {
+        "label": "Reviews",
+        "href": "#critique"
+      }
+    ],
+    "reserve_cta": "Reserve Table",
+    "cellar_archive_cta": "Beverage Menu"
+  },
+  "hero_booking_search": {
+    "date_label": "Date",
+    "dates": [
+      "Tonight • 28 Sep",
+      "Tomorrow • 29 Sep",
+      "Wednesday • 30 Sep",
+      "Thursday • 01 Oct",
+      "Friday • 02 Oct",
+      "Saturday • 03 Oct"
+    ],
+    "covers_label": "Party",
+    "party_options": [
+      "2 Guests (Intimate Banquette)",
+      "4 Guests (Chef Counter)",
+      "6 Guests (Dining Room)",
+      "8–14 Guests (Private Dining Hall)"
+    ],
+    "service_label": "Service",
+    "services": [
+      "Dinner Seating (19:00)",
+      "Prime Seating (20:30)",
+      "Late Seating (21:45)",
+      "Sunday Lunch (12:30)"
+    ],
+    "action_cta": "Check Availability"
+  },
+  "terroir_manifesto": {
+    "badge": "OUR COOKING PHILOSOPHY",
+    "heading": "Fire, Earth & Forgotten Flavors",
+    "subheading": "We cook with honesty. What local farmers and coastal day-boats harvest by dawn, our wood-fired hearth transforms by evening.",
+    "lead_paragraph": "At Kavya, dining is rooted in elemental techniques: natural charcoal smoke, Sahyadri mountain herbs, and patient slow-cooking over live flames without microwaves or artificial additives.",
+    "pillars": [
+      {
+        "pillar_number": "01",
+        "title": "Western Ghats & Local Farmers",
+        "subtitle": "Fresh Ingredients Sourced Daily",
+        "narrative": "Over 90% of our tender leafy greens, heirloom millets, wild kokum, and mountain honey are procured directly from smallholder farms in Junnar, Mulshi, and the Konkan belt.",
+        "metric_value": "80 km",
+        "metric_label": "Average sourcing radius for morning produce",
+        "artisan_focus": "Sourcing Partner: Kisan Sahyadri Collective"
+      },
+      {
+        "pillar_number": "02",
+        "title": "Boutique Cellar & Artisanal Drinks",
+        "subtitle": "Nashik Valley & Global Allocations",
+        "narrative": "Our cellar celebrates India's finest single-vineyard bottlings from Dindori and Sanjegaon alongside curated Old World classics and craft botanical infusions.",
+        "metric_value": "180+ Labels",
+        "metric_label": "Carefully cellared wines and spirits",
+        "artisan_focus": "Beverage Director Ananya Deshmukh"
+      },
+      {
+        "pillar_number": "03",
+        "title": "The Living Wood-Fired Hearth",
+        "subtitle": "Charcoal and Dried Mango Wood",
+        "narrative": "Every hot course is cooked over aged babool and mango timber coals, giving a rich, natural smokiness and depth to heirloom vegetables, meats, and seafood.",
+        "metric_value": "750°C",
+        "metric_label": "Peak hearth ember temperature",
+        "artisan_focus": "Hearth Head Chef Vikram Shinde"
+      }
+    ],
+    "credentials": [
+      {
+        "year": "2026",
+        "title": "Top 10 Modern Indian Dining Destinations",
+        "organization": "Condé Nast Traveller India",
+        "inscription": "Groundbreaking wood-fired interpretations of Deccan and Konkan culinary heritage."
+      },
+      {
+        "year": "2025",
+        "title": "Best Farm-to-Table Restaurant in Pune",
+        "organization": "Times Food & Nightlife Awards",
+        "inscription": "Unmatched commitment to regional Maharashtra produce and zero-waste kitchen practices."
+      },
+      {
+        "year": "2026",
+        "title": "Excellence in Contemporary Indian Craft",
+        "organization": "Indian Culinary Forum",
+        "inscription": "Honoring authentic regional techniques elevated with refined culinary precision."
+      }
+    ]
+  },
+  "menu_sections": {
+    "badge": "A LA CARTE MENU",
+    "title": "Seasonal Harvest & Wood-Fired Hearth",
+    "subtitle": "Carefully crafted courses honoring regional Indian terroir and time-tested recipes.",
+    "seasonal_notice": "Seafood selections depend on day-boat landings from the Ratnagiri and Malvan coasts.",
+    "allergen_legend": [
+      { "code": "GF", "label": "Gluten Free" },
+      { "code": "DF", "label": "Dairy Free Available" },
+      { "code": "V", "label": "Vegetarian" },
+      { "code": "J", "label": "Jain Option Available" },
+      { "code": "NV", "label": "Non-Vegetarian" }
+    ],
+    "categories": [
+      {
+        "id": "starters",
+        "label": "Small Plates & Coastal Starters",
+        "sublabel": "Fresh day-boat seafood & garden-foraged bites",
+        "items": [
+          {
+            "id": "item-1",
+            "name": "Kokum-Cured Karwar Kingfish",
+            "price": "₹680",
+            "description": "Thinly sliced kingfish cured in fresh wild kokum, cold-pressed sesame oil, puffed rajgira, and pickled wild chilies.",
+            "provenance": "Day-boat catch from Karwar harbour, Karnataka",
+            "allergens": ["GF", "DF", "NV"],
+            "is_signature": true,
+            "category": "starters"
+          },
+          {
+            "id": "item-2",
+            "name": "Ratnagiri Crab & Tender Coconut Tartlet",
+            "price": "₹640",
+            "description": "Hand-picked mud crab tossed in roasted spices, fresh coconut cream, and curry leaf oil in a crisp lentil tartlet.",
+            "provenance": "Coastal estuaries around Ratnagiri, Maharashtra",
+            "allergens": ["GF", "NV"],
+            "is_signature": false,
+            "category": "starters"
+          },
+          {
+            "id": "item-3",
+            "name": "Charred Mahabaleshwar Morel Mushrooms",
+            "price": "₹590",
+            "description": "Wild morels stuffed with smoked paneer and walnuts, charred over babool embers with black pepper reduction.",
+            "provenance": "Foraged near Mahabaleshwar forest reserves",
+            "allergens": ["GF", "V"],
+            "is_signature": true,
+            "category": "starters"
+          },
+          {
+            "id": "item-4",
+            "name": "Roasted Junnar Beets & Fermented Curd",
+            "price": "₹450",
+            "description": "Heritage baby beetroots roasted in rock salt, tempered cumin vinaigrette, whipped goat curd, and candied flaxseeds.",
+            "provenance": "Organic farms in Junnar, Pune rural",
+            "allergens": ["GF", "V"],
+            "is_signature": false,
+            "category": "starters"
+          }
+        ]
+      },
+      {
+        "id": "wood-hearth",
+        "label": "Wood-Fired Hearth & Mains",
+        "sublabel": "Slow-cooked over mango wood & charcoal embers",
+        "items": [
+          {
+            "id": "item-5",
+            "name": "Wood-Roasted Deccan Smoked Paneer",
+            "price": "₹780",
+            "description": "Artisanal A2 cow milk paneer basted with ghee-roasted dagad phool, tempered tomato-onion jus, and puffed amaranth.",
+            "provenance": "Desi Gir cow dairy in Baramati, Pune",
+            "allergens": ["GF", "V", "J"],
+            "is_signature": true,
+            "category": "wood-hearth"
+          },
+          {
+            "id": "item-6",
+            "name": "Pan-Seared Konkan Pomfret in Banana Leaf",
+            "price": "₹1,250",
+            "description": "Fresh white pomfret marinated in stone-ground triphala masala, wrapped in charred banana leaf and cooked over coals.",
+            "provenance": "Malvan fishing harbour, Maharashtra",
+            "allergens": ["GF", "DF", "NV"],
+            "is_signature": true,
+            "category": "wood-hearth"
+          },
+          {
+            "id": "item-7",
+            "name": "Slow-Braised Kolhapuri Goat Shank",
+            "price": "₹1,350",
+            "description": "Tender Osmanabadi goat shank slow-braised for 8 hours in dark roasted onion gravy, jaggery, and crushed Lavangi chilies.",
+            "provenance": "Pasture-raised farms in Osmanabad",
+            "allergens": ["GF", "DF", "NV"],
+            "is_signature": true,
+            "category": "wood-hearth"
+          },
+          {
+            "id": "item-8",
+            "name": "Wood-Fired Kundal Country Chicken",
+            "price": "₹980",
+            "description": "Free-range country chicken seared on charcoal skewers with charred garlic glaze, dry coconut chutney, and pearl onion relish.",
+            "provenance": "Village farms near Sangli, Maharashtra",
+            "allergens": ["GF", "NV"],
+            "is_signature": false,
+            "category": "wood-hearth"
+          }
+        ]
+      },
+      {
+        "id": "large-formats",
+        "label": "Large Sharing Platters",
+        "sublabel": "Hearty centrepieces designed for the whole table",
+        "items": [
+          {
+            "id": "item-9",
+            "name": "Whole Wood-Roasted Red Snapper",
+            "price": "₹2,200",
+            "description": "Catch-of-the-day whole snapper stuffed with herbs and dried kokum, grilled over live coals. Served with coastal rice rotti and curry leaf broth. Serves two.",
+            "provenance": "Alibaug & Ratnagiri Day Boats",
+            "allergens": ["GF", "DF", "NV"],
+            "is_signature": true,
+            "category": "large-formats"
+          },
+          {
+            "id": "item-10",
+            "name": "Slow Dum Deccan Raan of Goat",
+            "price": "₹2,600",
+            "description": "Whole spiced goat leg slow-roasted in earthen pots over night embers, served with Indrayani rice pilaf, saffron jus, and house pickles. Serves three to four.",
+            "provenance": "Deccan Plateau Grazing Farms",
+            "allergens": ["GF", "NV"],
+            "is_signature": true,
+            "category": "large-formats"
+          },
+          {
+            "id": "item-11",
+            "name": "Smoked Kathal & Forest Mushroom Biryani",
+            "price": "₹1,450",
+            "description": "Tender raw jackfruit and Sahyadri button mushrooms layered with aged Basmati rice and sealed with dough in copper handis. Serves two.",
+            "provenance": "Mulshi Valley Organic Produce",
+            "allergens": ["GF", "V", "J"],
+            "is_signature": false,
+            "category": "large-formats"
+          }
+        ]
+      },
+      {
+        "id": "desserts",
+        "label": "Desserts & Regional Sweets",
+        "sublabel": "Heirloom jaggery, unrefined dairy & seasonal fruits",
+        "items": [
+          {
+            "id": "item-12",
+            "name": "Smoked Kolhapuri Jaggery Tart",
+            "price": "₹420",
+            "description": "Warm jaggery custard tart flavored with green cardamom, topped with smoked sea salt and toasted almond crisp.",
+            "provenance": "Organic sugarcane farms in Karad",
+            "allergens": ["V"],
+            "is_signature": true,
+            "category": "desserts"
+          },
+          {
+            "id": "item-13",
+            "name": "Ratnagiri Alphonso Mango Kulfi Pop",
+            "price": "₹450",
+            "description": "Hand-churned A2 milk kulfi infused with pure Devgad Alphonso pulp, roasted pistachios, and saffron syrup.",
+            "provenance": "Devgad Mango Orchards, Konkan",
+            "allergens": ["GF", "V"],
+            "is_signature": false,
+            "category": "desserts"
+          },
+          {
+            "id": "item-14",
+            "name": "Charred Coconut & Saffron Shrikhand Cannoli",
+            "price": "₹390",
+            "description": "Crisp spiced pastry rolls filled with hung curd shrikhand, charred fresh coconut ribbons, and edible marigold petals.",
+            "provenance": "Pure Gir Cow Dairy, Pune",
+            "allergens": ["V"],
+            "is_signature": true,
+            "category": "desserts"
+          }
+        ]
+      }
+    ]
+  },
+  "tasting_menu": {
+    "badge": "CURATED MULTI-COURSE EXPERIENCE",
+    "title": "The Sahyadri to Sea Tasting Menu",
+    "subtitle": "An eight-course dining journey structured around regional Maharashtra micro-climates, from coastal waters to hill forests.",
+    "duration_note": "Estimated dining time: 2 Hours 30 Minutes",
+    "price_per_cover": "₹2,800",
+    "wine_pairing_price": "₹1,600 Handpicked Indian Estate Wines",
+    "botanical_pairing_price": "₹800 Cold-Pressed Regional Infusions",
+    "sommelier_intro": "Curated by Beverage Director Ananya Deshmukh, each course pairs seamlessly with boutique Nashik estate wines or zero-alcohol cold botanicals.",
+    "acts": [
+      {
+        "act_number": "ACT 01",
+        "act_title": "The Coastal Welcome",
+        "dish_name": "Kokum-Cured Karwar Kingfish with Cold-Pressed Sesame & Puffed Rajgira",
+        "dish_description": "Kingfish cured fresh in wild kokum vinegar, cold-pressed sesame oil, toasted cumin crisp, and delicate edible coastal sea succulents.",
+        "course_ritual": "Presented over smoking dried neem twigs and black beach basalt stones.",
+        "provenance_note": "Karwar Deep Waters & Konkan Wild Orchards",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+        "sommelier_pairing": {
+          "vintage": "2023",
+          "wine_name": "Single Vineyard Chenin Blanc",
+          "estate_producer": "Vallonné Vineyards",
+          "region_cru": "Igatpuri, Nashik Valley, India",
+          "sommelier_tasting_note": "Crisp green apple, guava rind, and bright saline acidity that cuts smoothly through the rich cured fish.",
+          "abv": "12.5% VOL"
+        },
+        "botanical_pairing": {
+          "infusion_name": "Chilled Kokum & Roasted Cumin Elixir",
+          "craft_technique": "Cold brew extraction with rock salt and mountain spring water",
+          "tasting_note": "Tangy berry tartness, gentle smoke, and palate-cleansing minerality."
+        }
+      },
+      {
+        "act_number": "ACT 02",
+        "act_title": "The Mangrove Estuary",
+        "dish_name": "Wood-Fired Ratnagiri Scallops with Fermented Coconut Emulsion",
+        "dish_description": "Seared quickly over red-hot coals, served with freshly grated coconut milk fermented for 24 hours, gondhoraj lime zest, and curry leaf ash.",
+        "course_ritual": "Coconut broth poured warm tableside from handcrafted clay carafes.",
+        "provenance_note": "Ratnagiri Estuary & Sindhudurg Coconut Groves",
+        "image": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?q=80&w=800&auto=format&fit=crop",
+        "sommelier_pairing": {
+          "vintage": "2022",
+          "wine_name": "Grover Zampa Chêne Grande Réserve Blanc",
+          "estate_producer": "Grover Zampa",
+          "region_cru": "Nandi Hills & Nashik, India",
+          "sommelier_tasting_note": "Toasted brioche, vanilla bean, and ripe peach notes matching the sweet caramelized scallop flesh.",
+          "abv": "13.0% VOL"
+        },
+        "botanical_pairing": {
+          "infusion_name": "Tender Coconut Water & Charred Lemongrass",
+          "craft_technique": "Slow-infused overnight at 4°C with fresh garden lemongrass",
+          "tasting_note": "Subtle tropical sweetness, herbal freshness, and delicate cooling finish."
+        }
+      },
+      {
+        "act_number": "ACT 03",
+        "act_title": "The Sahyadri Forest Floor",
+        "dish_name": "Charred Mahabaleshwar Morel Mushrooms with Ghee & Ragi Crisp",
+        "dish_description": "Wild morels basted in pure cow ghee and stone-ground dagad phool masala, served on warm roasted ragi crisps with wild garlic purée.",
+        "course_ritual": "Served on smoking cedar wood platters with freshly roasted cloves aroma.",
+        "provenance_note": "Wild-foraged in moist deciduous tracts of Mahabaleshwar",
+        "image": "https://images.unsplash.com/photo-1551218808-94e220e084d2?q=80&w=800&auto=format&fit=crop",
+        "sommelier_pairing": {
+          "vintage": "2021",
+          "wine_name": "KRSMA Estate Cabernet Sauvignon",
+          "estate_producer": "KRSMA Estates",
+          "region_cru": "Hampi Hills, Karnataka, India",
+          "sommelier_tasting_note": "Blackcurrant, wet earth, cocoa nibs, and supple cedar tannins complementing the forest morels.",
+          "abv": "14.0% VOL"
+        },
+        "botanical_pairing": {
+          "infusion_name": "Roasted Bael Fruit & First-Flush Darjeeling Tea",
+          "craft_technique": "Filtered hot pour steeped for 4 minutes through muslin",
+          "tasting_note": "Rich dried fig notes, muscatel grape brightness, and silky herbal tannins."
+        }
+      },
+      {
+        "act_number": "ACT 04",
+        "act_title": "The Deccan Hearth",
+        "dish_name": "36-Hour Slow-Braised Marathwada Goat Shank with Jaggery Glaze",
+        "dish_description": "Tender Osmanabadi goat shank roasted on the bone over babool embers, lacquered with organic Kolhapuri jaggery, crushed coriander, and Indrayani rice puree.",
+        "course_ritual": "Chef Vikram Shinde presents the roasted shank tableside before plating.",
+        "provenance_note": "Free-range herds of Osmanabad & Junnar Rice Terraces",
+        "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop",
+        "sommelier_pairing": {
+          "vintage": "2020",
+          "wine_name": "Sula Rasa Cabernet Sauvignon Special Reserve",
+          "estate_producer": "Sula Vineyards",
+          "region_cru": "Dindori Reserve, Nashik, India",
+          "sommelier_tasting_note": "Ripe dark plums, cracked black pepper, tobacco leaf, and a long velvety finish matching the rich braised meat.",
+          "abv": "14.2% VOL"
+        },
+        "botanical_pairing": {
+          "infusion_name": "Smoked Black Cardamom & Sun-Dried Jamun Nectar",
+          "craft_technique": "Wild fruit maceration tempered with warm roasted spices",
+          "tasting_note": "Deep purple bramble fruit, woody spice, and pleasant astringency."
+        }
+      },
+      {
+        "act_number": "ACT 05",
+        "act_title": "The Sweet Orchard",
+        "dish_name": "Alphonso Mango Gelato with Saffron Crisp & Bhimashankar Forest Honey",
+        "dish_description": "Pure Devgad Alphonso mango churned into silky gelato, encased in a fragile Kashmiri saffron tuile, drizzled with raw mountain forest honey and roasted pistachios.",
+        "course_ritual": "Tuile cracked tableside to release chilled aromatic saffron and cardamon vapor.",
+        "provenance_note": "Devgad Mango Orchards & Bhimashankar Tribal Honey Keepers",
+        "image": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=800&auto=format&fit=crop",
+        "sommelier_pairing": {
+          "vintage": "2023",
+          "wine_name": "Late Harvest Chenin Blanc Dessert Wine",
+          "estate_producer": "Sula Vineyards",
+          "region_cru": "Nashik Valley, India",
+          "sommelier_tasting_note": "Apricot jam, wildflower honey, candied lemon peel, and balanced natural acidity.",
+          "abv": "11.5% VOL"
+        },
+        "botanical_pairing": {
+          "infusion_name": "Kashmiri Kahwa & Rose Petal Solar Infusion",
+          "craft_technique": "Gentle thermal infusion with whole green cardamom and Kashmiri saffron",
+          "tasting_note": "Fragrant floral aroma, gentle warming spice, and soothing honeyed sweetness."
+        }
+      }
+    ]
+  },
+  "chef_story": {
+    "badge": "OUR KITCHEN TEAM",
+    "heading": "Respecting The Flame & Old Recipes",
+    "subheading": "Classical culinary discipline meets Maharashtra's vibrant hearth cooking traditions.",
+    "lead_quote": "We do not cover food in heavy cream or artificial sauces. We let the fire, the cast-iron kadai, and authentic local spices bring out the true character of every ingredient.",
+    "paragraphs": [
+      "After leading kitchens at top fine-dining establishments in Mumbai and New Delhi, Chef Vikram Shinde returned home to Pune with a clear vision: to celebrate the diverse culinary heritage of Maharashtra and the Konkan coast over live wood fire.",
+      "Every morning, our team gathers around the wood-fired hearth to check the day's fresh deliveries: pomfret and scallops driven up fresh from Ratnagiri, seasonal greens wet with dawn dew from Junnar farms, and cold-pressed oils from local village oil mills.",
+      "We cook without commercial gas or microwaves in our main kitchen theater. Every dish, reduction, and gentle sear is made over natural babool wood and charcoal embers, guided by touch, timing, and a deep love for Indian flavors."
+    ],
+    "chef_profile": {
+      "name": "Chef Vikram Shinde",
+      "role": "Chef Patron & Culinary Director",
+      "accolades": "Former Sous Chef at Indian Accent & Masque, 15+ years reviving forgotten regional hearth recipes",
+      "signature_stamp": "Vikram Shinde"
+    },
+    "kitchen_photo": "https://images.unsplash.com/photo-1577219491135-ce391730fb2c?q=80&w=1200&auto=format&fit=crop",
+    "firewood_philosophy": {
+      "fuel_type": "Dried Babool Charcoal & Aged Mango Wood",
+      "temperature_celsius": "750°C Core Hearth Heat",
+      "origin_forest": "Sustainably harvested agricultural timber from Ahmednagar & Pune rural"
+    }
+  },
+  "atmosphere_gallery": {
+    "badge": "THE DINING SPACE",
+    "title": "Warm Terracotta, Brass & Candlelight",
+    "subtitle": "An intimate dining hall crafted with natural Pune basalt stone, warm teak wood, handwoven linens, and glowing brass oil lamps.",
+    "frames": [
+      {
+        "url": "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=1200&auto=format&fit=crop",
+        "title": "The Candlelit Dining Hall",
+        "caption": "Deep upholstered booths designed for unhurried, comfortable family dining and conversations.",
+        "sensory_subject": "Intimate Seating",
+        "aspect_ratio": "wide"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?q=80&w=800&auto=format&fit=crop",
+        "title": "Artisanal Beverage Service",
+        "caption": "Curated wine decanting and cold-pressed botanical infusions served in fine crystal glass.",
+        "sensory_subject": "Beverage Service",
+        "aspect_ratio": "tall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?q=80&w=1200&auto=format&fit=crop",
+        "title": "The Open Hearth Kitchen",
+        "caption": "Natural wood coals glowing red-hot beneath cast-iron sigris and earthenware pots.",
+        "sensory_subject": "Live Wood Hearth",
+        "aspect_ratio": "square"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1579027989536-b7b1f875659b?q=80&w=800&auto=format&fit=crop",
+        "title": "Handcrafted Plating & Stoneware",
+        "caption": "Artisanal ceramic tableware made by local Pune potters framing regional ingredients.",
+        "sensory_subject": "Handcrafted Plates",
+        "aspect_ratio": "tall"
+      },
+      {
+        "url": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?q=80&w=1200&auto=format&fit=crop",
+        "title": "The Private Cellar Room",
+        "caption": "Temperature-controlled room showcasing rare Indian reserve vintages and single malts.",
+        "sensory_subject": "Cellar Collection",
+        "aspect_ratio": "wide"
+      }
+    ]
+  },
+  "testimonials": {
+    "badge": "REVIEWS & CRITICAL ACCLAIM",
+    "title": "Praised by Diners & Food Critics",
+    "subtitle": "Genuine words from discerning diners and leading culinary reviewers.",
+    "reviews": [
+      {
+        "id": "cntraveller",
+        "publication": "Condé Nast Traveller India",
+        "inspector": "Pune Dining Guide 2026",
+        "rating_badge": "Top 10 Indian Dining Destinations",
+        "quote": "Chef Vikram Shinde elevates everyday regional notes like kokum, dagad phool, and jaggery into an astonishing fine-dining experience.",
+        "full_critique": "Every course in the tasting menu shows remarkable depth. The balance of wood smoke, coastal sourness, and slow-braised richness sets a benchmark for modern Indian dining in Maharashtra.",
+        "date": "Annual Food Awards 2026"
+      },
+      {
+        "id": "times-food",
+        "publication": "Times Food & Nightlife Awards Pune",
+        "inspector": "Jury Evaluation",
+        "rating_badge": "Best Fine Dining Destination Pune",
+        "quote": "Kavya Hearth & Cellar brings pure theatre to Pune without any gimmicky tricks. The wood-fired seafood and lamb are unforgettable.",
+        "full_critique": "From the open hearth counters to the non-alcoholic botanical tea pairing curated by Ananya Deshmukh, Kavya represents genuine Indian hospitality and culinary mastery.",
+        "date": "Awards Edition 2025"
+      },
+      {
+        "id": "the-hindu",
+        "publication": "The Hindu Sunday Leisure",
+        "inspector": "Culinary Reviewer",
+        "rating_badge": "4.9 / 5 Stars",
+        "quote": "The single most exciting restaurant opening in Pune this decade. Warm, generous, and deeply memorable.",
+        "full_critique": "Sitting near the charcoal hearth, one watches a skilled team cooking with calm focus. Flawless taste and impeccable service from the first starter to the dessert.",
+        "date": "January 2026"
+      }
+    ]
+  },
+  "reservation": {
+    "badge": "TABLE RESERVATIONS",
+    "title": "Reserve Your Table at the Hearth",
+    "subtitle": "Tables are open for reservations 30 days in advance. We recommend booking early for weekend dinners.",
+    "experiences": [
+      {
+        "id": "hearth-counter",
+        "title": "The Hearth Counter",
+        "tag": "Chef Interaction",
+        "covers_range": "1 to 4 Guests",
+        "description": "Front-row seats right in front of the open kitchen. Interact with Chef Vikram and the team as dishes are prepared over coals.",
+        "deposit_note": "₹500 advance deposit per guest adjusted against final bill"
+      },
+      {
+        "id": "main-dining",
+        "title": "Main Dining Room",
+        "tag": "Comfortable Seating",
+        "covers_range": "2 to 6 Guests",
+        "description": "Spacious cushioned booths offering a relaxed, comfortable setting for families and groups.",
+        "deposit_note": "Advance booking recommended on weekends"
+      },
+      {
+        "id": "private-vault",
+        "title": "Private Dining Hall",
+        "tag": "Private Celebrations",
+        "covers_range": "8 to 16 Guests",
+        "description": "Exclusive private dining room for family celebrations, birthdays, or business dinners. Custom curated menu available.",
+        "deposit_note": "Advance booking required with custom menu consultation"
+      }
+    ],
+    "available_dates": [
+      "Tonight • 28 Sep",
+      "Tomorrow • 29 Sep",
+      "Wednesday • 30 Sep",
+      "Thursday • 01 Oct",
+      "Friday • 02 Oct",
+      "Saturday • 03 Oct",
+      "Sunday • 04 Oct"
+    ],
+    "seating_times": [
+      "12:30 (Lunch Service)",
+      "19:00 (Early Dinner)",
+      "20:15 (Prime Evening)",
+      "21:30 (Late Dinner)"
+    ],
+    "guest_counts": [1, 2, 3, 4, 5, 6, 7, 8],
+    "dietary_options": [
+      { "id": "jain", "label": "Jain Meal Preparation" },
+      { "id": "pure-veg", "label": "100% Vegetarian" },
+      { "id": "gluten-free", "label": "Gluten Free Friendly" },
+      { "id": "dairy-free", "label": "Dairy Free Options" },
+      { "id": "nut-allergy", "label": "Nut Allergy Care" },
+      { "id": "mild-spice", "label": "Low Spice Preference" }
+    ],
+    "deposit_policy": "Any reservation deposit is fully deducted from your final food and beverage bill on your visit.",
+    "cancellation_policy": "Cancellations or changes made up to 12 hours prior to your seating receive a full 100% refund. UPI and card refunds are processed immediately.",
+    "submit_button_text": "Confirm Table Reservation",
+    "whatsapp_concierge": {
+      "title": "WhatsApp Table Booking Desk",
+      "sommelier_name": "Ananya Deshmukh",
+      "sommelier_role": "Guest Relations & Table Desk",
+      "phone_display": "+91 98220 12345",
+      "whatsapp_number": "919822012345",
+      "prefilled_message": "Hello Ananya, I would like to reserve a table at Kavya Hearth & Cellar Pune.",
+      "description": "For large group reservations, private hall bookings, or specific dietary requests, chat directly with our team on WhatsApp.",
+      "instant_reply_window": "Typical reply time: Under 10 minutes (11:00 AM – 10:00 PM)"
+    }
+  },
+  "sticky_booking_dock": {
+    "service_active": "DINNER SERVICE ACTIVE",
+    "table_alert": "Tables available for tonight",
+    "cta_label": "Reserve Table",
+    "target_section_id": "reservation",
+    "call_concierge_label": "Call Us",
+    "concierge_phone": "+91 98220 12345"
+  },
+  "footer": {
+    "brand_signature": "KAVYA HEARTH & CELLAR",
+    "heritage_summary": "Contemporary Indian wood-fired restaurant celebrating Maharashtra harvest, coastal catches, and regional wine culture in Kalyani Nagar, Pune.",
+    "address": {
+      "street": "Plot 14, East Avenue, Near Jogger's Park",
+      "district": "Kalyani Nagar",
+      "postal_code": "411006",
+      "city_country": "Pune, Maharashtra, India"
+    },
+    "hours": [
+      {
+        "days": "Tuesday – Sunday",
+        "meal": "Dinner Service",
+        "time": "19:00 – 23:30 (7:00 PM – 11:30 PM)"
+      },
+      {
+        "days": "Saturday & Sunday",
+        "meal": "Weekend Lunch",
+        "time": "12:30 – 15:30 (12:30 PM – 3:30 PM)"
+      },
+      {
+        "days": "Mondays",
+        "meal": "Weekly Rest",
+        "time": "Closed for Kitchen Cleaning & Sourcing"
+      }
+    ],
+    "dress_code": {
+      "title": "Dress Code & Comfort",
+      "policy": "Smart Casual / Modern Indian. Comfortable Indian ethnic wear or smart western casuals are welcome.",
+      "disclaimer": "We kindly request guests to refrain from beach flip-flops or sleeveless athletic jerseys in the dining room."
+    },
+    "arrival_valet": {
+      "title": "Valet & Parking",
+      "valet_note": "Complimentary valet parking available at our main entrance on East Avenue, Kalyani Nagar.",
+      "nearest_station": "Kalyani Nagar Metro Station — 500 meters (5 min walk)"
+    },
+    "cellar_archive": {
+      "title": "Private Dining & Group Enquiries",
+      "total_bins": "180+ Curated Bottles",
+      "allocations_note": "Call our guest manager 24 hours in advance for customized tasting menus and special celebrations."
+    },
+    "social_links": [
+      {
+        "platform": "Instagram",
+        "handle": "@kavyapune",
+        "href": "https://instagram.com"
+      },
+      {
+        "platform": "Zomato",
+        "handle": "Kavya Hearth & Cellar",
+        "href": "https://zomato.com"
+      },
+      {
+        "platform": "Google Maps",
+        "handle": "Kavya Kalyani Nagar",
+        "href": "https://maps.google.com"
+      }
+    ],
+    "copyright": "© 2026 KAVYA HEARTH & CELLAR. ALL RIGHTS RESERVED.",
+    "curator_seal": "CONDÉ NAST TRAVELLER TOP 10 • TIMES FOOD AWARDS PUNE 2025"
+  }
+}
