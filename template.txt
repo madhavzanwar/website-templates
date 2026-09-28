@@ -1,0 +1,13 @@
+{Hi|Hello|Hey} {{owner_name | business_name team}},
+
+I came across {{business_name}} while looking at local businesses in {{city | your area}}. I noticed your online presence and wanted to reach out directly.
+
+We help local businesses upgrade their websites to convert more local visitors into paying customers and rank higher on Google Maps. 
+
+Would you be open to a quick 5-minute chat this week to see a free mockup of how your website could look?
+
+Best regards,
+Poonam
+Web Design & Digital Growth
+
+P.S. If you're not interested, just reply "STOP" and you won't hear from me again.

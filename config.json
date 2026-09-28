@@ -1,0 +1,68 @@
+{
+  "_comment_slots_line": "slots_line_enabled: Only enable if true. When true, adds scarcity line: 'I am making demos for a small number of {{category_plural}} in {{locality}} this week.'",
+  "slots_line_enabled": false,
+  
+  "exclude_keywords": [
+    "school",
+    "vidyalaya",
+    "hostel",
+    "club house",
+    "society",
+    "cricket academy",
+    "hospital",
+    "temple",
+    "trust",
+    "government",
+    "municipal",
+    "police"
+  ],
+
+  "plan_daily_limit": 300,
+  "daily_cap_max": 2000,
+  "warmup_schedule": [100, 200, 350, 600, 900, 1300, 2000],
+
+  "send_window": {
+    "start_hour": 9,
+    "end_hour": 19,
+    "timezone": "Asia/Kolkata",
+    "send_days": [0, 1, 2, 3, 4, 5]
+  },
+
+  "delays": {
+    "min_delay_seconds": 3,
+    "max_delay_seconds": 10,
+    "batch_min": 25,
+    "batch_max": 50,
+    "batch_gap_min_seconds": 120,
+    "batch_gap_max_seconds": 300
+  },
+
+  "health_thresholds": {
+    "check_interval_sends": 25,
+    "hard_bounce_pause_pct": 3.0,
+    "hard_bounce_cut_cap_pct": 2.0,
+    "spam_complaint_pause_pct": 0.1,
+    "max_consecutive_api_failures": 5
+  },
+
+  "auto_reply_enabled": true,
+  "imap_check_interval_minutes": 10,
+
+  "files": {
+    "leads_csv": "pune_smb_leads.csv",
+    "sent_log_csv": "sent_log.csv",
+    "skipped_leads_csv": "skipped_leads.csv",
+    "suppression_list_csv": "suppression_list.csv",
+    "hot_leads_csv": "hot_leads.csv",
+    "needs_attention_csv": "needs_attention.csv",
+    "state_file": "state.json",
+    "preview_dir": "preview",
+    "category_plural_json": "category_plural.json",
+    "subjects_no_website": "subjects_no_website.txt",
+    "subjects_has_website": "subjects_has_website.txt",
+    "template_no_website_txt": "templates/email_no_website.txt",
+    "template_no_website_html": "templates/email_no_website.html",
+    "template_has_website_txt": "templates/email_has_website.txt",
+    "template_has_website_html": "templates/email_has_website.html"
+  }
+}

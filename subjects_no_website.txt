@@ -1,0 +1,3 @@
+{{business_name}} is hard to find on Google
+Quick question about {{business_name}}
+I made a website demo for {{business_name}}

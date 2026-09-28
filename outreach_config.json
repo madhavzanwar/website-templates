@@ -1,0 +1,32 @@
+{
+  "sender": {
+    "defaultName": "Poonam",
+    "defaultEmail": ""
+  },
+  "sendingPace": {
+    "minDelaySeconds": 5.0,
+    "maxDelaySeconds": 15.0,
+    "planDailyLimit": 300,
+    "warmup": {
+      "enabled": true,
+      "stage1Days": 3,
+      "stage1DailyLimit": 25,
+      "stage2Days": 7,
+      "stage2DailyLimit": 75
+    }
+  },
+  "fallbacks": {
+    "defaultDemoLink": "https://pune-business-preview.com/demo",
+    "defaultCategory": "business"
+  },
+  "files": {
+    "leadsCsv": "pune_smb_leads.csv",
+    "sentLogCsv": "sent_log.csv",
+    "suppressionListCsv": "suppression_list.csv",
+    "invalidEmailsCsv": "invalid_emails.csv",
+    "templateHtml": "template.html",
+    "subjectsFile": "subjects.txt",
+    "stateFile": "outreach_state.json",
+    "dryRunDir": "dry_run_output"
+  }
+}
