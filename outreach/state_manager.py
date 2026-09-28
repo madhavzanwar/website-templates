@@ -98,20 +98,26 @@ class OutreachStateManager:
             target_idx = min(new_day_num - 1, len(schedule) - 1)
             target_cap = schedule[target_idx]
 
-            if y_bounce >= 3.0 or y_complaint >= 0.1:
-                # Very bad health: drop back to half
+            if y_bounce > 5.0 and self.state.get("total_sent_all_time", 0) >= 100:
+                # Critical bounce rate: auto-pause
+                self.auto_pause(f"Critical hard bounce rate ({y_bounce:.1f}% > 5.0%). Halting campaign.")
                 new_cap = max(25, int(prev_cap / 2))
-                print(f"[WARMUP] Health critical yesterday ({y_bounce:.1f}% bounce). Cutting cap to {new_cap}.")
-            elif y_bounce >= 2.0:
-                # Mild health issues: stay at same level
-                new_cap = prev_cap
-                print(f"[WARMUP] Moderate bounce rate ({y_bounce:.1f}%). Holding cap at {new_cap}.")
+            elif y_complaint > 0.2 and self.state.get("total_sent_all_time", 0) >= 500:
+                # Critical spam complaints: auto-pause
+                self.auto_pause(f"Critical spam complaint rate ({y_complaint:.2f}% > 0.2%). Halting campaign.")
+                new_cap = max(25, int(prev_cap / 2))
+            elif y_bounce >= 2.0 and y_bounce <= 5.0:
+                # Elevated bounce rate (2-5%): cut daily cap by half for the next day, log warning, keep sending
+                new_cap = max(25, int(prev_cap / 2))
+                print(f"[WARMUP] Warning: Elevated hard bounce rate ({y_bounce:.1f}% between 2.0% and 5.0%). Daily cap cut in half to {new_cap}.")
             else:
                 # Good health: advance to next ramp step
                 new_cap = target_cap
-                print(f"[WARMUP] Good health. Advancing to Day {new_day_num} cap: {new_cap}.")
+                print(f"[WARMUP] Deliverability healthy. Advancing to Day {new_day_num} cap: {new_cap}.")
 
             self.state["today_cap"] = min(new_cap, config.EFFECTIVE_DAILY_MAX)
+            self.state["current_hour_str"] = now_ist.strftime("%Y-%m-%d %H")
+            self.state["current_hour_sent_count"] = 0
             self.save_state()
 
     def is_within_send_window(self) -> Tuple[bool, str]:
@@ -136,7 +142,7 @@ class OutreachStateManager:
         return True, "Within sending window"
 
     def can_send(self) -> Tuple[bool, str]:
-        """Check all sending gates: pause flag, daily cap, and time window."""
+        """Check all sending gates: pause flag, daily cap, hourly cap, and time window."""
         self.rollover_day_if_needed()
 
         if self.state.get("is_paused", False):
@@ -145,6 +151,18 @@ class OutreachStateManager:
 
         if self.state["today_sent_count"] >= self.state["today_cap"]:
             return False, f"Today's cap reached ({self.state['today_sent_count']}/{self.state['today_cap']}). Next batch will resume tomorrow."
+
+        # Hourly cap check: daily_cap / 8
+        hourly_cap = max(15, int(self.state["today_cap"] / 8))
+        now_hour_str = self.get_ist_now().strftime("%Y-%m-%d %H")
+        if self.state.get("current_hour_str") != now_hour_str:
+            self.state["current_hour_str"] = now_hour_str
+            self.state["current_hour_sent_count"] = 0
+            self.save_state()
+
+        hour_sent = self.state.get("current_hour_sent_count", 0)
+        if hour_sent >= hourly_cap:
+            return False, f"Hourly sending cap reached ({hour_sent}/{hourly_cap}). Will resume in next hour."
 
         in_window, win_msg = self.is_within_send_window()
         if not in_window:
@@ -158,7 +176,13 @@ class OutreachStateManager:
             self.state["first_send_date"] = self.state["current_date"]
         self.state["today_sent_count"] += 1
         self.state["total_sent_all_time"] += 1
-        self.state["last_send_timestamp"] = self.get_ist_now().isoformat()
+        now_ist = self.get_ist_now()
+        now_hour_str = now_ist.strftime("%Y-%m-%d %H")
+        if self.state.get("current_hour_str") != now_hour_str:
+            self.state["current_hour_str"] = now_hour_str
+            self.state["current_hour_sent_count"] = 0
+        self.state["current_hour_sent_count"] = self.state.get("current_hour_sent_count", 0) + 1
+        self.state["last_send_timestamp"] = now_ist.isoformat()
         self.state["consecutive_api_failures"] = 0
         self.save_state()
 

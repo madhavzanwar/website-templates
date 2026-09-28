@@ -1,8 +1,8 @@
 {
   "_comment_slots_line": "slots_line_enabled: Only enable if true. When true, adds scarcity line: 'I am making demos for a small number of {{category_plural}} in {{locality}} this week.'",
   "slots_line_enabled": false,
-  
-  "exclude_keywords": [
+
+    "exclude_keywords": [
     "school",
     "vidyalaya",
     "hostel",
@@ -17,7 +17,181 @@
     "police"
   ],
 
-  "plan_daily_limit": 300,
+  "institutional_keywords": [
+    "international school",
+    "public school",
+    "institute for",
+    "institute of",
+    "research",
+    "foundation",
+    "development society",
+    "centre for",
+    "center for",
+    "university",
+    "ngo",
+    "trust",
+    "ministry",
+    "department",
+    "corporation",
+    "council"
+  ],
+
+  "disallowed_domain_endings": [
+    ".gov.in",
+    ".nic.in",
+    ".gov",
+    ".edu",
+    ".edu.in",
+    ".ac.in",
+    ".res.in"
+  ],
+
+  "allowed_tlds": [
+    ".com",
+    ".in",
+    ".co.in",
+    ".net",
+    ".org",
+    ".co",
+    ".biz",
+    ".info",
+    ".online",
+    ".store",
+    ".studio",
+    ".clinic",
+    ".fitness"
+  ],
+
+  "free_email_providers": [
+    "gmail.com",
+    "yahoo.com",
+    "outlook.com",
+    "hotmail.com",
+    "rediffmail.com",
+    "ymail.com"
+  ],
+
+  "corporate_mailbox_prefixes": [
+    "support",
+    "customercare",
+    "customer.care",
+    "customerservice",
+    "care",
+    "help",
+    "hr",
+    "careers",
+    "jobs",
+    "press",
+    "media",
+    "corporate",
+    "billing",
+    "accounts",
+    "webmaster",
+    "admin"
+  ],
+
+  "mailbox_review_prefixes": [
+    "admissions",
+    "principal"
+  ],
+
+  "coaching_org_domain_review": true,
+
+  "acronym_review": {
+    "enabled": true,
+    "min_len": 3,
+    "max_len": 6
+  },
+
+  "branch_chain_threshold": 2,
+
+  "allowed_role_prefixes": [
+    "info",
+    "contact",
+    "hello",
+    "enquiry",
+    "sales",
+    "mail"
+  ],
+
+  "max_business_name_length": 60,
+  "max_non_latin_ratio": 0.20,
+  "max_domain_occurrences_across_businesses": 3,
+  "max_business_name_locations": 3,
+
+  "big_brands": [
+    "Made Easy",
+    "Allen",
+    "Aakash",
+    "Resonance",
+    "Gold's Gym",
+    "Cult.fit",
+    "Lakme",
+    "Jawed Habib",
+    "Kaya",
+    "Starbucks",
+    "McDonald's",
+    "KFC",
+    "Burger King",
+    "Dominos",
+    "Pizza Hut",
+    "Subway",
+    "Apollo",
+    "Fortis",
+    "Max Healthcare",
+    "Justdial",
+    "Sulekha",
+    "Indiamart",
+    "Urban Company",
+    "MagicBricks",
+    "99acres",
+    "Housing.com",
+    "Fitpass",
+    "Motion Kota",
+    "AESL",
+    "BetterUp",
+    "Enrich",
+    "Kidzee",
+    "WTF Gyms",
+    "wtfgyms",
+    "OnePass",
+    "onepassgym",
+    "CoachingSelect",
+    "Saloni Bazaar",
+    "Juice Salon",
+    "SalonGo",
+    "Zynkio",
+    "Gymnear",
+    "Inventiva",
+    "Upcoming Workshops",
+    "Bakliwal",
+    "Urbounce"
+  ],
+
+  "category_synonyms": {
+    "gyms": ["gym", "gyms", "fitness", "fit", "workout", "crossfit", "muscle", "barbell", "health club", "training", "physique", "exercise", "trainer"],
+    "cafes": ["cafe", "cafes", "coffee", "bake", "roaster", "tea", "bistro", "brew", "espresso", "latte", "bakery"],
+    "salons": ["salon", "salons", "beauty", "hair", "spa", "parlour", "parlor", "styling", "makeup", "makeover", "barber"],
+    "coaching classes/tuition centers": ["coaching", "classes", "tuition", "academy", "tutorials", "institute", "education", "study", "learning", "training", "test prep"],
+    "restaurants": ["restaurant", "restaurants", "dining", "kitchen", "dhaba", "food", "cuisine", "eats", "biryani", "veg", "nonveg"],
+    "wedding photographers": ["photo", "wedding", "photography", "photographer", "studio", "films", "shoot", "camera"],
+    "dentists": ["dental", "dentist", "dentists", "teeth", "orthodontic", "smile", "oral", "clinic"],
+    "beauty studios": ["beauty", "studio", "studios", "makeup", "skin", "cosmetic", "glamour", "lash", "brow"],
+    "real estate agents": ["realtor", "real estate", "property", "properties", "homes", "estates", "housing", "builders"],
+    "boutiques": ["boutique", "boutiques", "fashion", "couture", "apparel", "designer", "clothing", "wear"],
+    "event planners": ["event", "events", "wedding planner", "planner", "celebration", "decor", "occasions"],
+    "yoga studios": ["yoga", "yog", "pranayam", "meditation", "wellness", "asana"],
+    "physiotherapy clinics": ["physio", "physiotherapy", "rehab", "rehabilitation", "pain", "therapy", "clinic"],
+    "interior designers": ["interior", "design", "decor", "architect", "living", "spaces", "furnishing"]
+  },
+
+  "demo_link_verification": {
+    "enabled": true,
+    "timeout_seconds": 3,
+    "check_body_business_name": true
+  },
+
+  "plan_daily_limit": 2000,
   "daily_cap_max": 2000,
   "warmup_schedule": [100, 200, 350, 600, 900, 1300, 2000],
 
@@ -30,18 +204,20 @@
 
   "delays": {
     "min_delay_seconds": 3,
-    "max_delay_seconds": 10,
+    "max_delay_seconds": 7,
     "batch_min": 25,
     "batch_max": 50,
-    "batch_gap_min_seconds": 120,
-    "batch_gap_max_seconds": 300
+    "batch_gap_min_seconds": 60,
+    "batch_gap_max_seconds": 180
   },
 
   "health_thresholds": {
-    "check_interval_sends": 25,
-    "hard_bounce_pause_pct": 3.0,
+    "check_interval_sends": 50,
+    "hard_bounce_pause_pct": 5.0,
+    "hard_bounce_pause_min_sends": 100,
     "hard_bounce_cut_cap_pct": 2.0,
-    "spam_complaint_pause_pct": 0.1,
+    "spam_complaint_pause_pct": 0.2,
+    "spam_complaint_pause_min_sends": 500,
     "max_consecutive_api_failures": 5
   },
 
@@ -52,6 +228,7 @@
     "leads_csv": "pune_smb_leads.csv",
     "sent_log_csv": "sent_log.csv",
     "skipped_leads_csv": "skipped_leads.csv",
+    "needs_review_csv": "needs_review.csv",
     "suppression_list_csv": "suppression_list.csv",
     "hot_leads_csv": "hot_leads.csv",
     "needs_attention_csv": "needs_attention.csv",

@@ -26,6 +26,34 @@ venv/
 .env.*
 !.env.example
 
+# Cold Email Outreach state, logs & queue data
+sent_log.csv
+send_logs.csv
+suppression_list.csv
+hot_leads.csv
+needs_attention.csv
+needs_review.csv
+skipped_leads.csv
+state.json
+outreach_state.json
+pune_smb_leads.csv
+preview/
+preview/*
+audit_report.txt
+contacts.csv
+visits.csv
+invalid_emails.csv
+unmapped_categories.csv
+merge_errors.csv
+opt_outs.csv
+scraper_checkpoint.db
+
+# Backup CSVs and data dumps
+*backup*.csv
+*_backup.csv
+*.csv.bak
+*.bak
+
 # WhatsApp automation session/cache/logs
 .wwebjs_auth/
 .wwebjs_cache/
@@ -34,25 +62,9 @@ outreach/cache/
 outreach/logs/
 outreach/*.log
 outreach/*.csv
-send_logs.csv
-opt_outs.csv
-
-# Lead / scraper data (private business data — repo must be private)
-pune_smb_leads.csv
-scraper_checkpoint.db
-unmapped_categories.csv
-merge_errors.csv
-invalid_emails.csv
-sent_log.csv
-suppression_list.csv
-visits.csv
-skipped_leads.csv
-needs_attention.csv
-hot_leads.csv
-contacts.csv
-outreach_state.json
 
 # QA screenshots (large binary files)
+qa/
 qa/screenshots/
 
 # Databases and logs
@@ -72,3 +84,6 @@ Thumbs.db
 
 # TypeScript build info (regenerated)
 tsconfig.tsbuildinfo
+
+.vercel
+.env*

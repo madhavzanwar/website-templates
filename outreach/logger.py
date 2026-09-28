@@ -48,7 +48,7 @@ class SendLogger:
                 writer = csv.writer(f)
                 writer.writerow([
                     'business_name', 'email', 'category', 'timestamp',
-                    'subject', 'reply_snippet'
+                    'subject', 'flag', 'reply_snippet'
                 ])
 
         if not os.path.exists(self.suppression_path):
@@ -138,7 +138,8 @@ class SendLogger:
         email: str,
         category: str,
         subject: str,
-        reply_snippet: str
+        reply_snippet: str,
+        flag: str = "general"
     ):
         ts = datetime.datetime.now(datetime.timezone.utc).isoformat()
         with open(self.needs_attention_path, 'a', newline='', encoding='utf-8') as f:
@@ -149,6 +150,7 @@ class SendLogger:
                 category,
                 ts,
                 subject,
+                flag,
                 reply_snippet.replace('\n', ' ')[:300]
             ])
 

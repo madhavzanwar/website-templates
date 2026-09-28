@@ -1,7 +1,7 @@
 """
 IMAP reply monitor and automatic intent classifier.
 Polls REPLY_TO inbox, matches senders against sent_log.csv,
-classifies YES / STOP / OTHER (with Hindi/Marathi keywords),
+strips quoted text, classifies YES / STOP / PRICING_INQUIRY / OTHER (with Hindi/Marathi keywords),
 auto-sends demo links to hot leads via Brevo, and adds unsubscribes to suppression list.
 """
 
@@ -17,23 +17,68 @@ from outreach import config
 from outreach.brevo import BrevoClient
 from outreach.logger import SendLogger
 
+def strip_quoted_text(text: str) -> str:
+    """
+    Strip quoted text, reply headers, and forwarded blocks before classification.
+    Strips lines starting with '>', and content following reply divider headers.
+    """
+    if not text:
+        return ""
+
+    split_patterns = [
+        r'(?i)\n\s*On\s+.+?wrote:\s*$',
+        r'(?i)\n\s*On\s+.*?,\s+.*?\s+wrote:\s*',
+        r'(?i)\n\s*-+\s*Original Message\s*-+',
+        r'(?i)\n\s*From:\s*.+?\n\s*(?:Sent|Date):\s*',
+        r'\n\s*_{20,}',
+        r'(?i)\n\s*-+\s*Forwarded message\s*-+'
+    ]
+
+    cleaned = text
+    for pattern in split_patterns:
+        match = re.search(pattern, cleaned, re.MULTILINE | re.DOTALL)
+        if match:
+            cleaned = cleaned[:match.start()]
+
+    lines = []
+    for line in cleaned.splitlines():
+        stripped_line = line.strip()
+        if stripped_line.startswith('>'):
+            continue
+        lines.append(line)
+
+    return "\n".join(lines).strip()
+
 STOP_PHRASES = [
-    "not interested", "dont email", "don't email", "unsubscribe",
-    "stop emailing", "remove me", "please remove", "do not contact"
+    "not interested", "dont email", "don't email", "do not email",
+    "unsubscribe", "stop emailing", "remove me", "please remove",
+    "do not contact", "dont contact", "don't contact", "nahi chahiye",
+    "nahi chahie", "mat bhejo", "mat karo", "nako", "no thanks",
+    "not needed", "wrong email", "spam", "stop it"
 ]
 
 STOP_WORDS = [
-    r"\bno\b", r"\bstop\b", r"\bnahi\b", r"\bnako\b", r"\bmat karo\b"
+    r"\bno\b", r"\bstop\b", r"\bnahi\b", r"\bnako\b", r"\bnaahi\b", r"\bnever\b"
+]
+
+PRICING_KEYWORDS = [
+    r"\?",
+    r"\bprice\b", r"\bcost\b", r"\bcharges\b", r"\bhow much\b",
+    r"\bkitne\b", r"\bkimat\b", r"\bkeemat\b", r"\brates?\b",
+    r"\bcall me\b", r"\bphone\b", r"\bnumber\b", r"\bcontact me\b", r"\bcall karo\b",
+    r"\bwhen\b", r"\btimeline\b", r"\bhow long\b", r"\bkab\b"
 ]
 
 YES_PHRASES = [
-    "send link", "share demo", "send demo", "share link", "send it", "show me", "no problem"
+    "send link", "share demo", "send demo", "share link", "send it", "show me",
+    "yes please", "sure send", "please share", "no problem", "no worries"
 ]
 
 YES_WORDS = [
     r"\byes\b", r"\byeah\b", r"\byep\b", r"\bsure\b", r"\bok\b", r"\bokay\b",
     r"\binterested\b", r"\bsend\b", r"\bshow\b", r"\bhaan\b", r"\bha\b",
-    r"\bdikhao\b", r"\bpathva\b", r"\bpathva link\b", r"\bchaleel\b"
+    r"\bdikhao\b", r"\bpathva\b", r"\bpathva link\b", r"\bchaleel\b", r"\bchalel\b",
+    r"\bho\b"
 ]
 
 def clean_subject(raw_subject: str) -> str:
@@ -49,21 +94,25 @@ def clean_subject(raw_subject: str) -> str:
             res += str(part)
     return res.strip()
 
-def classify_intent(body_text: str) -> str:
+def classify_intent(raw_body_text: str) -> str:
     """
-    Classify reply intent into 'YES', 'STOP', or 'OTHER'.
+    Classify reply intent into 'YES', 'STOP', 'PRICING_INQUIRY', or 'OTHER'.
+    Strips quoted original email before classifying.
+    Refusal phrases ALWAYS evaluate to STOP (highest priority).
+    Questions or pricing inquiries evaluate to PRICING_INQUIRY.
     """
+    body_text = strip_quoted_text(raw_body_text)
     if not body_text:
         return "OTHER"
 
     text_lower = body_text.lower()
 
-    # Exclude false positives for 'no' like 'no problem' or 'no worries'
+    # Mask false-positive stop phrases like "no problem", "no worries", "not an issue"
     cleaned_for_stop = text_lower
-    for fp in ["no problem", "no worries", "not an issue"]:
-        cleaned_for_stop = cleaned_for_stop.replace(fp, " ")
+    for fp in ["no problem", "no worries", "not an issue", "no issue", "no issues"]:
+        cleaned_for_stop = cleaned_for_stop.replace(fp, " affirmative_neutral ")
 
-    # Check STOP first
+    # 1. STOP checks (Highest priority: explicit refusal overrides questions & positive keywords)
     for phrase in STOP_PHRASES:
         if phrase in cleaned_for_stop:
             return "STOP"
@@ -72,7 +121,12 @@ def classify_intent(body_text: str) -> str:
         if re.search(pattern, cleaned_for_stop):
             return "STOP"
 
-    # Check YES
+    # 2. PRICING / QUESTION inquiries (route to needs_attention.csv without auto-reply)
+    for pattern in PRICING_KEYWORDS:
+        if re.search(pattern, text_lower):
+            return "PRICING_INQUIRY"
+
+    # 3. YES checks
     for phrase in YES_PHRASES:
         if phrase in text_lower:
             return "YES"
@@ -101,7 +155,11 @@ class ReplyHandler:
         self.auto_reply_enabled = auto_reply_enabled
 
     def is_configured(self) -> bool:
-        return bool(self.imap_host and self.imap_user and self.imap_password and not self.imap_password.startswith("your_app"))
+        return bool(
+            self.imap_host and self.imap_user and self.imap_password and
+            not self.imap_password.startswith("your_app") and
+            not self.imap_user.startswith("poonam@yourdomain")
+        )
 
     def load_sent_leads_lookup(self) -> Dict[str, Dict[str, Any]]:
         """Map email -> lead details from sent_log.csv."""
@@ -126,6 +184,7 @@ class ReplyHandler:
             "matched_replies": 0,
             "yes_count": 0,
             "stop_count": 0,
+            "pricing_inquiry_count": 0,
             "other_count": 0,
             "message": "OK"
         }
@@ -184,10 +243,10 @@ class ReplyHandler:
                     else:
                         body_text = msg.get_payload(decode=True).decode(errors="ignore")
 
-                    # Classify intent
+                    # Classify intent with quotes stripped
                     intent = classify_intent(body_text)
 
-                    # Check if already replied
+                    # Check if already processed
                     prev_status = lead_info.get("reply_status", "none")
                     if prev_status in ["yes", "stop"]:
                         continue
@@ -198,8 +257,6 @@ class ReplyHandler:
 
                     # Fallback demo link lookup if missing in sent log
                     if not demo_link and os.path.exists(config.LEADS_CSV):
-                        from outreach.filter import LeadFilter
-                        # Look up demo link in leads CSV
                         with open(config.LEADS_CSV, 'r', encoding='utf-8', errors='ignore') as lf:
                             for row in csv.DictReader(lf):
                                 if (row.get('email') or '').lower().strip() == from_email:
@@ -251,6 +308,19 @@ class ReplyHandler:
                         self.logger.update_reply_status(from_email, "stop")
                         self.logger.add_to_suppression(from_email, "User opted out via reply")
 
+                    elif intent == "PRICING_INQUIRY":
+                        report["pricing_inquiry_count"] += 1
+                        self.logger.update_reply_status(from_email, "needs_attention")
+                        self.logger.log_needs_attention(
+                            business_name=b_name,
+                            email=from_email,
+                            category=category,
+                            subject=subject_raw,
+                            reply_snippet=body_text[:300],
+                            flag="pricing_inquiry"
+                        )
+                        # Intentionally DO NOT auto-reply to pricing questions
+
                     else:
                         report["other_count"] += 1
                         self.logger.update_reply_status(from_email, "other")
@@ -259,7 +329,8 @@ class ReplyHandler:
                             email=from_email,
                             category=category,
                             subject=subject_raw,
-                            reply_snippet=body_text[:300]
+                            reply_snippet=body_text[:300],
+                            flag="general"
                         )
 
             mail.close()

@@ -197,24 +197,31 @@ class HealthMonitor:
         self.state_mgr.state["yesterday_spam_complaint_rate"] = sc_rate
         self.state_mgr.save_state()
 
-        # Threshold rules
+        # Threshold rules for aggressive mode
         th = config.HEALTH_THRESHOLDS
-        pause_bounce_th = th.get("hard_bounce_pause_pct", 3.0)
-        pause_spam_th = th.get("spam_complaint_pause_pct", 0.1)
+        pause_bounce_th = th.get("hard_bounce_pause_pct", 5.0)
+        pause_bounce_min_sends = th.get("hard_bounce_pause_min_sends", 100)
+        pause_spam_th = th.get("spam_complaint_pause_pct", 0.2)
+        pause_spam_min_sends = th.get("spam_complaint_pause_min_sends", 500)
         cut_cap_bounce_th = th.get("hard_bounce_cut_cap_pct", 2.0)
 
-        if hb_rate > pause_bounce_th:
-            reason = f"Hard bounce rate ({hb_rate:.1f}%) exceeds safety threshold of {pause_bounce_th}%."
+        total_sends = self.state_mgr.state.get("total_sent_all_time", 0)
+
+        # 1. Hard bounce rate > 5% on 100+ sends -> PAUSE immediately
+        if total_sends >= pause_bounce_min_sends and hb_rate > pause_bounce_th:
+            reason = f"Hard bounce rate ({hb_rate:.1f}%) exceeds safety threshold of {pause_bounce_th}% on {total_sends} sends."
             self.state_mgr.auto_pause(reason)
             report["action_taken"] = "auto_pause"
             report["message"] = reason
-        elif sc_rate > pause_spam_th:
-            reason = f"Spam complaint rate ({sc_rate:.2f}%) exceeds safety threshold of {pause_spam_th}%."
+        # 2. Spam complaint rate > 0.2% on 500+ sends -> PAUSE immediately
+        elif total_sends >= pause_spam_min_sends and sc_rate > pause_spam_th:
+            reason = f"Spam complaint rate ({sc_rate:.2f}%) exceeds safety threshold of {pause_spam_th}% on {total_sends} sends."
             self.state_mgr.auto_pause(reason)
             report["action_taken"] = "auto_pause"
             report["message"] = reason
-        elif hb_rate >= cut_cap_bounce_th:
-            reason = f"Elevated hard bounce rate ({hb_rate:.1f}% >= {cut_cap_bounce_th}%)."
+        # 3. Hard bounce rate between 2-5% -> CUT daily cap by half for next day, log warning, keep sending
+        elif hb_rate >= cut_cap_bounce_th and hb_rate <= pause_bounce_th:
+            reason = f"Elevated hard bounce rate ({hb_rate:.1f}% between {cut_cap_bounce_th}% and {pause_bounce_th}%)."
             self.state_mgr.cut_cap_in_half(reason)
             report["action_taken"] = "cut_cap"
             report["message"] = reason

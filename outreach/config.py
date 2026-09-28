@@ -9,13 +9,13 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List
 
+BASE_DIR = Path(__file__).resolve().parent.parent
+
 try:
     from dotenv import load_dotenv
-    load_dotenv()
+    load_dotenv(dotenv_path=BASE_DIR / ".env", override=True)
 except ImportError:
     pass
-
-BASE_DIR = Path(__file__).resolve().parent.parent
 
 # Path to config.json
 CONFIG_PATH = BASE_DIR / "config.json"
@@ -34,19 +34,22 @@ if CONFIG_PATH.exists():
 # Secrets from .env (NEVER print or hardcode)
 BREVO_API_KEY = os.getenv("BREVO_API_KEY", "").strip()
 SENDER_EMAIL = os.getenv("SENDER_EMAIL", "").strip()
-SENDER_NAME = os.getenv("SENDER_NAME", "").strip() or "Poonam"
+SENDER_NAME = os.getenv("SENDER_NAME", "").strip() or "Madhav"
 REPLY_TO_EMAIL = os.getenv("REPLY_TO_EMAIL", "").strip() or SENDER_EMAIL
-IMAP_HOST = os.getenv("IMAP_HOST", "").strip() or "imap.gmail.com"
-IMAP_USER = os.getenv("IMAP_USER", "").strip() or REPLY_TO_EMAIL
-IMAP_APP_PASSWORD = os.getenv("IMAP_APP_PASSWORD", "").strip()
-SENDER_ADDRESS = os.getenv("SENDER_ADDRESS", "").strip() or "Pune, Maharashtra, India"
+# Outreach replies are handled manually directly in inbox (no IMAP polling)
+SKIP_IMAP = True
+SENDER_ADDRESS = os.getenv("SENDER_ADDRESS", "").strip() or "Ravet, Pune, Maharashtra, India"
 SENDER_PHONE = os.getenv("SENDER_PHONE", "").strip() or "+91 98220 12345"
+
+# Web / Demo URL
+BASE_URL = os.getenv("BASE_URL") or os.getenv("DEMO_BASE_URL", "http://localhost:3000")
 
 # File paths from config.json
 _FILES = _CONFIG_DATA.get("files", {})
 LEADS_CSV = str(BASE_DIR / _FILES.get("leads_csv", "pune_smb_leads.csv"))
 SENT_LOG_CSV = str(BASE_DIR / _FILES.get("sent_log_csv", "sent_log.csv"))
 SKIPPED_LEADS_CSV = str(BASE_DIR / _FILES.get("skipped_leads_csv", "skipped_leads.csv"))
+NEEDS_REVIEW_CSV = str(BASE_DIR / _FILES.get("needs_review_csv", "needs_review.csv"))
 SUPPRESSION_LIST_CSV = str(BASE_DIR / _FILES.get("suppression_list_csv", "suppression_list.csv"))
 HOT_LEADS_CSV = str(BASE_DIR / _FILES.get("hot_leads_csv", "hot_leads.csv"))
 NEEDS_ATTENTION_CSV = str(BASE_DIR / _FILES.get("needs_attention_csv", "needs_attention.csv"))
@@ -69,10 +72,84 @@ EXCLUDE_KEYWORDS: List[str] = _CONFIG_DATA.get("exclude_keywords", [
     "government", "municipal", "police"
 ])
 
+INSTITUTIONAL_KEYWORDS: List[str] = _CONFIG_DATA.get("institutional_keywords", [
+    "international school", "public school", "institute for", "institute of",
+    "research", "foundation", "development society", "centre for", "center for",
+    "university", "ngo", "trust", "ministry", "department", "corporation", "council"
+])
+
+DISALLOWED_DOMAIN_ENDINGS: List[str] = _CONFIG_DATA.get("disallowed_domain_endings", [
+    ".gov.in", ".nic.in", ".gov", ".edu", ".edu.in", ".ac.in", ".res.in"
+])
+
+ALLOWED_TLDS: List[str] = _CONFIG_DATA.get("allowed_tlds", [
+    ".com", ".in", ".co.in", ".net", ".org", ".co", ".biz", ".info",
+    ".online", ".store", ".studio", ".clinic", ".fitness"
+])
+
+FREE_EMAIL_PROVIDERS: List[str] = _CONFIG_DATA.get("free_email_providers", [
+    "gmail.com", "yahoo.com", "outlook.com", "hotmail.com", "rediffmail.com", "ymail.com"
+])
+
+CORPORATE_MAILBOX_PREFIXES: List[str] = _CONFIG_DATA.get("corporate_mailbox_prefixes", [
+    "support", "customercare", "customer.care", "customerservice", "care", "help",
+    "hr", "careers", "jobs", "press", "media", "corporate", "billing", "accounts",
+    "webmaster", "admin"
+])
+
+MAILBOX_REVIEW_PREFIXES: List[str] = _CONFIG_DATA.get("mailbox_review_prefixes", [
+    "admissions", "principal"
+])
+
+COACHING_ORG_DOMAIN_REVIEW: bool = bool(_CONFIG_DATA.get("coaching_org_domain_review", True))
+
+ACRONYM_REVIEW: Dict[str, Any] = _CONFIG_DATA.get("acronym_review", {
+    "enabled": True, "min_len": 3, "max_len": 6
+})
+
+BRANCH_CHAIN_THRESHOLD: int = int(_CONFIG_DATA.get("branch_chain_threshold", 2))
+
+ALLOWED_ROLE_PREFIXES: List[str] = _CONFIG_DATA.get("allowed_role_prefixes", [
+    "info", "contact", "hello", "enquiry", "sales", "mail"
+])
+
+MAX_BUSINESS_NAME_LENGTH: int = int(_CONFIG_DATA.get("max_business_name_length", 60))
+MAX_NON_LATIN_RATIO: float = float(_CONFIG_DATA.get("max_non_latin_ratio", 0.20))
+MAX_DOMAIN_OCCURRENCES: int = int(_CONFIG_DATA.get("max_domain_occurrences_across_businesses", 3))
+MAX_BUSINESS_NAME_LOCATIONS: int = int(_CONFIG_DATA.get("max_business_name_locations", 3))
+
+BIG_BRANDS: List[str] = _CONFIG_DATA.get("big_brands", [
+    "Made Easy", "Allen", "Aakash", "Resonance", "Gold's Gym", "Cult.fit",
+    "Lakme", "Jawed Habib", "Kaya", "Starbucks", "McDonald's", "KFC", "Burger King",
+    "Dominos", "Pizza Hut", "Subway", "Apollo", "Fortis", "Max Healthcare",
+    "Justdial", "Sulekha", "Indiamart", "Urban Company", "MagicBricks", "99acres",
+    "Housing.com", "Fitpass", "Motion Kota", "AESL", "BetterUp", "Enrich", "Kidzee",
+    "Bakliwal", "Urbounce"
+])
+
+CATEGORY_SYNONYMS: Dict[str, List[str]] = _CONFIG_DATA.get("category_synonyms", {})
+
+def is_public_base_url(url: str) -> bool:
+    """Return True if url is a valid public https:// URL (not localhost or 127.0.0.1)."""
+    if not url:
+        return False
+    u = url.strip().lower()
+    if not u.startswith("https://"):
+        return False
+    if "localhost" in u or "127.0.0.1" in u:
+        return False
+    return True
+
+DEMO_LINK_VERIFICATION: Dict[str, Any] = _CONFIG_DATA.get("demo_link_verification", {
+    "enabled": True,
+    "timeout_seconds": 3,
+    "check_body_business_name": True
+})
+
 SLOTS_LINE_ENABLED: bool = bool(_CONFIG_DATA.get("slots_line_enabled", False))
 
-# Limits & Warm-up schedule
-PLAN_DAILY_LIMIT: int = int(_CONFIG_DATA.get("plan_daily_limit", 300))
+# Limits & Aggressive Warm-up schedule
+PLAN_DAILY_LIMIT: int = int(_CONFIG_DATA.get("plan_daily_limit", 2000))
 DAILY_CAP_MAX: int = int(_CONFIG_DATA.get("daily_cap_max", 2000))
 WARMUP_SCHEDULE: List[int] = _CONFIG_DATA.get("warmup_schedule", [100, 200, 350, 600, 900, 1300, 2000])
 
@@ -89,18 +166,20 @@ SEND_WINDOW: Dict[str, Any] = _CONFIG_DATA.get("send_window", {
 
 DELAYS: Dict[str, Any] = _CONFIG_DATA.get("delays", {
     "min_delay_seconds": 3,
-    "max_delay_seconds": 10,
+    "max_delay_seconds": 7,
     "batch_min": 25,
     "batch_max": 50,
-    "batch_gap_min_seconds": 120,
-    "batch_gap_max_seconds": 300
+    "batch_gap_min_seconds": 60,
+    "batch_gap_max_seconds": 180
 })
 
 HEALTH_THRESHOLDS: Dict[str, Any] = _CONFIG_DATA.get("health_thresholds", {
-    "check_interval_sends": 25,
-    "hard_bounce_pause_pct": 3.0,
+    "check_interval_sends": 50,
+    "hard_bounce_pause_pct": 5.0,
+    "hard_bounce_pause_min_sends": 100,
     "hard_bounce_cut_cap_pct": 2.0,
-    "spam_complaint_pause_pct": 0.1,
+    "spam_complaint_pause_pct": 0.2,
+    "spam_complaint_pause_min_sends": 500,
     "max_consecutive_api_failures": 5
 })
 

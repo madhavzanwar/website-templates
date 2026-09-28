@@ -2,8 +2,8 @@
 """
 Pune SMB Brevo Cold Email Outreach Engine - CLI Orchestrator.
 Sends personalized cold outreach emails via Brevo Transactional Email API (POST /v3/smtp/email)
-with warm-up pacing, bounce/complaint auto-pausing, reply handling, and full audit logging.
-Safe for new sending domains.
+with aggressive warm-up pacing, deliverability safety gates, quote-stripped reply classification,
+live demo link verification, preflight checks, contact audits, and audit logging.
 """
 
 import os
@@ -28,20 +28,22 @@ from outreach.brevo import BrevoClient, HealthMonitor
 from outreach.state_manager import OutreachStateManager
 from outreach.logger import SendLogger
 from outreach.reply_handler import ReplyHandler
+from outreach.preflight import PreflightChecker
+from outreach.audit import ContactAuditor
 
 def print_banner():
     banner = f"""
 ================================================================================
-       PUNE SMB BREVO COLD EMAIL OUTREACH ENGINE
+       PUNE SMB BREVO COLD EMAIL OUTREACH ENGINE (AGGRESSIVE MODE)
 ================================================================================
 Sender Identity  : {config.SENDER_NAME} <{config.SENDER_EMAIL or '[NOT CONFIGURED IN .env]'}>
 Reply-To Inbox   : {config.REPLY_TO_EMAIL or '[NOT CONFIGURED IN .env]'}
 API Integration  : Brevo Transactional API (POST /v3/smtp/email)
-Warm-Up Schedule : Day 1: 100 | Day 2: 200 | Day 3: 350 | Day 4: 600 | Day 5: 900+
+Warm-Up Schedule : Day 1: 100 | Day 2: 200 | Day 3: 350 | Day 4: 600 | Day 5: 900 | Day 6: 1300 | Day 7+: 2000
 Send Window      : Mon - Sat, 09:00 - 19:00 IST (Asia/Kolkata)
-Pacing           : 3 - 10s random delays | Batches of 25-50 | 2-5m pause between batches
-Health Monitor   : Auto-pause if hard bounce > 3% or spam > 0.1% | Cap halved if > 2%
-Reply Handling   : IMAP polling every 10 min | Auto-demo reply for YES | Auto-suppress STOP
+Pacing           : 3 - 7s random delays | Batches of 25-50 | Health check every 50 sends
+Health Monitor   : Auto-pause if hard bounce > 5% (100+ sends) or spam > 0.2% (500+ sends) | Cap halved if 2-5%
+Reply Handling   : Quoted text stripped | Questions/pricing to needs_attention.csv | Auto-demo reply for YES
 ================================================================================
 """
     print(banner)
@@ -49,30 +51,125 @@ Reply Handling   : IMAP polling every 10 min | Auto-demo reply for YES | Auto-su
 def run_dry_run(filter_engine: LeadFilter, template_engine: OutreachTemplateEngine, sample_count: int = 10):
     """
     Renders sample emails for inspection into /preview as HTML and summarizes
-    which leads were kept vs skipped and why.
+    which leads were kept vs skipped and why, with full queue and suspicious leads breakdown.
     """
     print_banner()
+
+    # Public BASE_URL validation check
+    if not config.is_public_base_url(config.BASE_URL):
+        print("********************************************************************************")
+        print("⚠️  WARNING: Demo links are not public!")
+        curr_url = config.BASE_URL or "[NOT CONFIGURED]"
+        print(f"BASE_URL is not configured with a public https:// URL (Current: '{curr_url}').")
+        print("Demo links in emails will not be accessible to external recipients.")
+        print("Configure a valid public https:// BASE_URL in .env before live sending.")
+        print("********************************************************************************\n")
+
     print(">>> EXECUTING DRY-RUN MODE (Zero emails will be sent)\n")
 
-    valid_queue, skipped_records, stats = filter_engine.process_leads()
+    valid_queue, skipped_records, stats, review_records = filter_engine.process_leads()
 
     print("================================================================================")
     print("                      LEAD FILTERING & AUDIT SUMMARY")
     print("================================================================================")
     print(f"Total rows scanned in CSV        : {stats['total_rows']}")
-    print(f"Valid leads in mixed queue       : {stats['valid_candidates']}")
+    print(f"Valid leads in send queue        : {stats['valid_candidates']}")
+    print(f"Flagged to needs_review.csv      : {stats['needs_review_flagged']}")
+    print(f"Total skipped leads              : {len(skipped_records)}")
     print("--------------------------------------------------------------------------------")
     print("Skipped Breakdown:")
     print(f"  - Missing email address        : {stats['missing_email']}")
     print(f"  - Excluded keywords (school/etc): {stats['excluded_keyword']}")
+    print(f"  - Institutional keywords       : {stats.get('institutional_keyword', 0)}")
+    print(f"  - Disallowed domain (.edu/.gov): {stats['disallowed_domain']}")
+    print(f"  - Disallowed country/foreign TLD: {stats['disallowed_tld']}")
+    print(f"  - Corporate unattended mailbox : {stats['corporate_mailbox']}")
+    print(f"  - National brand / chain       : {stats['big_brand']}")
+    print(f"  - Article / directory title    : {stats['article_or_directory']}")
+    print(f"  - Non-Latin foreign script     : {stats['non_latin_script']}")
+    print(f"  - Aggregator domain (3+ leads) : {stats['aggregator_domain']}")
+    print(f"  - Chain business (3+ locations): {stats['chain_business']}")
     print(f"  - Invalid email regex format   : {stats['invalid_email_format']}")
     print(f"  - System email (noreply/etc)   : {stats['system_email']}")
     print(f"  - Already in sent_log.csv      : {stats['already_sent']}")
     print(f"  - In suppression_list.csv      : {stats['in_suppression_list']}")
     print(f"  - Duplicates in current file   : {stats['duplicate_in_file']}")
-    print(f"  - Missing demo link            : {stats['missing_demo_link']}")
     print(f"\nDetailed skipped records written to: {config.SKIPPED_LEADS_CSV}")
+    print(f"Manual review records written to   : {config.NEEDS_REVIEW_CSV}")
     print("================================================================================\n")
+
+    # Table of Final Qualified Queue
+    print("================================================================================")
+    print(f"                  QUALIFIED SEND QUEUE ({len(valid_queue)} LEADS)")
+    print("================================================================================")
+    col_idx = 4
+    col_name = 34
+    col_cat = 24
+    col_loc = 18
+    col_email = 30
+    col_src = 13
+
+    sep = "+" + "-"*(col_idx+2) + "+" + "-"*(col_name+2) + "+" + "-"*(col_cat+2) + "+" + "-"*(col_loc+2) + "+" + "-"*(col_email+2) + "+" + "-"*(col_src+2) + "+"
+    hdr = f"| {'#':<{col_idx}} | {'Business Name':<{col_name}} | {'Category':<{col_cat}} | {'Locality':<{col_loc}} | {'Email':<{col_email}} | {'Source':<{col_src}} |"
+
+    print(sep)
+    print(hdr)
+    print(sep)
+
+    for idx, lead in enumerate(valid_queue, start=1):
+        b_name = lead.get('business_name', '')[:col_name]
+        cat = lead.get('category', '')[:col_cat]
+        loc = lead.get('locality', 'Pune')[:col_loc]
+        em = lead.get('email', '')[:col_email]
+        src = lead.get('source', 'unknown')[:col_src]
+        print(f"| {idx:<{col_idx}} | {b_name:<{col_name}} | {cat:<{col_cat}} | {loc:<{col_loc}} | {em:<{col_email}} | {src:<{col_src}} |")
+
+    print(sep)
+    print()
+
+    # Flagged for Manual Review Summary
+    if review_records:
+        print("================================================================================")
+        print(f"             FLAGGED TO NEEDS_REVIEW.CSV ({len(review_records)} LEADS)")
+        print("================================================================================")
+        for idx, r in enumerate(review_records, start=1):
+            print(f"[{idx:02d}] {r.get('business_name')} <{r.get('email')}>")
+            print(f"     Reason: {r.get('reason')}")
+        print("================================================================================\n")
+
+    # Top / Most Suspicious Kept Leads for Spot-Checking
+    print("================================================================================")
+    print("             TOP / MOST SUSPICIOUS KEPT LEADS FOR SPOT-CHECKING")
+    print("================================================================================")
+    suspicious_candidates = []
+    for l in valid_queue:
+        score = 0
+        notes = []
+        if l.get('source') == 'web_search':
+            score += 2
+            notes.append("source=web_search")
+        if any(p in l.get('email', '') for p in ['gmail.com', 'outlook.com', 'yahoo.com']):
+            score += 1
+            notes.append("free_mailbox")
+        if len(l.get('business_name', '')) > 30:
+            score += 1
+            notes.append("long_name")
+        if not l.get('has_website_bool'):
+            score += 1
+            notes.append("no_website")
+        suspicious_candidates.append((score, notes, l))
+
+    suspicious_candidates.sort(key=lambda x: x[0], reverse=True)
+    top_suspicious = suspicious_candidates[:10]
+
+    for idx, (score, notes, lead) in enumerate(top_suspicious, start=1):
+        note_str = ", ".join(notes) if notes else "standard SMB profile"
+        print(f"[{idx:02d}] {lead.get('business_name')}")
+        print(f"     Email       : {lead.get('email')}")
+        print(f"     Category    : {lead.get('category')} ({lead.get('locality')})")
+        print(f"     Demo Link   : {lead.get('demo_link')}")
+        print(f"     Audit Notes : {note_str} (Risk Score: {score}/5)")
+        print()
 
     if not valid_queue:
         print("[!] No valid leads available in queue to preview.")
@@ -83,7 +180,6 @@ def run_dry_run(filter_engine: LeadFilter, template_engine: OutreachTemplateEngi
     has_web_leads = [l for l in valid_queue if l.get('has_website_bool')]
 
     sample_leads = []
-    # Pick balanced samples
     half = sample_count // 2
     sample_leads.extend(no_web_leads[:half])
     sample_leads.extend(has_web_leads[:sample_count - len(sample_leads)])
@@ -102,7 +198,6 @@ def run_dry_run(filter_engine: LeadFilter, template_engine: OutreachTemplateEngi
         preview_filename = f"preview_{idx:02d}_{variant}.html"
         preview_filepath = os.path.join(config.PREVIEW_DIR, preview_filename)
 
-        # Header metadata banner inside preview HTML
         variant_badge_color = "#2563eb" if "variant_a" in variant else "#059669"
         variant_label = "Variant A: No Website (Find on Google angle)" if "variant_a" in variant else "Variant B: Has Website (Mobile conversion angle)"
 
@@ -126,13 +221,6 @@ def run_dry_run(filter_engine: LeadFilter, template_engine: OutreachTemplateEngi
         with open(preview_filepath, 'w', encoding='utf-8') as pf:
             pf.write(full_html)
 
-        print(f"[{idx:02d}] {variant.upper()}")
-        print(f"     Business : {lead.get('business_name')}")
-        print(f"     Email    : {lead.get('email')}")
-        print(f"     Subject  : {subj}")
-        print(f"     Saved to : {preview_filepath}")
-        print()
-
         index_html_cards.append(f"""
         <div style="border:1px solid #cbd5e1; border-radius:8px; padding:16px; margin-bottom:12px; background:#fff;">
           <div style="font-size:11px; font-weight:bold; color:{variant_badge_color}; text-transform:uppercase;">{variant_label}</div>
@@ -143,7 +231,6 @@ def run_dry_run(filter_engine: LeadFilter, template_engine: OutreachTemplateEngi
         </div>
         """)
 
-    # Write preview dashboard index.html
     index_html_path = os.path.join(config.PREVIEW_DIR, "index.html")
     with open(index_html_path, 'w', encoding='utf-8') as idf:
         idf.write(f"""<!DOCTYPE html>
@@ -180,13 +267,12 @@ def run_test_send(test_email: str, template_engine: OutreachTemplateEngine, brev
         print(f"❌ Error: BREVO_API_KEY is not configured in .env. Please configure your Brevo API key first.")
         return
 
-    # Create dummy lead
     lead = {
         "business_name": "ProActive Fitness Studio",
         "category": "gyms",
         "locality": "Kothrud",
         "has_website_bool": False,
-        "demo_link": f"{os.getenv('DEMO_BASE_URL', 'http://localhost:3000')}/demo/proactive-fitness"
+        "demo_link": f"{config.BASE_URL}/demo/proactive-fitness"
     }
 
     subj, txt, html_body, variant, _ = template_engine.render(lead)
@@ -220,9 +306,8 @@ def print_status(state_mgr: OutreachStateManager, filter_engine: LeadFilter, log
     state = state_mgr.state
     state_mgr.rollover_day_if_needed()
 
-    valid_queue, _, _ = filter_engine.process_leads()
+    valid_queue, _, _, _ = filter_engine.process_leads()
 
-    # Read counts
     hot_leads_count = 0
     if os.path.exists(config.HOT_LEADS_CSV):
         with open(config.HOT_LEADS_CSV, 'r', encoding='utf-8', errors='ignore') as f:
@@ -249,12 +334,13 @@ def print_status(state_mgr: OutreachStateManager, filter_engine: LeadFilter, log
     print(f"Warm-Up Day Number    : Day {state.get('current_day_number')}")
     print(f"Today's Progress      : {state.get('today_sent_count')} / {state.get('today_cap')} emails sent")
     print(f"Remaining Today's Cap : {max(0, state.get('today_cap') - state.get('today_sent_count'))} emails")
+    print(f"Hourly Sent Count     : {state.get('current_hour_sent_count', 0)} / {max(15, int(state.get('today_cap') / 8))} max/hr")
     print(f"Queue Size (Unsent)   : {len(valid_queue)} leads waiting")
     print(f"Total Sent (All Time) : {sent_count} leads")
-    print(f"Yesterday Hard Bounce : {state.get('yesterday_hard_bounce_rate', 0.0):.2f}% (Safety Limit: 3.0%)")
-    print(f"Yesterday Spam Rate   : {state.get('yesterday_spam_complaint_rate', 0.0):.3f}% (Safety Limit: 0.1%)")
+    print(f"Yesterday Hard Bounce : {state.get('yesterday_hard_bounce_rate', 0.0):.2f}% (Safety Limit: 5.0%)")
+    print(f"Yesterday Spam Rate   : {state.get('yesterday_spam_complaint_rate', 0.0):.3f}% (Safety Limit: 0.2%)")
     print(f"Hot Leads (YES reply) : {max(0, hot_leads_count)} interested leads")
-    print(f"Needs Attention       : {max(0, needs_attn_count)} questions/replies")
+    print(f"Needs Attention       : {max(0, needs_attn_count)} questions/pricing inquiries")
     print(f"Suppression List Size : {supp_count} suppressed addresses")
     print("================================================================================\n")
 
@@ -269,13 +355,27 @@ def run_sending_batch(
     daemon_mode: bool = False
 ):
     """
-    Executes sending within daily cap and IST window.
+    Executes sending within daily cap, hourly cap, and IST window.
+    Strictly gates on Preflight verification and public https BASE_URL.
     """
     print_banner()
 
-    if not brevo.is_configured():
-        print("❌ Error: BREVO_API_KEY is not configured in .env. Cannot start sending.")
-        return
+    # Rule: BASE_URL must be public https:// for live sending
+    if not config.is_public_base_url(config.BASE_URL):
+        print("\n❌ FATAL ERROR: Demo links are not public!")
+        print(f"BASE_URL must be configured as a valid public https:// URL in .env to send live emails.")
+        curr_url = config.BASE_URL or "[NOT CONFIGURED]"
+        print(f"Current BASE_URL: '{curr_url}' (localhost / HTTP is not allowed for sending).")
+        print("Refusing to start. Exit code 1.\n")
+        sys.exit(1)
+
+    # Preflight Check gate
+    checker = PreflightChecker()
+    preflight_ok, _ = checker.run_all()
+    if not preflight_ok:
+        checker.print_table()
+        print("❌ Cannot proceed with live sending: Preflight checks failed. Live sending is blocked.")
+        sys.exit(1)
 
     while True:
         state_mgr.rollover_day_if_needed()
@@ -285,30 +385,36 @@ def run_sending_batch(
             print(f"[GATE CLOSED] {gate_reason}")
             if not daemon_mode:
                 return
-            # In daemon mode, sleep 5 minutes and check again
             print("Daemon mode active. Sleeping 5 minutes before checking time window & cap...\n")
             time.sleep(300)
             continue
 
-        # Get remaining leads in queue
-        valid_queue, _, _ = filter_engine.process_leads()
+        valid_queue, _, _, _ = filter_engine.process_leads()
         if not valid_queue:
             print("✅ All leads in queue have been contacted! No unsent leads remaining.")
             if not daemon_mode:
                 return
             print("Sleeping 10 minutes in daemon mode to check for replies...\n")
-            # Check replies
             reply_handler.check_inbox()
             time.sleep(600)
             continue
 
-        # Calculate batch size
         remaining_cap = state_mgr.state["today_cap"] - state_mgr.state["today_sent_count"]
+        hourly_remaining = max(15, int(state_mgr.state["today_cap"] / 8)) - state_mgr.state.get("current_hour_sent_count", 0)
+
         batch_size = min(
             random.randint(config.DELAYS["batch_min"], config.DELAYS["batch_max"]),
             remaining_cap,
+            hourly_remaining,
             len(valid_queue)
         )
+
+        if batch_size <= 0:
+            print("[GATE] Hourly or daily cap reached. Waiting for next window...")
+            if not daemon_mode:
+                return
+            time.sleep(300)
+            continue
 
         batch_leads = valid_queue[:batch_size]
         print(f"\n================================================================================")
@@ -363,10 +469,11 @@ def run_sending_batch(
                 )
                 state_mgr.record_api_failure()
 
-            # Health check trigger after every 25 sends
+            # Health check trigger after every 50 sends
             sent_total = state_mgr.state["total_sent_all_time"]
             last_checked = state_mgr.state.get("last_health_check_sent_count", 0)
-            if (sent_total - last_checked) >= config.HEALTH_THRESHOLDS.get("check_interval_sends", 25):
+            check_interval = config.HEALTH_THRESHOLDS.get("check_interval_sends", 50)
+            if (sent_total - last_checked) >= check_interval:
                 print("\n[HEALTH] Triggering scheduled deliverability health check...")
                 h_rep = health_mon.sync_events_and_check_health()
                 state_mgr.state["last_health_check_sent_count"] = sent_total
@@ -377,22 +484,15 @@ def run_sending_batch(
                     print("🚨 Auto-pause triggered. Halting batch.")
                     break
 
-            # Delay between sends (3-10s)
+            # Aggressive delay between sends (3-7s)
             if idx < len(batch_leads):
                 delay = random.uniform(config.DELAYS["min_delay_seconds"], config.DELAYS["max_delay_seconds"])
                 time.sleep(delay)
-
-        # Batch complete: check IMAP replies
-        print("\nChecking IMAP inbox for replies from leads...")
-        r_rep = reply_handler.check_inbox()
-        if r_rep.get("matched_replies", 0) > 0:
-            print(f"📥 New replies processed: {r_rep['matched_replies']} (YES: {r_rep['yes_count']}, STOP: {r_rep['stop_count']}, OTHER: {r_rep['other_count']})")
 
         if not daemon_mode:
             print("\nBatch finished. Non-daemon mode stopping.")
             return
 
-        # Gap between batches (2-5 minutes)
         gap = random.uniform(config.DELAYS["batch_gap_min_seconds"], config.DELAYS["batch_gap_max_seconds"])
         print(f"\nBatch complete. Pausing {int(gap)} seconds before next batch...")
         time.sleep(gap)
@@ -401,6 +501,8 @@ def main():
     parser = argparse.ArgumentParser(description="Pune SMB Brevo Cold Email Outreach Engine")
     parser.add_argument("--dry-run", action="store_true", help="Render sample emails to /preview and display filtering breakdown")
     parser.add_argument("--test", type=str, metavar="EMAIL", help="Send a real test email to specified address")
+    parser.add_argument("--preflight", action="store_true", help="Run comprehensive preflight verification table")
+    parser.add_argument("--audit", action="store_true", help="Analyze contact channel readiness (emails vs Indian mobiles) and generate audit_report.txt")
     parser.add_argument("--status", action="store_true", help="Display warm-up progress, today's cap, bounce rate, and queue size")
     parser.add_argument("--daemon", action="store_true", help="Run continuously in background adhering to IST schedule and warm-up pacing")
     parser.add_argument("--send", action="store_true", help="Execute single day batch up to today's warm-up cap")
@@ -409,14 +511,7 @@ def main():
 
     args = parser.parse_args()
 
-    # Initialize subsystems
-    filter_engine = LeadFilter(
-        leads_csv=config.LEADS_CSV,
-        sent_log_csv=config.SENT_LOG_CSV,
-        suppression_list_csv=config.SUPPRESSION_LIST_CSV,
-        skipped_leads_csv=config.SKIPPED_LEADS_CSV,
-        exclude_keywords=config.EXCLUDE_KEYWORDS
-    )
+    filter_engine = LeadFilter()
     template_engine = OutreachTemplateEngine()
     state_mgr = OutreachStateManager(config.STATE_FILE_PATH)
     brevo = BrevoClient()
@@ -427,7 +522,20 @@ def main():
     if args.resume_after_review:
         state_mgr.resume_after_review()
 
-    if args.dry_run:
+    if args.preflight:
+        checker = PreflightChecker()
+        all_passed, results = checker.run_all()
+        checker.print_table()
+        if not all_passed:
+            sys.exit(1)
+        sys.exit(0)
+    elif args.audit:
+        print_banner()
+        auditor = ContactAuditor()
+        results = auditor.run_audit()
+        print(auditor.format_report(results))
+        print(f"\nAudit report successfully saved to: {os.path.abspath(auditor.output_file)}")
+    elif args.dry_run:
         run_dry_run(filter_engine, template_engine, sample_count=10)
     elif args.test:
         run_test_send(args.test, template_engine, brevo)
@@ -450,9 +558,8 @@ def main():
             logger, health_mon, reply_handler, daemon_mode=False
         )
     else:
-        # Default help
         parser.print_help()
-        print("\nRecommended first step: python email_outreach.py --dry-run")
+        print("\nRecommended first step: python email_outreach.py --preflight or --dry-run or --audit")
 
 if __name__ == "__main__":
     main()
